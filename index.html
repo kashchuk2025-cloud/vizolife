@@ -8,178 +8,201 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #0a0a0a;
             min-height: 100vh;
-            padding: 15px;
             color: #fff;
         }
         .container { max-width: 500px; margin: 0 auto; padding-bottom: 90px; }
-        .header { text-align: center; margin-bottom: 15px; }
-        .logo { font-size: 2.2em; font-weight: bold; }
-        .tagline { font-size: 0.95em; opacity: 0.9; margin-top: 3px; }
         
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .hero-img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+        .logo { font-size: 2em; font-weight: 700; letter-spacing: 2px; }
+        .tagline { font-size: 0.85em; opacity: 0.7; margin-top: 5px; text-transform: uppercase; letter-spacing: 1px; }
+        
+        /* Tabs */
         .tabs {
             display: flex;
             overflow-x: auto;
-            gap: 8px;
-            padding: 5px 0 15px;
-            margin-bottom: 5px;
+            gap: 0;
+            background: #111;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
             -webkit-overflow-scrolling: touch;
         }
         .tabs::-webkit-scrollbar { display: none; }
         .tab {
             flex-shrink: 0;
-            background: rgba(255,255,255,0.15);
-            border-radius: 25px;
-            padding: 8px 16px;
-            font-size: 0.85em;
+            flex: 1;
+            padding: 14px 8px;
+            font-size: 0.72em;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
-            border: 2px solid transparent;
             text-align: center;
+            color: rgba(255,255,255,0.5);
+            border-bottom: 2px solid transparent;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
-        .tab:hover { background: rgba(255,255,255,0.25); }
-        .tab.active { background: #fff; color: #667eea; border-color: #fff; }
-        .tab-icon { font-size: 1.2em; display: block; margin-bottom: 2px; }
+        .tab:hover { color: #fff; background: rgba(255,255,255,0.05); }
+        .tab.active { color: #fff; border-bottom-color: #c9a84c; }
+        .tab-icon { font-size: 1.4em; display: block; margin-bottom: 3px; }
         
-        .panel { display: none; }
+        .panel { display: none; padding: 20px 15px; }
         .panel.active { display: block; }
         
         .section {
-            background: rgba(255,255,255,0.1);
-            border-radius: 20px;
+            background: #1a1a1a;
+            border-radius: 12px;
             padding: 18px;
             margin-bottom: 15px;
-            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.06);
         }
-        .section-title { font-size: 1.1em; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+        .section-title { font-size: 0.9em; margin-bottom: 12px; color: rgba(255,255,255,0.6); text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
         
         .upload-area {
-            border: 2px dashed rgba(255,255,255,0.5);
-            border-radius: 15px;
+            border: 2px dashed rgba(255,255,255,0.15);
+            border-radius: 10px;
             padding: 30px 15px;
             text-align: center;
             cursor: pointer;
             transition: all 0.3s;
+            background: rgba(255,255,255,0.02);
         }
-        .upload-area:hover { background: rgba(255,255,255,0.1); }
-        .upload-area.has-image { padding: 10px; }
-        .upload-area img { max-width: 100%; max-height: 280px; border-radius: 10px; }
-        .upload-icon { font-size: 2.5em; margin-bottom: 8px; }
-        .upload-label { font-size: 0.9em; }
+        .upload-area:hover { border-color: rgba(255,255,255,0.3); background: rgba(255,255,255,0.04); }
+        .upload-area.has-image { padding: 10px; border-style: solid; }
+        .upload-area img { max-width: 100%; max-height: 280px; border-radius: 8px; }
+        .upload-label { font-size: 0.85em; color: rgba(255,255,255,0.5); }
         
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
-            margin-top: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
         }
         .gallery-item {
-            background: rgba(255,255,255,0.15);
             border-radius: 10px;
-            padding: 10px 6px;
-            text-align: center;
+            overflow: hidden;
             cursor: pointer;
             transition: all 0.3s;
             border: 2px solid transparent;
-            font-size: 0.8em;
+            background: #222;
         }
-        .gallery-item:hover { background: rgba(255,255,255,0.25); }
-        .gallery-item.selected { border-color: #fff; background: rgba(255,255,255,0.3); }
-        .gallery-item .item-icon { font-size: 1.8em; display: block; margin-bottom: 3px; }
+        .gallery-item:hover { border-color: rgba(255,255,255,0.2); }
+        .gallery-item.selected { border-color: #c9a84c; }
+        .gallery-item img { width: 100%; height: 100px; object-fit: cover; display: block; }
+        .gallery-item .item-label { padding: 8px; font-size: 0.75em; text-align: center; color: rgba(255,255,255,0.7); }
         
         .try-btn {
             position: fixed;
             bottom: 0; left: 0; right: 0;
-            background: #fff;
-            color: #667eea;
+            background: #c9a84c;
+            color: #000;
             border: none;
             padding: 18px;
-            font-size: 1.15em;
-            font-weight: bold;
+            font-size: 1em;
+            font-weight: 700;
             cursor: pointer;
             max-width: 500px;
             margin: 0 auto;
             display: block;
-            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 2px;
             z-index: 100;
         }
-        .try-btn:hover { box-shadow: 0 -5px 20px rgba(0,0,0,0.3); }
         .try-btn:disabled { opacity: 0.5; cursor: not-allowed; }
         
-        .loading { display: none; text-align: center; padding: 20px; }
+        .loading, .result, .error { padding: 20px 15px; }
+        .loading { display: none; text-align: center; }
         .loading.show { display: block; }
         .spinner {
-            border: 4px solid rgba(255,255,255,0.3);
-            border-top: 4px solid #fff;
+            border: 3px solid rgba(255,255,255,0.1);
+            border-top: 3px solid #c9a84c;
             border-radius: 50%;
-            width: 45px; height: 45px;
+            width: 40px; height: 40px;
             animation: spin 1s linear infinite;
             margin: 15px auto;
         }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        @keyframes spin { to { transform: rotate(360deg); } }
         
         .result { display: none; text-align: center; }
         .result.show { display: block; }
-        .result img { max-width: 100%; border-radius: 15px; margin-top: 10px; }
+        .result img { max-width: 100%; border-radius: 12px; margin-top: 10px; }
         .result-actions { display: flex; gap: 10px; margin-top: 15px; }
         .result-actions button {
             flex: 1;
-            background: rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.08);
             color: #fff;
-            border: 2px solid #fff;
+            border: 1px solid rgba(255,255,255,0.15);
             padding: 12px;
-            border-radius: 15px;
-            font-size: 0.9em;
+            border-radius: 8px;
+            font-size: 0.85em;
             cursor: pointer;
         }
-        .error { color: #ff6b6b; text-align: center; margin-top: 10px; display: none; }
+        .error { color: #e74c3c; text-align: center; display: none; }
         .error.show { display: block; }
         
-        .looks-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px; }
-        .look-card { background: rgba(255,255,255,0.1); border-radius: 12px; overflow: hidden; }
+        .looks-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+        .look-card { background: #1a1a1a; border-radius: 10px; overflow: hidden; }
         .look-card img { width: 100%; height: 130px; object-fit: cover; }
-        .look-card .look-date { padding: 6px; font-size: 0.75em; text-align: center; }
+        .look-card .look-date { padding: 6px; font-size: 0.7em; text-align: center; color: rgba(255,255,255,0.5); }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div class="logo">👗 VizoLife AI</div>
-            <div class="tagline">Карманная AI-примерочная</div>
+        <div class="hero">
+            <img src="images/welcome.jpg" class="hero-img" alt="VizoLife">
+            <div class="logo">VIZOLIFE</div>
+            <div class="tagline">AI-примерочная нового поколения</div>
         </div>
 
         <div class="tabs">
             <div class="tab active" data-panel="tryon"><span class="tab-icon">👗</span>Одежда</div>
             <div class="tab" data-panel="makeup"><span class="tab-icon">💄</span>Макияж</div>
-            <div class="tab" data-panel="hair"><span class="tab-icon"></span>Причёска</div>
+            <div class="tab" data-panel="hair"><span class="tab-icon"></span>Волосы</div>
             <div class="tab" data-panel="shoes"><span class="tab-icon">👟</span>Обувь</div>
-            <div class="tab" data-panel="looks"><span class="tab-icon">🖼</span>Мои образы</div>
+            <div class="tab" data-panel="looks"><span class="tab-icon">📁</span>Образы</div>
         </div>
 
-        <!-- ПРИМЕРКА ОДЕЖДЫ -->
+        <!-- ОДЕЖДА -->
         <div class="panel active" id="panel-tryon">
             <div class="section">
-                <div class="section-title"><span></span> Твоё фото</div>
+                <div class="section-title">Твоё фото</div>
                 <div class="upload-area" id="photoUpload">
-                    <div class="upload-icon"></div>
                     <div class="upload-label">Нажми чтобы загрузить фото</div>
                 </div>
                 <input type="file" id="photoInput" accept="image/*" style="display:none">
             </div>
             <div class="section">
-                <div class="section-title"><span>👕</span> Категория</div>
+                <div class="section-title">Категория</div>
                 <div class="gallery-grid">
-                    <div class="gallery-item selected" data-cat="women"><span class="item-icon">👗</span>Женское</div>
-                    <div class="gallery-item" data-cat="men"><span class="item-icon"></span>Мужское</div>
-                    <div class="gallery-item" data-cat="kids"><span class="item-icon">👶</span>Детское</div>
+                    <div class="gallery-item selected" data-cat="women">
+                        <img src="images/dress.jpg" alt="Женское">
+                        <div class="item-label">Женское</div>
+                    </div>
+                    <div class="gallery-item" data-cat="men">
+                        <img src="images/casual-dress.jpg" alt="Мужское">
+                        <div class="item-label">Мужское</div>
+                    </div>
+                    <div class="gallery-item" data-cat="kids">
+                        <img src="images/sneakers.jpg" alt="Детское">
+                        <div class="item-label">Детское</div>
+                    </div>
                 </div>
             </div>
             <div class="section">
-                <div class="section-title"><span>👕</span> Фото одежды</div>
+                <div class="section-title">Фото одежды</div>
                 <div class="upload-area" id="clothesUpload">
-                    <div class="upload-icon">👕</div>
                     <div class="upload-label">Загрузи фото одежды</div>
                 </div>
                 <input type="file" id="clothesInput" accept="image/*" style="display:none">
@@ -189,45 +212,63 @@
         <!-- МАКИЯЖ -->
         <div class="panel" id="panel-makeup">
             <div class="section">
-                <div class="section-title"><span></span> Твоё фото (лицо)</div>
+                <div class="section-title">Твоё фото (лицо)</div>
                 <div class="upload-area" id="makeupPhotoUpload">
-                    <div class="upload-icon">📷</div>
-                    <div class="upload-label">Загрузи фото лица крупным планом</div>
+                    <div class="upload-label">Загрузи фото лица</div>
                 </div>
                 <input type="file" id="makeupPhotoInput" accept="image/*" style="display:none">
             </div>
             <div class="section">
-                <div class="section-title"><span>💄</span> Стиль макияжа</div>
+                <div class="section-title">Стиль макияжа</div>
                 <div class="gallery-grid">
-                    <div class="gallery-item selected" data-makeup="natural"><span class="item-icon">🌸</span>Натуральный</div>
-                    <div class="gallery-item" data-makeup="evening"><span class="item-icon">✨</span>Вечерний</div>
-                    <div class="gallery-item" data-makeup="bold"><span class="item-icon"></span>Яркий</div>
-                    <div class="gallery-item" data-makeup="bridal"><span class="item-icon">👰</span>Свадебный</div>
-                    <div class="gallery-item" data-makeup="korean"><span class="item-icon">🇰🇷</span>Корейский</div>
-                    <div class="gallery-item" data-makeup="vintage"><span class="item-icon">💃</span>Винтажный</div>
+                    <div class="gallery-item selected" data-makeup="natural">
+                        <img src="images/makeup.jpg" alt="Натуральный">
+                        <div class="item-label">Натуральный</div>
+                    </div>
+                    <div class="gallery-item" data-makeup="evening">
+                        <img src="images/makeup.jpg" alt="Вечерний">
+                        <div class="item-label">Вечерний</div>
+                    </div>
+                    <div class="gallery-item" data-makeup="bold">
+                        <img src="images/makeup.jpg" alt="Яркий">
+                        <div class="item-label">Яркий</div>
+                    </div>
+                    <div class="gallery-item" data-makeup="bridal">
+                        <img src="images/makeup.jpg" alt="Свадебный">
+                        <div class="item-label">Свадебный</div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- ПРИЧЁСКА -->
+        <!-- ВОЛОСЫ -->
         <div class="panel" id="panel-hair">
             <div class="section">
-                <div class="section-title"><span></span> Твоё фото</div>
+                <div class="section-title">Твоё фото</div>
                 <div class="upload-area" id="hairPhotoUpload">
-                    <div class="upload-icon"></div>
                     <div class="upload-label">Загрузи фото</div>
                 </div>
                 <input type="file" id="hairPhotoInput" accept="image/*" style="display:none">
             </div>
             <div class="section">
-                <div class="section-title"><span></span> Стиль причёски</div>
+                <div class="section-title">Стиль причёски</div>
                 <div class="gallery-grid">
-                    <div class="gallery-item selected" data-hair="short"><span class="item-icon">✂️</span>Короткая</div>
-                    <div class="gallery-item" data-hair="long"><span class="item-icon">💇</span>Длинная</div>
-                    <div class="gallery-item" data-hair="curly"><span class="item-icon">🌀</span>Кудри</div>
-                    <div class="gallery-item" data-hair="blonde"><span class="item-icon">👱</span>Блонд</div>
-                    <div class="gallery-item" data-hair="brunette"><span class="item-icon"></span>Брюнет</div>
-                    <div class="gallery-item" data-hair="red"><span class="item-icon">🦰</span>Рыжая</div>
+                    <div class="gallery-item selected" data-hair="short">
+                        <img src="images/hairstyle.jpg" alt="Короткая">
+                        <div class="item-label">Короткая</div>
+                    </div>
+                    <div class="gallery-item" data-hair="long">
+                        <img src="images/hairstyle.jpg" alt="Длинная">
+                        <div class="item-label">Длинная</div>
+                    </div>
+                    <div class="gallery-item" data-hair="curly">
+                        <img src="images/hairstyle.jpg" alt="Кудри">
+                        <div class="item-label">Кудри</div>
+                    </div>
+                    <div class="gallery-item" data-hair="blonde">
+                        <img src="images/hairstyle.jpg" alt="Блонд">
+                        <div class="item-label">Блонд</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -235,35 +276,33 @@
         <!-- ОБУВЬ -->
         <div class="panel" id="panel-shoes">
             <div class="section">
-                <div class="section-title"><span>📸</span> Твоё фото (в полный рост)</div>
+                <div class="section-title">Твоё фото (в полный рост)</div>
                 <div class="upload-area" id="shoesPhotoUpload">
-                    <div class="upload-icon"></div>
                     <div class="upload-label">Фото в полный рост</div>
                 </div>
                 <input type="file" id="shoesPhotoInput" accept="image/*" style="display:none">
             </div>
             <div class="section">
-                <div class="section-title"><span></span> Фото обуви</div>
+                <div class="section-title">Фото обуви</div>
                 <div class="upload-area" id="shoesUpload">
-                    <div class="upload-icon"></div>
                     <div class="upload-label">Загрузи фото обуви</div>
                 </div>
                 <input type="file" id="shoesInput" accept="image/*" style="display:none">
             </div>
         </div>
 
-        <!-- МОИ ОБРАЗЫ -->
+        <!-- ОБРАЗЫ -->
         <div class="panel" id="panel-looks">
             <div class="section">
-                <div class="section-title"><span>🖼</span> Сохранённые образы</div>
+                <div class="section-title">Сохранённые образы</div>
                 <div class="looks-grid" id="looksGrid">
-                    <div style="grid-column:span 2;text-align:center;padding:30px;opacity:0.6">Пока пусто</div>
+                    <div style="grid-column:span 2;text-align:center;padding:30px;opacity:0.5">Пока пусто</div>
                 </div>
             </div>
         </div>
 
         <div class="result" id="result">
-            <div class="section-title"><span>🎉</span> Готово!</div>
+            <div class="section-title">Результат</div>
             <div id="resultImage"></div>
             <div class="result-actions">
                 <button id="saveLook">💾 Сохранить</button>
@@ -273,22 +312,16 @@
         <div class="error" id="error"></div>
         <div class="loading" id="loading">
             <div class="spinner"></div>
-            <div>AI создаёт твой образ... (30-60 сек)</div>
+            <div style="color:rgba(255,255,255,0.5);font-size:0.85em">AI создаёт образ... 30-60 сек</div>
         </div>
     </div>
 
-    <button class="try-btn" id="tryBtn">✨ Примерить</button>
+    <button class="try-btn" id="tryBtn">Примерить</button>
 
     <script>
-        if (window.Telegram && window.Telegram.WebApp) {
-            window.Telegram.WebApp.ready();
-            window.Telegram.WebApp.expand();
-        }
-
+        if (window.Telegram && window.Telegram.WebApp) { window.Telegram.WebApp.ready(); window.Telegram.WebApp.expand(); }
         const API_URL = "http://5.181.253.139:8001";
-        let currentTab = 'tryon';
-        let selectedMakeup = 'natural';
-        let selectedHair = 'short';
+        let currentTab = 'tryon', selectedMakeup = 'natural', selectedHair = 'short';
         let myLooks = JSON.parse(localStorage.getItem('vizolife_looks') || '[]');
         let lastResult = null;
 
@@ -305,33 +338,21 @@
             });
         });
 
-        function setupUpload(uploadId, inputId) {
-            const upload = document.getElementById(uploadId);
-            const input = document.getElementById(inputId);
-            upload.addEventListener('click', () => input.click());
-            input.addEventListener('change', (e) => {
-                const file = e.target.files[0];
-                if (file) {
-                    const reader = new FileReader();
-                    reader.onload = (ev) => {
-                        upload.innerHTML = '<img src="' + ev.target.result + '">';
-                        upload.classList.add('has-image');
-                    };
-                    reader.readAsDataURL(file);
-                }
+        function setupUpload(uid, iid) {
+            const u = document.getElementById(uid), inp = document.getElementById(iid);
+            u.addEventListener('click', () => inp.click());
+            inp.addEventListener('change', e => {
+                const f = e.target.files[0];
+                if (f) { const r = new FileReader(); r.onload = ev => { u.innerHTML = '<img src="'+ev.target.result+'">'; u.classList.add('has-image'); }; r.readAsDataURL(f); }
             });
         }
-        setupUpload('photoUpload', 'photoInput');
-        setupUpload('clothesUpload', 'clothesInput');
-        setupUpload('makeupPhotoUpload', 'makeupPhotoInput');
-        setupUpload('hairPhotoUpload', 'hairPhotoInput');
-        setupUpload('shoesPhotoUpload', 'shoesPhotoInput');
-        setupUpload('shoesUpload', 'shoesInput');
+        setupUpload('photoUpload','photoInput'); setupUpload('clothesUpload','clothesInput');
+        setupUpload('makeupPhotoUpload','makeupPhotoInput'); setupUpload('hairPhotoUpload','hairPhotoInput');
+        setupUpload('shoesPhotoUpload','shoesPhotoInput'); setupUpload('shoesUpload','shoesInput');
 
         document.querySelectorAll('.gallery-item').forEach(item => {
             item.addEventListener('click', () => {
-                const parent = item.parentElement;
-                parent.querySelectorAll('.gallery-item').forEach(i => i.classList.remove('selected'));
+                item.parentElement.querySelectorAll('.gallery-item').forEach(i => i.classList.remove('selected'));
                 item.classList.add('selected');
                 if (item.dataset.makeup) selectedMakeup = item.dataset.makeup;
                 if (item.dataset.hair) selectedHair = item.dataset.hair;
@@ -339,78 +360,35 @@
         });
 
         document.getElementById('tryBtn').addEventListener('click', async () => {
-            const loading = document.getElementById('loading');
-            const result = document.getElementById('result');
-            const error = document.getElementById('error');
-            const btn = document.getElementById('tryBtn');
-
+            const loading = document.getElementById('loading'), result = document.getElementById('result'),
+                  error = document.getElementById('error'), btn = document.getElementById('tryBtn');
             if (currentTab === 'tryon') {
-                const pu = document.getElementById('photoUpload');
-                const cu = document.getElementById('clothesUpload');
-                if (!pu.classList.contains('has-image') || !cu.classList.contains('has-image')) {
-                    alert('Загрузи фото себя и одежду!');
-                    return;
-                }
-                loading.classList.add('show');
-                result.classList.remove('show');
-                error.classList.remove('show');
-                btn.disabled = true;
-
-                const formData = new FormData();
-                formData.append('person_image', document.getElementById('photoInput').files[0]);
-                formData.append('garment_image', document.getElementById('clothesInput').files[0]);
-
+                const pu = document.getElementById('photoUpload'), cu = document.getElementById('clothesUpload');
+                if (!pu.classList.contains('has-image') || !cu.classList.contains('has-image')) { alert('Загрузи фото!'); return; }
+                loading.classList.add('show'); result.classList.remove('show'); error.classList.remove('show'); btn.disabled = true;
+                const fd = new FormData();
+                fd.append('person_image', document.getElementById('photoInput').files[0]);
+                fd.append('garment_image', document.getElementById('clothesInput').files[0]);
                 try {
-                    const response = await fetch(API_URL + '/try-on', { method: 'POST', body: formData });
-                    const data = await response.json();
-                    if (data.success) {
-                        loading.classList.remove('show');
-                        result.classList.add('show');
-                        lastResult = data.result;
-                        document.getElementById('resultImage').innerHTML = '<img src="' + data.result + '">';
-                    } else { throw new Error(data.detail || 'Ошибка'); }
-                } catch (err) {
-                    loading.classList.remove('show');
-                    error.textContent = 'Ошибка: ' + err.message;
-                    error.classList.add('show');
-                } finally { btn.disabled = false; }
-            } else if (currentTab === 'makeup') {
-                alert(' Макияж: будет готов на 2 этапе!');
-            } else if (currentTab === 'hair') {
-                alert('💇 Причёска: будет готова на 2 этапе!');
-            } else if (currentTab === 'shoes') {
-                alert('👟 Обувь: будет готова на 2 этапе!');
-            }
+                    const r = await fetch(API_URL+'/try-on', {method:'POST',body:fd}), d = await r.json();
+                    if (d.success) { loading.classList.remove('show'); result.classList.add('show'); lastResult=d.result; document.getElementById('resultImage').innerHTML='<img src="'+d.result+'">'; }
+                    else throw new Error(d.detail||'Ошибка');
+                } catch(e) { loading.classList.remove('show'); error.textContent='Ошибка: '+e.message; error.classList.add('show'); }
+                finally { btn.disabled = false; }
+            } else alert('Скоро будет доступно!');
         });
 
         document.getElementById('saveLook').addEventListener('click', () => {
-            if (lastResult) {
-                myLooks.push({ url: lastResult, date: new Date().toLocaleDateString('ru') });
-                localStorage.setItem('vizolife_looks', JSON.stringify(myLooks));
-                alert('💾 Образ сохранён!');
-            }
+            if (lastResult) { myLooks.push({url:lastResult,date:new Date().toLocaleDateString('ru')}); localStorage.setItem('vizolife_looks',JSON.stringify(myLooks)); alert('Сохранено!'); }
         });
-
         document.getElementById('shareLook').addEventListener('click', () => {
-            if (lastResult) {
-                if (navigator.share) {
-                    navigator.share({ title: 'Мой образ от VizoLife AI', url: lastResult });
-                } else {
-                    navigator.clipboard.writeText(lastResult);
-                    alert(' Ссылка скопирована!');
-                }
-            }
+            if (lastResult) { if (navigator.share) navigator.share({title:'Мой образ VizoLife',url:lastResult}); else { navigator.clipboard.writeText(lastResult); alert('Ссылка скопирована!'); } }
         });
 
         function renderLooks() {
-            const grid = document.getElementById('looksGrid');
-            if (myLooks.length === 0) {
-                grid.innerHTML = '<div style="grid-column:span 2;text-align:center;padding:30px;opacity:0.6">Пока пусто</div>';
-                return;
-            }
-            grid.innerHTML = myLooks.map(look =>
-                '<div class="look-card"><img src="' + look.url + '"><div class="look-date">' + look.date + '</div></div>'
-            ).join('');
+            const g = document.getElementById('looksGrid');
+            if (myLooks.length === 0) { g.innerHTML = '<div style="grid-column:span 2;text-align:center;padding:30px;opacity:0.5">Пока пусто</div>'; return; }
+            g.innerHTML = myLooks.map(l => '<div class="look-card"><img src="'+l.url+'"><div class="look-date">'+l.date+'</div></div>').join('');
         }
     </script>
 </body>
