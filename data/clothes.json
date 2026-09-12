@@ -47,6 +47,456 @@
   ],
   "items": [
     {
+      "id": "skirt_001",
+      "name": "VizoLife Юбка чёрная мини — 001",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_001.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "мини"
+    },
+    {
+      "id": "skirt_002",
+      "name": "Maison Noir Юбка бежевая миди — 002",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_002.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "миди"
+    },
+    {
+      "id": "skirt_003",
+      "name": "Lune Юбка белая макси — 003",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_003.jpg",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "макси"
+    },
+    {
+      "id": "skirt_004",
+      "name": "VizoLife Юбка коричневая карандаш — 004",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_004.jpg",
+      "brand": "VizoLife",
+      "color": "коричневая",
+      "style": "карандаш"
+    },
+    {
+      "id": "skirt_005",
+      "name": "Maison Noir Юбка молочная плиссе — 005",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_005.jpg",
+      "brand": "Maison Noir",
+      "color": "молочная",
+      "style": "плиссе"
+    },
+    {
+      "id": "skirt_006",
+      "name": "Lune Юбка графит кожаная — 006",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_006.jpg",
+      "brand": "Lune",
+      "color": "графит",
+      "style": "кожаная"
+    },
+    {
+      "id": "skirt_007",
+      "name": "VizoLife Юбка бордо сатин — 007",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_007.jpg",
+      "brand": "VizoLife",
+      "color": "бордо",
+      "style": "сатин"
+    },
+    {
+      "id": "skirt_008",
+      "name": "Maison Noir Юбка чёрная джинсовая — 008",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_008.jpg",
+      "brand": "Maison Noir",
+      "color": "чёрная",
+      "style": "джинсовая"
+    },
+    {
+      "id": "skirt_009",
+      "name": "Lune Юбка бежевая обёртка — 009",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_009.jpg",
+      "brand": "Lune",
+      "color": "бежевая",
+      "style": "обёртка"
+    },
+    {
+      "id": "skirt_010",
+      "name": "VizoLife Юбка белая А-силуэт — 010",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_010.jpg",
+      "brand": "VizoLife",
+      "color": "белая",
+      "style": "А-силуэт"
+    },
+    {
+      "id": "skirt_011",
+      "name": "Maison Noir Юбка коричневая мини — 011",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_011.jpg",
+      "brand": "Maison Noir",
+      "color": "коричневая",
+      "style": "мини"
+    },
+    {
+      "id": "skirt_012",
+      "name": "Lune Юбка молочная миди — 012",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_012.jpg",
+      "brand": "Lune",
+      "color": "молочная",
+      "style": "миди"
+    },
+    {
+      "id": "skirt_013",
+      "name": "VizoLife Юбка графит макси — 013",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_013.jpg",
+      "brand": "VizoLife",
+      "color": "графит",
+      "style": "макси"
+    },
+    {
+      "id": "skirt_014",
+      "name": "Maison Noir Юбка бордо карандаш — 014",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_014.jpg",
+      "brand": "Maison Noir",
+      "color": "бордо",
+      "style": "карандаш"
+    },
+    {
+      "id": "skirt_015",
+      "name": "Lune Юбка чёрная плиссе — 015",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_015.jpg",
+      "brand": "Lune",
+      "color": "чёрная",
+      "style": "плиссе"
+    },
+    {
+      "id": "skirt_016",
+      "name": "VizoLife Юбка бежевая кожаная — 016",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_016.jpg",
+      "brand": "VizoLife",
+      "color": "бежевая",
+      "style": "кожаная"
+    },
+    {
+      "id": "skirt_017",
+      "name": "Maison Noir Юбка белая сатин — 017",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_017.jpg",
+      "brand": "Maison Noir",
+      "color": "белая",
+      "style": "сатин"
+    },
+    {
+      "id": "skirt_018",
+      "name": "Lune Юбка коричневая джинсовая — 018",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_018.jpg",
+      "brand": "Lune",
+      "color": "коричневая",
+      "style": "джинсовая"
+    },
+    {
+      "id": "skirt_019",
+      "name": "VizoLife Юбка молочная обёртка — 019",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_019.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "обёртка"
+    },
+    {
+      "id": "skirt_020",
+      "name": "Maison Noir Юбка графит А-силуэт — 020",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_020.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "А-силуэт"
+    },
+    {
+      "id": "skirt_021",
+      "name": "Lune Юбка бордо мини — 021",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_021.jpg",
+      "brand": "Lune",
+      "color": "бордо",
+      "style": "мини"
+    },
+    {
+      "id": "skirt_022",
+      "name": "VizoLife Юбка чёрная миди — 022",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_022.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "миди"
+    },
+    {
+      "id": "skirt_023",
+      "name": "Maison Noir Юбка бежевая макси — 023",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_023.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "макси"
+    },
+    {
+      "id": "skirt_024",
+      "name": "Lune Юбка белая карандаш — 024",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_024.jpg",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "карандаш"
+    },
+    {
+      "id": "skirt_025",
+      "name": "VizoLife Юбка коричневая плиссе — 025",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_025.jpg",
+      "brand": "VizoLife",
+      "color": "коричневая",
+      "style": "плиссе"
+    },
+    {
+      "id": "skirt_026",
+      "name": "Maison Noir Юбка молочная кожаная — 026",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_026.jpg",
+      "brand": "Maison Noir",
+      "color": "молочная",
+      "style": "кожаная"
+    },
+    {
+      "id": "skirt_027",
+      "name": "Lune Юбка графит сатин — 027",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_027.jpg",
+      "brand": "Lune",
+      "color": "графит",
+      "style": "сатин"
+    },
+    {
+      "id": "skirt_028",
+      "name": "VizoLife Юбка бордо джинсовая — 028",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_028.jpg",
+      "brand": "VizoLife",
+      "color": "бордо",
+      "style": "джинсовая"
+    },
+    {
+      "id": "skirt_029",
+      "name": "Maison Noir Юбка чёрная обёртка — 029",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_029.jpg",
+      "brand": "Maison Noir",
+      "color": "чёрная",
+      "style": "обёртка"
+    },
+    {
+      "id": "skirt_030",
+      "name": "Lune Юбка бежевая А-силуэт — 030",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_030.jpg",
+      "brand": "Lune",
+      "color": "бежевая",
+      "style": "А-силуэт"
+    },
+    {
+      "id": "skirt_031",
+      "name": "VizoLife Юбка белая мини — 031",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_031.jpg",
+      "brand": "VizoLife",
+      "color": "белая",
+      "style": "мини"
+    },
+    {
+      "id": "skirt_032",
+      "name": "Maison Noir Юбка коричневая миди — 032",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_032.jpg",
+      "brand": "Maison Noir",
+      "color": "коричневая",
+      "style": "миди"
+    },
+    {
+      "id": "skirt_033",
+      "name": "Lune Юбка молочная макси — 033",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_033.jpg",
+      "brand": "Lune",
+      "color": "молочная",
+      "style": "макси"
+    },
+    {
+      "id": "skirt_034",
+      "name": "VizoLife Юбка графит карандаш — 034",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_034.jpg",
+      "brand": "VizoLife",
+      "color": "графит",
+      "style": "карандаш"
+    },
+    {
+      "id": "skirt_035",
+      "name": "Maison Noir Юбка бордо плиссе — 035",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_035.jpg",
+      "brand": "Maison Noir",
+      "color": "бордо",
+      "style": "плиссе"
+    },
+    {
+      "id": "skirt_036",
+      "name": "Lune Юбка чёрная кожаная — 036",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_036.jpg",
+      "brand": "Lune",
+      "color": "чёрная",
+      "style": "кожаная"
+    },
+    {
+      "id": "skirt_037",
+      "name": "VizoLife Юбка бежевая сатин — 037",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_037.jpg",
+      "brand": "VizoLife",
+      "color": "бежевая",
+      "style": "сатин"
+    },
+    {
+      "id": "skirt_038",
+      "name": "Maison Noir Юбка белая джинсовая — 038",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_038.jpg",
+      "brand": "Maison Noir",
+      "color": "белая",
+      "style": "джинсовая"
+    },
+    {
+      "id": "skirt_039",
+      "name": "Lune Юбка коричневая обёртка — 039",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_039.jpg",
+      "brand": "Lune",
+      "color": "коричневая",
+      "style": "обёртка"
+    },
+    {
+      "id": "skirt_040",
+      "name": "VizoLife Юбка молочная А-силуэт — 040",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_040.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "А-силуэт"
+    },
+    {
+      "id": "skirt_041",
+      "name": "Maison Noir Юбка графит мини — 041",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_041.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "мини"
+    },
+    {
+      "id": "skirt_042",
+      "name": "Lune Юбка бордо миди — 042",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_042.jpg",
+      "brand": "Lune",
+      "color": "бордо",
+      "style": "миди"
+    },
+    {
+      "id": "skirt_043",
+      "name": "VizoLife Юбка чёрная макси — 043",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_043.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "макси"
+    },
+    {
+      "id": "skirt_044",
+      "name": "Maison Noir Юбка бежевая карандаш — 044",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_044.webp",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "карандаш"
+    },
+    {
+      "id": "skirt_045",
+      "name": "Lune Юбка белая плиссе — 045",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_045.webp",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "плиссе"
+    },
+    {
+      "id": "skirt_046",
+      "name": "VizoLife Юбка коричневая кожаная — 046",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_046.webp",
+      "brand": "VizoLife",
+      "color": "коричневая",
+      "style": "кожаная"
+    },
+    {
+      "id": "skirt_047",
+      "name": "Maison Noir Юбка молочная сатин — 047",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_047.webp",
+      "brand": "Maison Noir",
+      "color": "молочная",
+      "style": "сатин"
+    },
+    {
+      "id": "skirt_048",
+      "name": "Lune Юбка графит джинсовая — 048",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_048.webp",
+      "brand": "Lune",
+      "color": "графит",
+      "style": "джинсовая"
+    },
+    {
+      "id": "skirt_049",
+      "name": "VizoLife Юбка бордо обёртка — 049",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_049.webp",
+      "brand": "VizoLife",
+      "color": "бордо",
+      "style": "обёртка"
+    },
+    {
+      "id": "skirt_050",
+      "name": "Maison Noir Юбка чёрная А-силуэт — 050",
+      "category": "юбки",
+      "image": "images/clothes/skirts/skirt_050.webp",
+      "brand": "Maison Noir",
+      "color": "чёрная",
+      "style": "А-силуэт"
+    },
+    {
       "id": "jeans_001",
       "name": "VizoLife Denim Джинсы чёрные скинни — 001",
       "category": "джинсы",
@@ -1800,294 +2250,6 @@
       "brand": "AURA",
       "color": "синее",
       "style": "бархат"
-    },
-    {
-      "id": "cl_юбк_001_4979",
-      "name": "Юбки 001",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-1-471092",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_002_5635",
-      "name": "Юбки 002",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-2-541979",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_003_1053",
-      "name": "Юбки 003",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-3-697122",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_004_1789",
-      "name": "Юбки 004",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-4-781995",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_005_4242",
-      "name": "Юбки 005",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-5-946067",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_006_4975",
-      "name": "Юбки 006",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-6-811470",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_007_6336",
-      "name": "Юбки 007",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-7-733078",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_008_2446",
-      "name": "Юбки 008",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-8-265058",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_009_3681",
-      "name": "Юбки 009",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-9-868557",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_010_6223",
-      "name": "Юбки 010",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-10-384444",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_011_6512",
-      "name": "Юбки 011",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-11-568755",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_012_6972",
-      "name": "Юбки 012",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-12-762406",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_013_1185",
-      "name": "Юбки 013",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-13-484992",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_014_2290",
-      "name": "Юбки 014",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-14-969841",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_015_9989",
-      "name": "Юбки 015",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-15-845494",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_016_2543",
-      "name": "Юбки 016",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-16-291249",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_017_4318",
-      "name": "Юбки 017",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-17-886404",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_018_6707",
-      "name": "Юбки 018",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-18-510197",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_019_1664",
-      "name": "Юбки 019",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-19-687936",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_020_5747",
-      "name": "Юбки 020",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-20-509534",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_021_6268",
-      "name": "Юбки 021",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-21-797319",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_022_2486",
-      "name": "Юбки 022",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-22-764454",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_023_4039",
-      "name": "Юбки 023",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-23-278813",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_024_3485",
-      "name": "Юбки 024",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-24-760329",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_025_7890",
-      "name": "Юбки 025",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-25-835318",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_026_9832",
-      "name": "Юбки 026",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-26-879717",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_027_5932",
-      "name": "Юбки 027",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-27-257109",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_028_7307",
-      "name": "Юбки 028",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-28-519858",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_029_6592",
-      "name": "Юбки 029",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-29-493075",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_030_6321",
-      "name": "Юбки 030",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-30-410689",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_031_1308",
-      "name": "Юбки 031",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-31-872443",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_032_8373",
-      "name": "Юбки 032",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-32-482485",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_033_5356",
-      "name": "Юбки 033",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-33-665204",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_034_1476",
-      "name": "Юбки 034",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-34-772043",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_035_5678",
-      "name": "Юбки 035",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-35-385377",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_юбк_036_4127",
-      "name": "Юбки 036",
-      "category": "юбки",
-      "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-36-474873",
-      "color": "чёрный",
-      "brand": "VizoLife"
     },
     {
       "id": "cl_блу_001_7692",
