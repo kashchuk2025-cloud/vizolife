@@ -1,18 +1,124 @@
 {
   "categories": [
-    {"id":"foundation","name":"Тон","icon":""},
-    {"id":"eyes","name":"Глаза","icon":""},
-    {"id":"brows","name":"Брови","icon":""},
-    {"id":"blush","name":"Румяна","icon":""},
-    {"id":"lips","name":"Губы","icon":""},
-    {"id":"full","name":"Полный макияж","icon":""}
+    {
+      "id": "макияж",
+      "name": "Макияж"
+    }
   ],
-  "styles": [
-    {"id":"mk001","name":"Natural","category":"full","image":"https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=400"},
-    {"id":"mk002","name":"Nude","category":"full","image":"https://images.unsplash.com/photo-1503236823255-94609f598e71?w=400"},
-    {"id":"mk003","name":"Soft Glam","category":"full","image":"https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=400"},
-    {"id":"mk004","name":"Evening","category":"full","image":"https://images.unsplash.com/photo-1526045478516-99145907023c?w=400"},
-    {"id":"mk005","name":"Classic","category":"full","image":"https://images.unsplash.com/photo-1457972729786-0411a3b2b626?w=400"},
-    {"id":"mk006","name":"Bright","category":"full","image":"https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400"}
+  "items": [
+    {
+      "id": "ma_001_4466",
+      "name": "Макияж 001",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-1-900774"
+    },
+    {
+      "id": "ma_002_3743",
+      "name": "Макияж 002",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-2-772993"
+    },
+    {
+      "id": "ma_003_2297",
+      "name": "Макияж 003",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-3-330100"
+    },
+    {
+      "id": "ma_004_5519",
+      "name": "Макияж 004",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-4-225958"
+    },
+    {
+      "id": "ma_005_1269",
+      "name": "Макияж 005",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-5-199078"
+    },
+    {
+      "id": "ma_006_6494",
+      "name": "Макияж 006",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-6-757612"
+    },
+    {
+      "id": "ma_007_2126",
+      "name": "Макияж 007",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-7-329450"
+    },
+    {
+      "id": "ma_008_2446",
+      "name": "Макияж 008",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-8-482096"
+    },
+    {
+      "id": "ma_009_1138",
+      "name": "Макияж 009",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-9-603993"
+    },
+    {
+      "id": "ma_010_8635",
+      "name": "Макияж 010",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-10-320861"
+    },
+    {
+      "id": "ma_011_2691",
+      "name": "Макияж 011",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-11-449612"
+    },
+    {
+      "id": "ma_012_3785",
+      "name": "Макияж 012",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-12-220724"
+    },
+    {
+      "id": "ma_013_3707",
+      "name": "Макияж 013",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-13-395304"
+    },
+    {
+      "id": "ma_014_2438",
+      "name": "Макияж 014",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-14-997659"
+    },
+    {
+      "id": "ma_015_7839",
+      "name": "Макияж 015",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-15-314489"
+    },
+    {
+      "id": "ma_016_9791",
+      "name": "Макияж 016",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-16-857248"
+    },
+    {
+      "id": "ma_017_6576",
+      "name": "Макияж 017",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-17-114465"
+    },
+    {
+      "id": "ma_018_4216",
+      "name": "Макияж 018",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-18-251855"
+    },
+    {
+      "id": "ma_019_6652",
+      "name": "Макияж 019",
+      "category": "макияж",
+      "image": "https://loremflickr.com/600/800/макияж?lock=Макияж-19-768429"
+    }
   ]
 }

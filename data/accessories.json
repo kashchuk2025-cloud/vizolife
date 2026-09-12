@@ -49,7 +49,7 @@
       "image": "images/accessories/bags/bag_001.jpg",
       "brand": "VizoLife Atelier",
       "color": "чёрный",
-      "material": "кожа",
+      "material": "натуральная кожа",
       "style": "минимал",
       "form": "tote"
     },
@@ -61,7 +61,7 @@
       "brand": "Maison Noir",
       "color": "бежевый",
       "material": "натуральная кожа",
-      "style": "luxury",
+      "style": "минимал",
       "form": "shoulder"
     },
     {
@@ -72,7 +72,7 @@
       "brand": "Lune",
       "color": "коричневый",
       "material": "эко-кожа",
-      "style": "вечерний",
+      "style": "luxury",
       "form": "crossbody"
     },
     {
@@ -83,7 +83,7 @@
       "brand": "AURA",
       "color": "молочный",
       "material": "замша",
-      "style": "casual",
+      "style": "минимал",
       "form": "clutch"
     },
     {
@@ -93,8 +93,8 @@
       "image": "images/accessories/bags/bag_005.jpg",
       "brand": "Noir Dore",
       "color": "белый",
-      "material": "канвас",
-      "style": "офис",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "bucket"
     },
     {
@@ -104,8 +104,8 @@
       "image": "images/accessories/bags/bag_006.jpg",
       "brand": "Sable",
       "color": "графит",
-      "material": "солома",
-      "style": "бохо",
+      "material": "эко-кожа",
+      "style": "минимал",
       "form": "hobo"
     },
     {
@@ -115,8 +115,8 @@
       "image": "images/accessories/bags/bag_007.jpg",
       "brand": "Onyx",
       "color": "бордо",
-      "material": "нейлон",
-      "style": "винтаж",
+      "material": "замша",
+      "style": "вечерний",
       "form": "mini"
     },
     {
@@ -126,8 +126,8 @@
       "image": "images/accessories/bags/bag_008.jpg",
       "brand": "Velvetine",
       "color": "олива",
-      "material": "велюр",
-      "style": "современный",
+      "material": "натуральная кожа",
+      "style": "luxury",
       "form": "large shopper"
     },
     {
@@ -137,8 +137,8 @@
       "image": "images/accessories/bags/bag_009.jpg",
       "brand": "Étoile",
       "color": "пудра",
-      "material": "крокодил",
-      "style": "классика",
+      "material": "кожа",
+      "style": "вечерний",
       "form": "saddle"
     },
     {
@@ -148,228 +148,228 @@
       "image": "images/accessories/bags/bag_010.jpg",
       "brand": "Monochrome Studio",
       "color": "карамель",
-      "material": "твид",
-      "style": "авангард",
+      "material": "натуральная кожа",
+      "style": "luxury",
       "form": "satchel"
     },
     {
       "id": "bag_011",
-      "name": "VizoLife Atelier Woven шоколад — 011",
+      "name": "VizoLife Atelier Woven чёрный — 011",
       "category": "bags",
       "image": "images/accessories/bags/bag_011.jpg",
       "brand": "VizoLife Atelier",
-      "color": "шоколад",
-      "material": "деним",
+      "color": "чёрный",
+      "material": "эко-кожа",
       "style": "минимал",
       "form": "woven"
     },
     {
       "id": "bag_012",
-      "name": "Maison Noir Chain слоновая кость — 012",
+      "name": "Maison Noir Chain бежевый — 012",
       "category": "bags",
       "image": "images/accessories/bags/bag_012.jpg",
       "brand": "Maison Noir",
-      "color": "слоновая кость",
-      "material": "сатин",
+      "color": "бежевый",
+      "material": "замша",
       "style": "luxury",
       "form": "chain"
     },
     {
       "id": "bag_013",
-      "name": "Lune Quilted песочный — 013",
+      "name": "Lune Quilted коричневый — 013",
       "category": "bags",
       "image": "images/accessories/bags/bag_013.jpg",
       "brand": "Lune",
-      "color": "песочный",
-      "material": "кожа",
-      "style": "вечерний",
+      "color": "коричневый",
+      "material": "замша",
+      "style": "luxury",
       "form": "quilted"
     },
     {
       "id": "bag_014",
-      "name": "AURA Crocodile хаки — 014",
+      "name": "AURA Crocodile молочный — 014",
       "category": "bags",
       "image": "images/accessories/bags/bag_014.jpg",
       "brand": "AURA",
-      "color": "хаки",
-      "material": "натуральная кожа",
-      "style": "casual",
+      "color": "молочный",
+      "material": "эко-кожа",
+      "style": "luxury",
       "form": "crocodile"
     },
     {
       "id": "bag_015",
-      "name": "Noir Dore Suede тёмно-синий — 015",
+      "name": "Noir Dore Suede белый — 015",
       "category": "bags",
       "image": "images/accessories/bags/bag_015.jpg",
       "brand": "Noir Dore",
-      "color": "тёмно-синий",
-      "material": "эко-кожа",
-      "style": "офис",
+      "color": "белый",
+      "material": "натуральная кожа",
+      "style": "вечерний",
       "form": "suede"
     },
     {
       "id": "bag_016",
-      "name": "Sable Baguette чёрный — 016",
+      "name": "Sable Baguette графит — 016",
       "category": "bags",
       "image": "images/accessories/bags/bag_016.jpg",
       "brand": "Sable",
-      "color": "чёрный",
+      "color": "графит",
       "material": "замша",
-      "style": "бохо",
+      "style": "минимал",
       "form": "baguette"
     },
     {
       "id": "bag_017",
-      "name": "Onyx Bowling бежевый — 017",
+      "name": "Onyx Bowling бордо — 017",
       "category": "bags",
       "image": "images/accessories/bags/bag_017.jpg",
       "brand": "Onyx",
-      "color": "бежевый",
-      "material": "канвас",
-      "style": "винтаж",
+      "color": "бордо",
+      "material": "эко-кожа",
+      "style": "вечерний",
       "form": "bowling"
     },
     {
       "id": "bag_018",
-      "name": "Velvetine Box коричневый — 018",
+      "name": "Velvetine Box олива — 018",
       "category": "bags",
       "image": "images/accessories/bags/bag_018.jpg",
       "brand": "Velvetine",
-      "color": "коричневый",
-      "material": "солома",
-      "style": "современный",
+      "color": "олива",
+      "material": "натуральная кожа",
+      "style": "вечерний",
       "form": "box"
     },
     {
       "id": "bag_019",
-      "name": "Étoile Moon молочный — 019",
+      "name": "Étoile Moon пудра — 019",
       "category": "bags",
       "image": "images/accessories/bags/bag_019.jpg",
       "brand": "Étoile",
-      "color": "молочный",
-      "material": "нейлон",
-      "style": "классика",
+      "color": "пудра",
+      "material": "замша",
+      "style": "минимал",
       "form": "moon"
     },
     {
       "id": "bag_020",
-      "name": "Monochrome Studio Barrel белый — 020",
+      "name": "Monochrome Studio Barrel карамель — 020",
       "category": "bags",
       "image": "images/accessories/bags/bag_020.jpg",
       "brand": "Monochrome Studio",
-      "color": "белый",
-      "material": "велюр",
-      "style": "авангард",
+      "color": "карамель",
+      "material": "замша",
+      "style": "вечерний",
       "form": "barrel"
     },
     {
       "id": "bag_021",
-      "name": "VizoLife Atelier Tote графит — 021",
+      "name": "VizoLife Atelier Tote чёрный — 021",
       "category": "bags",
       "image": "images/accessories/bags/bag_021.jpg",
       "brand": "VizoLife Atelier",
-      "color": "графит",
-      "material": "крокодил",
-      "style": "минимал",
+      "color": "чёрный",
+      "material": "кожа",
+      "style": "вечерний",
       "form": "tote"
     },
     {
       "id": "bag_022",
-      "name": "Maison Noir Shoulder бордо — 022",
+      "name": "Maison Noir Shoulder бежевый — 022",
       "category": "bags",
       "image": "images/accessories/bags/bag_022.jpg",
       "brand": "Maison Noir",
-      "color": "бордо",
-      "material": "твид",
-      "style": "luxury",
+      "color": "бежевый",
+      "material": "натуральная кожа",
+      "style": "вечерний",
       "form": "shoulder"
     },
     {
       "id": "bag_023",
-      "name": "Lune Crossbody олива — 023",
+      "name": "Lune Crossbody коричневый — 023",
       "category": "bags",
       "image": "images/accessories/bags/bag_023.jpg",
       "brand": "Lune",
-      "color": "олива",
-      "material": "деним",
-      "style": "вечерний",
+      "color": "коричневый",
+      "material": "замша",
+      "style": "luxury",
       "form": "crossbody"
     },
     {
       "id": "bag_024",
-      "name": "AURA Clutch пудра — 024",
+      "name": "AURA Clutch молочный — 024",
       "category": "bags",
       "image": "images/accessories/bags/bag_024.jpg",
       "brand": "AURA",
-      "color": "пудра",
-      "material": "сатин",
-      "style": "casual",
+      "color": "молочный",
+      "material": "замша",
+      "style": "минимал",
       "form": "clutch"
     },
     {
       "id": "bag_025",
-      "name": "Noir Dore Bucket карамель — 025",
+      "name": "Noir Dore Bucket белый — 025",
       "category": "bags",
       "image": "images/accessories/bags/bag_025.jpg",
       "brand": "Noir Dore",
-      "color": "карамель",
-      "material": "кожа",
-      "style": "офис",
+      "color": "белый",
+      "material": "эко-кожа",
+      "style": "вечерний",
       "form": "bucket"
     },
     {
       "id": "bag_026",
-      "name": "Sable Hobo шоколад — 026",
+      "name": "Sable Hobo графит — 026",
       "category": "bags",
       "image": "images/accessories/bags/bag_026.jpg",
       "brand": "Sable",
-      "color": "шоколад",
-      "material": "натуральная кожа",
-      "style": "бохо",
+      "color": "графит",
+      "material": "замша",
+      "style": "минимал",
       "form": "hobo"
     },
     {
       "id": "bag_027",
-      "name": "Onyx Mini слоновая кость — 027",
+      "name": "Onyx Mini бордо — 027",
       "category": "bags",
       "image": "images/accessories/bags/bag_027.jpg",
       "brand": "Onyx",
-      "color": "слоновая кость",
-      "material": "эко-кожа",
-      "style": "винтаж",
+      "color": "бордо",
+      "material": "кожа",
+      "style": "вечерний",
       "form": "mini"
     },
     {
       "id": "bag_028",
-      "name": "Velvetine Large shopper песочный — 028",
+      "name": "Velvetine Large shopper олива — 028",
       "category": "bags",
       "image": "images/accessories/bags/bag_028.jpg",
       "brand": "Velvetine",
-      "color": "песочный",
-      "material": "замша",
-      "style": "современный",
+      "color": "олива",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "large shopper"
     },
     {
       "id": "bag_029",
-      "name": "Étoile Saddle хаки — 029",
+      "name": "Étoile Saddle пудра — 029",
       "category": "bags",
       "image": "images/accessories/bags/bag_029.jpg",
       "brand": "Étoile",
-      "color": "хаки",
-      "material": "канвас",
-      "style": "классика",
+      "color": "пудра",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "saddle"
     },
     {
       "id": "bag_030",
-      "name": "Monochrome Studio Satchel тёмно-синий — 030",
+      "name": "Monochrome Studio Satchel карамель — 030",
       "category": "bags",
       "image": "images/accessories/bags/bag_030.jpg",
       "brand": "Monochrome Studio",
-      "color": "тёмно-синий",
-      "material": "солома",
-      "style": "авангард",
+      "color": "карамель",
+      "material": "замша",
+      "style": "luxury",
       "form": "satchel"
     },
     {
@@ -379,8 +379,8 @@
       "image": "images/accessories/bags/bag_031.jpg",
       "brand": "VizoLife Atelier",
       "color": "чёрный",
-      "material": "нейлон",
-      "style": "минимал",
+      "material": "замша",
+      "style": "вечерний",
       "form": "woven"
     },
     {
@@ -390,7 +390,7 @@
       "image": "images/accessories/bags/bag_032.jpg",
       "brand": "Maison Noir",
       "color": "бежевый",
-      "material": "велюр",
+      "material": "кожа",
       "style": "luxury",
       "form": "chain"
     },
@@ -401,8 +401,8 @@
       "image": "images/accessories/bags/bag_033.jpg",
       "brand": "Lune",
       "color": "коричневый",
-      "material": "крокодил",
-      "style": "вечерний",
+      "material": "натуральная кожа",
+      "style": "luxury",
       "form": "quilted"
     },
     {
@@ -412,8 +412,8 @@
       "image": "images/accessories/bags/bag_034.jpg",
       "brand": "AURA",
       "color": "молочный",
-      "material": "твид",
-      "style": "casual",
+      "material": "эко-кожа",
+      "style": "вечерний",
       "form": "crocodile"
     },
     {
@@ -423,8 +423,8 @@
       "image": "images/accessories/bags/bag_035.jpg",
       "brand": "Noir Dore",
       "color": "белый",
-      "material": "деним",
-      "style": "офис",
+      "material": "эко-кожа",
+      "style": "luxury",
       "form": "suede"
     },
     {
@@ -434,8 +434,8 @@
       "image": "images/accessories/bags/bag_036.jpg",
       "brand": "Sable",
       "color": "графит",
-      "material": "сатин",
-      "style": "бохо",
+      "material": "замша",
+      "style": "вечерний",
       "form": "baguette"
     },
     {
@@ -445,8 +445,8 @@
       "image": "images/accessories/bags/bag_037.jpg",
       "brand": "Onyx",
       "color": "бордо",
-      "material": "кожа",
-      "style": "винтаж",
+      "material": "эко-кожа",
+      "style": "вечерний",
       "form": "bowling"
     },
     {
@@ -456,8 +456,8 @@
       "image": "images/accessories/bags/bag_038.jpg",
       "brand": "Velvetine",
       "color": "олива",
-      "material": "натуральная кожа",
-      "style": "современный",
+      "material": "кожа",
+      "style": "luxury",
       "form": "box"
     },
     {
@@ -467,8 +467,8 @@
       "image": "images/accessories/bags/bag_039.jpg",
       "brand": "Étoile",
       "color": "пудра",
-      "material": "эко-кожа",
-      "style": "классика",
+      "material": "кожа",
+      "style": "минимал",
       "form": "moon"
     },
     {
@@ -478,228 +478,228 @@
       "image": "images/accessories/bags/bag_040.jpg",
       "brand": "Monochrome Studio",
       "color": "карамель",
-      "material": "замша",
-      "style": "авангард",
+      "material": "кожа",
+      "style": "luxury",
       "form": "barrel"
     },
     {
       "id": "bag_041",
-      "name": "VizoLife Atelier Tote шоколад — 041",
+      "name": "VizoLife Atelier Tote чёрный — 041",
       "category": "bags",
       "image": "images/accessories/bags/bag_041.jpg",
       "brand": "VizoLife Atelier",
-      "color": "шоколад",
-      "material": "канвас",
-      "style": "минимал",
+      "color": "чёрный",
+      "material": "замша",
+      "style": "вечерний",
       "form": "tote"
     },
     {
       "id": "bag_042",
-      "name": "Maison Noir Shoulder слоновая кость — 042",
+      "name": "Maison Noir Shoulder бежевый — 042",
       "category": "bags",
       "image": "images/accessories/bags/bag_042.jpg",
       "brand": "Maison Noir",
-      "color": "слоновая кость",
-      "material": "солома",
-      "style": "luxury",
+      "color": "бежевый",
+      "material": "кожа",
+      "style": "вечерний",
       "form": "shoulder"
     },
     {
       "id": "bag_043",
-      "name": "Lune Crossbody песочный — 043",
+      "name": "Lune Crossbody коричневый — 043",
       "category": "bags",
       "image": "images/accessories/bags/bag_043.jpg",
       "brand": "Lune",
-      "color": "песочный",
-      "material": "нейлон",
+      "color": "коричневый",
+      "material": "замша",
       "style": "вечерний",
       "form": "crossbody"
     },
     {
       "id": "bag_044",
-      "name": "AURA Clutch хаки — 044",
+      "name": "AURA Clutch молочный — 044",
       "category": "bags",
       "image": "images/accessories/bags/bag_044.jpg",
       "brand": "AURA",
-      "color": "хаки",
-      "material": "велюр",
-      "style": "casual",
+      "color": "молочный",
+      "material": "замша",
+      "style": "luxury",
       "form": "clutch"
     },
     {
       "id": "bag_045",
-      "name": "Noir Dore Bucket тёмно-синий — 045",
+      "name": "Noir Dore Bucket белый — 045",
       "category": "bags",
       "image": "images/accessories/bags/bag_045.jpg",
       "brand": "Noir Dore",
-      "color": "тёмно-синий",
-      "material": "крокодил",
-      "style": "офис",
+      "color": "белый",
+      "material": "кожа",
+      "style": "минимал",
       "form": "bucket"
     },
     {
       "id": "bag_046",
-      "name": "Sable Hobo чёрный — 046",
+      "name": "Sable Hobo графит — 046",
       "category": "bags",
       "image": "images/accessories/bags/bag_046.jpg",
       "brand": "Sable",
-      "color": "чёрный",
-      "material": "твид",
-      "style": "бохо",
+      "color": "графит",
+      "material": "кожа",
+      "style": "luxury",
       "form": "hobo"
     },
     {
       "id": "bag_047",
-      "name": "Onyx Mini бежевый — 047",
+      "name": "Onyx Mini бордо — 047",
       "category": "bags",
       "image": "images/accessories/bags/bag_047.jpg",
       "brand": "Onyx",
-      "color": "бежевый",
-      "material": "деним",
-      "style": "винтаж",
+      "color": "бордо",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "mini"
     },
     {
       "id": "bag_048",
-      "name": "Velvetine Large shopper коричневый — 048",
+      "name": "Velvetine Large shopper олива — 048",
       "category": "bags",
       "image": "images/accessories/bags/bag_048.jpg",
       "brand": "Velvetine",
-      "color": "коричневый",
-      "material": "сатин",
-      "style": "современный",
+      "color": "олива",
+      "material": "натуральная кожа",
+      "style": "luxury",
       "form": "large shopper"
     },
     {
       "id": "bag_049",
-      "name": "Étoile Saddle молочный — 049",
+      "name": "Étoile Saddle пудра — 049",
       "category": "bags",
       "image": "images/accessories/bags/bag_049.jpg",
       "brand": "Étoile",
-      "color": "молочный",
-      "material": "кожа",
-      "style": "классика",
+      "color": "пудра",
+      "material": "замша",
+      "style": "минимал",
       "form": "saddle"
     },
     {
       "id": "bag_050",
-      "name": "Monochrome Studio Satchel белый — 050",
+      "name": "Monochrome Studio Satchel карамель — 050",
       "category": "bags",
       "image": "images/accessories/bags/bag_050.jpg",
       "brand": "Monochrome Studio",
-      "color": "белый",
+      "color": "карамель",
       "material": "натуральная кожа",
-      "style": "авангард",
+      "style": "luxury",
       "form": "satchel"
     },
     {
       "id": "bag_051",
-      "name": "VizoLife Atelier Woven графит — 051",
+      "name": "VizoLife Atelier Woven чёрный — 051",
       "category": "bags",
       "image": "images/accessories/bags/bag_051.jpg",
       "brand": "VizoLife Atelier",
-      "color": "графит",
-      "material": "эко-кожа",
+      "color": "чёрный",
+      "material": "кожа",
       "style": "минимал",
       "form": "woven"
     },
     {
       "id": "bag_052",
-      "name": "Maison Noir Chain бордо — 052",
+      "name": "Maison Noir Chain бежевый — 052",
       "category": "bags",
       "image": "images/accessories/bags/bag_052.jpg",
       "brand": "Maison Noir",
-      "color": "бордо",
-      "material": "замша",
-      "style": "luxury",
+      "color": "бежевый",
+      "material": "эко-кожа",
+      "style": "минимал",
       "form": "chain"
     },
     {
       "id": "bag_053",
-      "name": "Lune Quilted олива — 053",
+      "name": "Lune Quilted коричневый — 053",
       "category": "bags",
       "image": "images/accessories/bags/bag_053.jpg",
       "brand": "Lune",
-      "color": "олива",
-      "material": "канвас",
-      "style": "вечерний",
+      "color": "коричневый",
+      "material": "замша",
+      "style": "luxury",
       "form": "quilted"
     },
     {
       "id": "bag_054",
-      "name": "AURA Crocodile пудра — 054",
+      "name": "AURA Crocodile молочный — 054",
       "category": "bags",
       "image": "images/accessories/bags/bag_054.jpg",
       "brand": "AURA",
-      "color": "пудра",
-      "material": "солома",
-      "style": "casual",
+      "color": "молочный",
+      "material": "эко-кожа",
+      "style": "вечерний",
       "form": "crocodile"
     },
     {
       "id": "bag_055",
-      "name": "Noir Dore Suede карамель — 055",
+      "name": "Noir Dore Suede белый — 055",
       "category": "bags",
       "image": "images/accessories/bags/bag_055.jpg",
       "brand": "Noir Dore",
-      "color": "карамель",
-      "material": "нейлон",
-      "style": "офис",
+      "color": "белый",
+      "material": "натуральная кожа",
+      "style": "luxury",
       "form": "suede"
     },
     {
       "id": "bag_056",
-      "name": "Sable Baguette шоколад — 056",
+      "name": "Sable Baguette графит — 056",
       "category": "bags",
       "image": "images/accessories/bags/bag_056.jpg",
       "brand": "Sable",
-      "color": "шоколад",
-      "material": "велюр",
-      "style": "бохо",
+      "color": "графит",
+      "material": "натуральная кожа",
+      "style": "вечерний",
       "form": "baguette"
     },
     {
       "id": "bag_057",
-      "name": "Onyx Bowling слоновая кость — 057",
+      "name": "Onyx Bowling бордо — 057",
       "category": "bags",
       "image": "images/accessories/bags/bag_057.jpg",
       "brand": "Onyx",
-      "color": "слоновая кость",
-      "material": "крокодил",
-      "style": "винтаж",
+      "color": "бордо",
+      "material": "замша",
+      "style": "luxury",
       "form": "bowling"
     },
     {
       "id": "bag_058",
-      "name": "Velvetine Box песочный — 058",
+      "name": "Velvetine Box олива — 058",
       "category": "bags",
       "image": "images/accessories/bags/bag_058.jpg",
       "brand": "Velvetine",
-      "color": "песочный",
-      "material": "твид",
-      "style": "современный",
+      "color": "олива",
+      "material": "натуральная кожа",
+      "style": "вечерний",
       "form": "box"
     },
     {
       "id": "bag_059",
-      "name": "Étoile Moon хаки — 059",
+      "name": "Étoile Moon пудра — 059",
       "category": "bags",
       "image": "images/accessories/bags/bag_059.jpg",
       "brand": "Étoile",
-      "color": "хаки",
-      "material": "деним",
-      "style": "классика",
+      "color": "пудра",
+      "material": "кожа",
+      "style": "luxury",
       "form": "moon"
     },
     {
       "id": "bag_060",
-      "name": "Monochrome Studio Barrel тёмно-синий — 060",
+      "name": "Monochrome Studio Barrel карамель — 060",
       "category": "bags",
       "image": "images/accessories/bags/bag_060.jpg",
       "brand": "Monochrome Studio",
-      "color": "тёмно-синий",
-      "material": "сатин",
-      "style": "авангард",
+      "color": "карамель",
+      "material": "натуральная кожа",
+      "style": "luxury",
       "form": "barrel"
     },
     {
@@ -709,8 +709,8 @@
       "image": "images/accessories/bags/bag_061.jpg",
       "brand": "VizoLife Atelier",
       "color": "чёрный",
-      "material": "кожа",
-      "style": "минимал",
+      "material": "натуральная кожа",
+      "style": "luxury",
       "form": "tote"
     },
     {
@@ -720,7 +720,7 @@
       "image": "images/accessories/bags/bag_062.jpg",
       "brand": "Maison Noir",
       "color": "бежевый",
-      "material": "натуральная кожа",
+      "material": "эко-кожа",
       "style": "luxury",
       "form": "shoulder"
     },
@@ -731,8 +731,8 @@
       "image": "images/accessories/bags/bag_063.jpg",
       "brand": "Lune",
       "color": "коричневый",
-      "material": "эко-кожа",
-      "style": "вечерний",
+      "material": "кожа",
+      "style": "luxury",
       "form": "crossbody"
     },
     {
@@ -743,7 +743,7 @@
       "brand": "AURA",
       "color": "молочный",
       "material": "замша",
-      "style": "casual",
+      "style": "минимал",
       "form": "clutch"
     },
     {
@@ -753,8 +753,8 @@
       "image": "images/accessories/bags/bag_065.jpg",
       "brand": "Noir Dore",
       "color": "белый",
-      "material": "канвас",
-      "style": "офис",
+      "material": "натуральная кожа",
+      "style": "вечерний",
       "form": "bucket"
     },
     {
@@ -764,8 +764,8 @@
       "image": "images/accessories/bags/bag_066.jpg",
       "brand": "Sable",
       "color": "графит",
-      "material": "солома",
-      "style": "бохо",
+      "material": "эко-кожа",
+      "style": "минимал",
       "form": "hobo"
     },
     {
@@ -775,8 +775,8 @@
       "image": "images/accessories/bags/bag_067.jpg",
       "brand": "Onyx",
       "color": "бордо",
-      "material": "нейлон",
-      "style": "винтаж",
+      "material": "замша",
+      "style": "минимал",
       "form": "mini"
     },
     {
@@ -786,8 +786,8 @@
       "image": "images/accessories/bags/bag_068.jpg",
       "brand": "Velvetine",
       "color": "олива",
-      "material": "велюр",
-      "style": "современный",
+      "material": "замша",
+      "style": "вечерний",
       "form": "large shopper"
     },
     {
@@ -797,8 +797,8 @@
       "image": "images/accessories/bags/bag_069.jpg",
       "brand": "Étoile",
       "color": "пудра",
-      "material": "крокодил",
-      "style": "классика",
+      "material": "эко-кожа",
+      "style": "минимал",
       "form": "saddle"
     },
     {
@@ -808,228 +808,228 @@
       "image": "images/accessories/bags/bag_070.jpg",
       "brand": "Monochrome Studio",
       "color": "карамель",
-      "material": "твид",
-      "style": "авангард",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "satchel"
     },
     {
       "id": "bag_071",
-      "name": "VizoLife Atelier Woven шоколад — 071",
+      "name": "VizoLife Atelier Woven чёрный — 071",
       "category": "bags",
       "image": "images/accessories/bags/bag_071.jpg",
       "brand": "VizoLife Atelier",
-      "color": "шоколад",
-      "material": "деним",
-      "style": "минимал",
+      "color": "чёрный",
+      "material": "кожа",
+      "style": "luxury",
       "form": "woven"
     },
     {
       "id": "bag_072",
-      "name": "Maison Noir Chain слоновая кость — 072",
+      "name": "Maison Noir Chain бежевый — 072",
       "category": "bags",
       "image": "images/accessories/bags/bag_072.jpg",
       "brand": "Maison Noir",
-      "color": "слоновая кость",
-      "material": "сатин",
+      "color": "бежевый",
+      "material": "натуральная кожа",
       "style": "luxury",
       "form": "chain"
     },
     {
       "id": "bag_073",
-      "name": "Lune Quilted песочный — 073",
+      "name": "Lune Quilted коричневый — 073",
       "category": "bags",
       "image": "images/accessories/bags/bag_073.jpg",
       "brand": "Lune",
-      "color": "песочный",
-      "material": "кожа",
+      "color": "коричневый",
+      "material": "эко-кожа",
       "style": "вечерний",
       "form": "quilted"
     },
     {
       "id": "bag_074",
-      "name": "AURA Crocodile хаки — 074",
+      "name": "AURA Crocodile молочный — 074",
       "category": "bags",
       "image": "images/accessories/bags/bag_074.jpg",
       "brand": "AURA",
-      "color": "хаки",
-      "material": "натуральная кожа",
-      "style": "casual",
+      "color": "молочный",
+      "material": "замша",
+      "style": "минимал",
       "form": "crocodile"
     },
     {
       "id": "bag_075",
-      "name": "Noir Dore Suede тёмно-синий — 075",
+      "name": "Noir Dore Suede белый — 075",
       "category": "bags",
       "image": "images/accessories/bags/bag_075.jpg",
       "brand": "Noir Dore",
-      "color": "тёмно-синий",
-      "material": "эко-кожа",
-      "style": "офис",
+      "color": "белый",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "suede"
     },
     {
       "id": "bag_076",
-      "name": "Sable Baguette чёрный — 076",
+      "name": "Sable Baguette графит — 076",
       "category": "bags",
       "image": "images/accessories/bags/bag_076.jpg",
       "brand": "Sable",
-      "color": "чёрный",
-      "material": "замша",
-      "style": "бохо",
+      "color": "графит",
+      "material": "натуральная кожа",
+      "style": "luxury",
       "form": "baguette"
     },
     {
       "id": "bag_077",
-      "name": "Onyx Bowling бежевый — 077",
+      "name": "Onyx Bowling бордо — 077",
       "category": "bags",
       "image": "images/accessories/bags/bag_077.jpg",
       "brand": "Onyx",
-      "color": "бежевый",
-      "material": "канвас",
-      "style": "винтаж",
+      "color": "бордо",
+      "material": "кожа",
+      "style": "минимал",
       "form": "bowling"
     },
     {
       "id": "bag_078",
-      "name": "Velvetine Box коричневый — 078",
+      "name": "Velvetine Box олива — 078",
       "category": "bags",
       "image": "images/accessories/bags/bag_078.jpg",
       "brand": "Velvetine",
-      "color": "коричневый",
-      "material": "солома",
-      "style": "современный",
+      "color": "олива",
+      "material": "замша",
+      "style": "luxury",
       "form": "box"
     },
     {
       "id": "bag_079",
-      "name": "Étoile Moon молочный — 079",
+      "name": "Étoile Moon пудра — 079",
       "category": "bags",
       "image": "images/accessories/bags/bag_079.jpg",
       "brand": "Étoile",
-      "color": "молочный",
-      "material": "нейлон",
-      "style": "классика",
+      "color": "пудра",
+      "material": "замша",
+      "style": "luxury",
       "form": "moon"
     },
     {
       "id": "bag_080",
-      "name": "Monochrome Studio Barrel белый — 080",
+      "name": "Monochrome Studio Barrel карамель — 080",
       "category": "bags",
       "image": "images/accessories/bags/bag_080.jpg",
       "brand": "Monochrome Studio",
-      "color": "белый",
-      "material": "велюр",
-      "style": "авангард",
+      "color": "карамель",
+      "material": "эко-кожа",
+      "style": "минимал",
       "form": "barrel"
     },
     {
       "id": "bag_081",
-      "name": "VizoLife Atelier Tote графит — 081",
+      "name": "VizoLife Atelier Tote чёрный — 081",
       "category": "bags",
       "image": "images/accessories/bags/bag_081.jpg",
       "brand": "VizoLife Atelier",
-      "color": "графит",
-      "material": "крокодил",
-      "style": "минимал",
+      "color": "чёрный",
+      "material": "замша",
+      "style": "luxury",
       "form": "tote"
     },
     {
       "id": "bag_082",
-      "name": "Maison Noir Shoulder бордо — 082",
+      "name": "Maison Noir Shoulder бежевый — 082",
       "category": "bags",
       "image": "images/accessories/bags/bag_082.jpg",
       "brand": "Maison Noir",
-      "color": "бордо",
-      "material": "твид",
-      "style": "luxury",
+      "color": "бежевый",
+      "material": "натуральная кожа",
+      "style": "вечерний",
       "form": "shoulder"
     },
     {
       "id": "bag_083",
-      "name": "Lune Crossbody олива — 083",
+      "name": "Lune Crossbody коричневый — 083",
       "category": "bags",
       "image": "images/accessories/bags/bag_083.jpg",
       "brand": "Lune",
-      "color": "олива",
-      "material": "деним",
+      "color": "коричневый",
+      "material": "эко-кожа",
       "style": "вечерний",
       "form": "crossbody"
     },
     {
       "id": "bag_084",
-      "name": "AURA Clutch пудра — 084",
+      "name": "AURA Clutch молочный — 084",
       "category": "bags",
       "image": "images/accessories/bags/bag_084.jpg",
       "brand": "AURA",
-      "color": "пудра",
-      "material": "сатин",
-      "style": "casual",
+      "color": "молочный",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "clutch"
     },
     {
       "id": "bag_085",
-      "name": "Noir Dore Bucket карамель — 085",
+      "name": "Noir Dore Bucket белый — 085",
       "category": "bags",
       "image": "images/accessories/bags/bag_085.jpg",
       "brand": "Noir Dore",
-      "color": "карамель",
-      "material": "кожа",
-      "style": "офис",
+      "color": "белый",
+      "material": "натуральная кожа",
+      "style": "вечерний",
       "form": "bucket"
     },
     {
       "id": "bag_086",
-      "name": "Sable Hobo шоколад — 086",
+      "name": "Sable Hobo графит — 086",
       "category": "bags",
       "image": "images/accessories/bags/bag_086.jpg",
       "brand": "Sable",
-      "color": "шоколад",
-      "material": "натуральная кожа",
-      "style": "бохо",
+      "color": "графит",
+      "material": "эко-кожа",
+      "style": "минимал",
       "form": "hobo"
     },
     {
       "id": "bag_087",
-      "name": "Onyx Mini слоновая кость — 087",
+      "name": "Onyx Mini бордо — 087",
       "category": "bags",
       "image": "images/accessories/bags/bag_087.jpg",
       "brand": "Onyx",
-      "color": "слоновая кость",
-      "material": "эко-кожа",
-      "style": "винтаж",
+      "color": "бордо",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "mini"
     },
     {
       "id": "bag_088",
-      "name": "Velvetine Large shopper песочный — 088",
+      "name": "Velvetine Large shopper олива — 088",
       "category": "bags",
       "image": "images/accessories/bags/bag_088.jpg",
       "brand": "Velvetine",
-      "color": "песочный",
+      "color": "олива",
       "material": "замша",
-      "style": "современный",
+      "style": "минимал",
       "form": "large shopper"
     },
     {
       "id": "bag_089",
-      "name": "Étoile Saddle хаки — 089",
+      "name": "Étoile Saddle пудра — 089",
       "category": "bags",
       "image": "images/accessories/bags/bag_089.jpg",
       "brand": "Étoile",
-      "color": "хаки",
-      "material": "канвас",
-      "style": "классика",
+      "color": "пудра",
+      "material": "замша",
+      "style": "минимал",
       "form": "saddle"
     },
     {
       "id": "bag_090",
-      "name": "Monochrome Studio Satchel тёмно-синий — 090",
+      "name": "Monochrome Studio Satchel карамель — 090",
       "category": "bags",
       "image": "images/accessories/bags/bag_090.jpg",
       "brand": "Monochrome Studio",
-      "color": "тёмно-синий",
-      "material": "солома",
-      "style": "авангард",
+      "color": "карамель",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "satchel"
     },
     {
@@ -1039,8 +1039,8 @@
       "image": "images/accessories/bags/bag_091.jpg",
       "brand": "VizoLife Atelier",
       "color": "чёрный",
-      "material": "нейлон",
-      "style": "минимал",
+      "material": "кожа",
+      "style": "luxury",
       "form": "woven"
     },
     {
@@ -1050,7 +1050,7 @@
       "image": "images/accessories/bags/bag_092.jpg",
       "brand": "Maison Noir",
       "color": "бежевый",
-      "material": "велюр",
+      "material": "замша",
       "style": "luxury",
       "form": "chain"
     },
@@ -1061,8 +1061,8 @@
       "image": "images/accessories/bags/bag_093.jpg",
       "brand": "Lune",
       "color": "коричневый",
-      "material": "крокодил",
-      "style": "вечерний",
+      "material": "кожа",
+      "style": "минимал",
       "form": "quilted"
     },
     {
@@ -1072,8 +1072,8 @@
       "image": "images/accessories/bags/bag_094.jpg",
       "brand": "AURA",
       "color": "молочный",
-      "material": "твид",
-      "style": "casual",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "crocodile"
     },
     {
@@ -1083,8 +1083,8 @@
       "image": "images/accessories/bags/bag_095.webp",
       "brand": "Noir Dore",
       "color": "белый",
-      "material": "деним",
-      "style": "офис",
+      "material": "натуральная кожа",
+      "style": "вечерний",
       "form": "suede"
     },
     {
@@ -1094,8 +1094,8 @@
       "image": "images/accessories/bags/bag_096.webp",
       "brand": "Sable",
       "color": "графит",
-      "material": "сатин",
-      "style": "бохо",
+      "material": "кожа",
+      "style": "минимал",
       "form": "baguette"
     },
     {
@@ -1105,8 +1105,8 @@
       "image": "images/accessories/bags/bag_097.webp",
       "brand": "Onyx",
       "color": "бордо",
-      "material": "кожа",
-      "style": "винтаж",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "bowling"
     },
     {
@@ -1116,8 +1116,8 @@
       "image": "images/accessories/bags/bag_098.webp",
       "brand": "Velvetine",
       "color": "олива",
-      "material": "натуральная кожа",
-      "style": "современный",
+      "material": "кожа",
+      "style": "luxury",
       "form": "box"
     },
     {
@@ -1127,8 +1127,8 @@
       "image": "images/accessories/bags/bag_099.webp",
       "brand": "Étoile",
       "color": "пудра",
-      "material": "эко-кожа",
-      "style": "классика",
+      "material": "натуральная кожа",
+      "style": "минимал",
       "form": "moon"
     },
     {
@@ -1138,117 +1138,1049 @@
       "image": "images/accessories/bags/bag_100.webp",
       "brand": "Monochrome Studio",
       "color": "карамель",
-      "material": "замша",
-      "style": "авангард",
+      "material": "кожа",
+      "style": "luxury",
       "form": "barrel"
     },
     {
-      "id": "ac004",
-      "name": "Рюкзак городской",
+      "id": "ac_bac_001_3278",
+      "name": "backpacks 001",
       "category": "backpacks",
-      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-1-323555",
       "color": "чёрный",
-      "brand": "Nike",
-      "layer": "accessory"
+      "brand": "VizoLife"
     },
     {
-      "id": "ac005",
-      "name": "Ремень кожаный",
+      "id": "ac_bac_002_3654",
+      "name": "backpacks 002",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-2-639148",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_003_8873",
+      "name": "backpacks 003",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-3-201323",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_004_2639",
+      "name": "backpacks 004",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-4-819600",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_005_6452",
+      "name": "backpacks 005",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-5-402932",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_006_8812",
+      "name": "backpacks 006",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-6-759305",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_007_4918",
+      "name": "backpacks 007",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-7-946358",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_008_8291",
+      "name": "backpacks 008",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-8-812036",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_009_4666",
+      "name": "backpacks 009",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-9-905574",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_010_9391",
+      "name": "backpacks 010",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-10-797014",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_011_4656",
+      "name": "backpacks 011",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-11-859298",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_012_7288",
+      "name": "backpacks 012",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-12-470143",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_013_8826",
+      "name": "backpacks 013",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-13-355301",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_014_7636",
+      "name": "backpacks 014",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-14-804570",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_015_7234",
+      "name": "backpacks 015",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-15-853423",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_016_9106",
+      "name": "backpacks 016",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-16-186079",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_017_7444",
+      "name": "backpacks 017",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-17-416804",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bac_018_7222",
+      "name": "backpacks 018",
+      "category": "backpacks",
+      "image": "https://loremflickr.com/600/800/backpacks?lock=backpacks-18-555470",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_001_3777",
+      "name": "belts 001",
       "category": "belts",
-      "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=400",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-1-463828",
       "color": "чёрный",
-      "brand": "Gucci",
-      "layer": "accessory"
+      "brand": "VizoLife"
     },
     {
-      "id": "ac006",
-      "name": "Очки солнцезащитные",
-      "category": "glasses",
-      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400",
-      "color": "чёрный",
-      "brand": "Ray-Ban",
-      "layer": "accessory"
-    },
-    {
-      "id": "ac007",
-      "name": "Очки авиаторы",
-      "category": "glasses",
-      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400",
+      "id": "ac_bel_002_7014",
+      "name": "belts 002",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-2-746161",
       "color": "золотой",
-      "brand": "Ray-Ban",
-      "layer": "accessory"
+      "brand": "VizoLife"
     },
     {
-      "id": "ac008",
-      "name": "Часы классические",
+      "id": "ac_bel_003_1953",
+      "name": "belts 003",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-3-582855",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_004_1073",
+      "name": "belts 004",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-4-786007",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_005_2238",
+      "name": "belts 005",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-5-491456",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_006_9071",
+      "name": "belts 006",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-6-721398",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_007_8989",
+      "name": "belts 007",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-7-830345",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_008_9522",
+      "name": "belts 008",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-8-187043",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_009_8349",
+      "name": "belts 009",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-9-649486",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_010_2725",
+      "name": "belts 010",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-10-669806",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_011_9004",
+      "name": "belts 011",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-11-240736",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_012_5949",
+      "name": "belts 012",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-12-746752",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_013_2992",
+      "name": "belts 013",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-13-237926",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_014_2538",
+      "name": "belts 014",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-14-862064",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_015_1517",
+      "name": "belts 015",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-15-370144",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_016_7707",
+      "name": "belts 016",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-16-809000",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_bel_017_1367",
+      "name": "belts 017",
+      "category": "belts",
+      "image": "https://loremflickr.com/600/800/belts?lock=belts-17-254863",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_001_3509",
+      "name": "glasses 001",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-1-297086",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_002_4213",
+      "name": "glasses 002",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-2-145039",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_003_6614",
+      "name": "glasses 003",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-3-807808",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_004_1291",
+      "name": "glasses 004",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-4-472296",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_005_3424",
+      "name": "glasses 005",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-5-361351",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_006_8535",
+      "name": "glasses 006",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-6-650395",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_007_8688",
+      "name": "glasses 007",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-7-211901",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_008_5165",
+      "name": "glasses 008",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-8-192513",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_009_3787",
+      "name": "glasses 009",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-9-851085",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_010_1337",
+      "name": "glasses 010",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-10-819458",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_011_4032",
+      "name": "glasses 011",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-11-206863",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_012_2462",
+      "name": "glasses 012",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-12-662839",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_013_7050",
+      "name": "glasses 013",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-13-767552",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_014_9238",
+      "name": "glasses 014",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-14-346875",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_015_3439",
+      "name": "glasses 015",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-15-856295",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_gla_016_2336",
+      "name": "glasses 016",
+      "category": "glasses",
+      "image": "https://loremflickr.com/600/800/glasses?lock=glasses-16-540231",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_wat_001_8798",
+      "name": "watches 001",
       "category": "watches",
-      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400",
-      "color": "серебристый",
-      "brand": "Daniel Wellington",
-      "layer": "accessory"
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-1-183483",
+      "color": "чёрный",
+      "brand": "VizoLife"
     },
     {
-      "id": "ac009",
-      "name": "Серьги золотые",
-      "category": "jewelry",
-      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400",
+      "id": "ac_wat_002_5526",
+      "name": "watches 002",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-2-250487",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_wat_003_8775",
+      "name": "watches 003",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-3-284814",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_wat_004_6895",
+      "name": "watches 004",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-4-743226",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_wat_005_3843",
+      "name": "watches 005",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-5-661398",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_wat_006_7929",
+      "name": "watches 006",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-6-864641",
       "color": "золотой",
-      "brand": "Pandora",
-      "layer": "accessory"
+      "brand": "VizoLife"
     },
     {
-      "id": "ac010",
-      "name": "Колье минималистичное",
-      "category": "jewelry",
-      "image": "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=400",
-      "color": "серебристый",
-      "brand": "Tiffany",
-      "layer": "accessory"
+      "id": "ac_wat_007_2086",
+      "name": "watches 007",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-7-277972",
+      "color": "золотой",
+      "brand": "VizoLife"
     },
     {
-      "id": "ac011",
-      "name": "Шляпа федора",
-      "category": "hats",
-      "image": "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?w=400",
-      "color": "бежевый",
-      "brand": "Zara",
-      "layer": "accessory"
-    },
-    {
-      "id": "ac012",
-      "name": "Кепка бейсболка",
-      "category": "hats",
-      "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400",
+      "id": "ac_wat_008_2971",
+      "name": "watches 008",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-8-503325",
       "color": "чёрный",
-      "brand": "Nike",
-      "layer": "accessory"
+      "brand": "VizoLife"
     },
     {
-      "id": "ac013",
-      "name": "Шарф шёлковый",
-      "category": "scarves",
-      "image": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=400",
-      "color": "бежевый",
-      "brand": "Hermès",
-      "layer": "accessory"
-    },
-    {
-      "id": "ac014",
-      "name": "Шарф кашемировый",
-      "category": "scarves",
-      "image": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=400",
-      "color": "серый",
-      "brand": "COS",
-      "layer": "accessory"
-    },
-    {
-      "id": "ac015",
-      "name": "Браслет кожаный",
-      "category": "jewelry",
-      "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400",
+      "id": "ac_wat_009_4567",
+      "name": "watches 009",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-9-237903",
       "color": "чёрный",
-      "brand": "Pandora",
-      "layer": "accessory"
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_wat_010_7777",
+      "name": "watches 010",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-10-369270",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_wat_011_4340",
+      "name": "watches 011",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-11-102207",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_wat_012_7174",
+      "name": "watches 012",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-12-770592",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_wat_013_1173",
+      "name": "watches 013",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-13-495383",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_wat_014_4607",
+      "name": "watches 014",
+      "category": "watches",
+      "image": "https://loremflickr.com/600/800/watches?lock=watches-14-746537",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_001_4702",
+      "name": "jewelry 001",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-1-237556",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_002_6684",
+      "name": "jewelry 002",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-2-379574",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_003_9103",
+      "name": "jewelry 003",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-3-461739",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_004_6694",
+      "name": "jewelry 004",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-4-984481",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_005_3762",
+      "name": "jewelry 005",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-5-403307",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_006_4478",
+      "name": "jewelry 006",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-6-581831",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_007_9865",
+      "name": "jewelry 007",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-7-703407",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_008_1892",
+      "name": "jewelry 008",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-8-744705",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_009_5958",
+      "name": "jewelry 009",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-9-827476",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_010_1981",
+      "name": "jewelry 010",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-10-678931",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_011_7208",
+      "name": "jewelry 011",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-11-558113",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_012_7343",
+      "name": "jewelry 012",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-12-696594",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_013_2658",
+      "name": "jewelry 013",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-13-575856",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_014_4658",
+      "name": "jewelry 014",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-14-698891",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_015_5467",
+      "name": "jewelry 015",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-15-982998",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_016_1285",
+      "name": "jewelry 016",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-16-559705",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_017_2330",
+      "name": "jewelry 017",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-17-963525",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_jew_018_4644",
+      "name": "jewelry 018",
+      "category": "jewelry",
+      "image": "https://loremflickr.com/600/800/jewelry?lock=jewelry-18-614803",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_001_8955",
+      "name": "hats 001",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-1-434325",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_002_2975",
+      "name": "hats 002",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-2-407634",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_003_4796",
+      "name": "hats 003",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-3-664350",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_004_5690",
+      "name": "hats 004",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-4-189030",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_005_5615",
+      "name": "hats 005",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-5-868006",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_006_1627",
+      "name": "hats 006",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-6-388029",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_007_3320",
+      "name": "hats 007",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-7-643895",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_008_8874",
+      "name": "hats 008",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-8-519257",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_009_5031",
+      "name": "hats 009",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-9-528228",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_010_3095",
+      "name": "hats 010",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-10-358834",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_011_4536",
+      "name": "hats 011",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-11-652356",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_012_8030",
+      "name": "hats 012",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-12-728408",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_013_9749",
+      "name": "hats 013",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-13-983508",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_014_7361",
+      "name": "hats 014",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-14-602158",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_015_4214",
+      "name": "hats 015",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-15-268465",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_016_4974",
+      "name": "hats 016",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-16-443928",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_017_7407",
+      "name": "hats 017",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-17-327120",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_018_6408",
+      "name": "hats 018",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-18-821294",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_019_6564",
+      "name": "hats 019",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-19-783936",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_020_9388",
+      "name": "hats 020",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-20-730143",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_021_5400",
+      "name": "hats 021",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-21-123067",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_022_4889",
+      "name": "hats 022",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-22-591182",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_hat_023_1753",
+      "name": "hats 023",
+      "category": "hats",
+      "image": "https://loremflickr.com/600/800/hats?lock=hats-23-880991",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_001_9263",
+      "name": "scarves 001",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-1-136620",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_002_3016",
+      "name": "scarves 002",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-2-465304",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_003_6789",
+      "name": "scarves 003",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-3-135649",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_004_2587",
+      "name": "scarves 004",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-4-263830",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_005_1410",
+      "name": "scarves 005",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-5-499992",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_006_4346",
+      "name": "scarves 006",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-6-137532",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_007_8782",
+      "name": "scarves 007",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-7-525638",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_008_8231",
+      "name": "scarves 008",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-8-209372",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_009_1597",
+      "name": "scarves 009",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-9-216362",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_010_7142",
+      "name": "scarves 010",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-10-967443",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_011_8482",
+      "name": "scarves 011",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-11-550997",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_012_1806",
+      "name": "scarves 012",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-12-914324",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_013_4262",
+      "name": "scarves 013",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-13-354132",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_014_2301",
+      "name": "scarves 014",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-14-568160",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_015_6311",
+      "name": "scarves 015",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-15-116490",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_016_4951",
+      "name": "scarves 016",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-16-261541",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_017_3460",
+      "name": "scarves 017",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-17-310867",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_018_6784",
+      "name": "scarves 018",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-18-231473",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_019_5088",
+      "name": "scarves 019",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-19-477154",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_020_5807",
+      "name": "scarves 020",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-20-144518",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_021_6401",
+      "name": "scarves 021",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-21-298146",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_022_9795",
+      "name": "scarves 022",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-22-305410",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_023_1661",
+      "name": "scarves 023",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-23-596390",
+      "color": "золотой",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "ac_sca_024_4251",
+      "name": "scarves 024",
+      "category": "scarves",
+      "image": "https://loremflickr.com/600/800/scarves?lock=scarves-24-454110",
+      "color": "чёрный",
+      "brand": "VizoLife"
     }
   ]
 }

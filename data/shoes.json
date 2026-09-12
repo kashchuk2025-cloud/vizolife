@@ -1,26 +1,2486 @@
 {
   "categories": [
-    {"id":"sneakers","name":"Кроссовки","icon":""},
-    {"id":"trainers","name":"Кеды","icon":""},
-    {"id":"heels","name":"Туфли","icon":""},
-    {"id":"loafers","name":"Лоферы","icon":""},
-    {"id":"boots","name":"Ботинки","icon":""},
-    {"id":"boots_high","name":"Сапоги","icon":""},
-    {"id":"sandals","name":"Босоножки","icon":""},
-    {"id":"other","name":"Другая обувь","icon":""}
+    {
+      "id": "кроссовки",
+      "name": "Кроссовки"
+    },
+    {
+      "id": "кеды",
+      "name": "Кеды"
+    },
+    {
+      "id": "туфли",
+      "name": "Туфли"
+    },
+    {
+      "id": "лоферы",
+      "name": "Лоферы"
+    },
+    {
+      "id": "ботинки",
+      "name": "Ботинки"
+    },
+    {
+      "id": "сандалии",
+      "name": "Сандалии"
+    },
+    {
+      "id": "сапоги",
+      "name": "Сапоги"
+    },
+    {
+      "id": "босоножки",
+      "name": "Босоножки"
+    }
   ],
   "items": [
-    {"id":"sh001","name":"Nike Air Force 1","category":"sneakers","image":"https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=400","color":"белый","brand":"Nike","sizes":["36","37","38","39","40"],"layer":"shoes"},
-    {"id":"sh002","name":"Adidas Stan Smith","category":"sneakers","image":"https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400","color":"белый","brand":"Adidas","sizes":["36","37","38","39","40"],"layer":"shoes"},
-    {"id":"sh003","name":"Кроссовки беговые","category":"sneakers","image":"https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400","color":"красный","brand":"Nike","sizes":["36","37","38","39","40"],"layer":"shoes"},
-    {"id":"sh004","name":"Converse Chuck Taylor","category":"trainers","image":"https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400","color":"чёрный","brand":"Converse","sizes":["36","37","38","39","40"],"layer":"shoes"},
-    {"id":"sh005","name":"Туфли на каблуке","category":"heels","image":"https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400","color":"чёрный","brand":"Jimmy Choo","sizes":["36","37","38","39"],"layer":"shoes"},
-    {"id":"sh006","name":"Лодочки классические","category":"heels","image":"https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=400","color":"бежевый","brand":"Manolo Blahnik","sizes":["36","37","38","39"],"layer":"shoes"},
-    {"id":"sh007","name":"Лоферы кожаные","category":"loafers","image":"https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=400","color":"чёрный","brand":"Gucci","sizes":["36","37","38","39","40"],"layer":"shoes"},
-    {"id":"sh008","name":"Ботинки челси","category":"boots","image":"https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=400","color":"чёрный","brand":"Dr. Martens","sizes":["36","37","38","39","40"],"layer":"shoes"},
-    {"id":"sh009","name":"Сапоги высокие","category":"boots_high","image":"https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400","color":"чёрный","brand":"Zara","sizes":["36","37","38","39","40"],"layer":"shoes"},
-    {"id":"sh010","name":"Босоножки на ремешках","category":"sandals","image":"https://images.unsplash.com/photo-1562273138-f46be61f1a93?w=400","color":"бежевый","brand":"Zara","sizes":["36","37","38","39"],"layer":"shoes"},
-    {"id":"sh011","name":"Сандалии плоские","category":"sandals","image":"https://images.unsplash.com/photo-1560343090-f0409e92791a?w=400","color":"коричневый","brand":"Birkenstock","sizes":["36","37","38","39","40"],"layer":"shoes"},
-    {"id":"sh012","name":"Мартинсы классические","category":"boots","image":"https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=400","color":"чёрный","brand":"Dr. Martens","sizes":["36","37","38","39","40"],"layer":"shoes"}
+    {
+      "id": "sh_кро_001_8746",
+      "name": "Кроссовки 001",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-1-582310",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_002_9831",
+      "name": "Кроссовки 002",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-2-155812",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_003_7814",
+      "name": "Кроссовки 003",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-3-870876",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_004_1707",
+      "name": "Кроссовки 004",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-4-311560",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_005_8164",
+      "name": "Кроссовки 005",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-5-940513",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_006_1974",
+      "name": "Кроссовки 006",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-6-592658",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_007_6021",
+      "name": "Кроссовки 007",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-7-691689",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_008_1738",
+      "name": "Кроссовки 008",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-8-982079",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_009_9072",
+      "name": "Кроссовки 009",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-9-912686",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_010_1228",
+      "name": "Кроссовки 010",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-10-694368",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_011_6305",
+      "name": "Кроссовки 011",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-11-628276",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_012_6766",
+      "name": "Кроссовки 012",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-12-519309",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_013_3697",
+      "name": "Кроссовки 013",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-13-503718",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_014_4128",
+      "name": "Кроссовки 014",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-14-298427",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_015_7474",
+      "name": "Кроссовки 015",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-15-393595",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_016_6878",
+      "name": "Кроссовки 016",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-16-134758",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_017_2266",
+      "name": "Кроссовки 017",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-17-342506",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_018_4464",
+      "name": "Кроссовки 018",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-18-600752",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_019_7093",
+      "name": "Кроссовки 019",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-19-396831",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_020_5565",
+      "name": "Кроссовки 020",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-20-649697",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_021_3815",
+      "name": "Кроссовки 021",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-21-843819",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_022_5810",
+      "name": "Кроссовки 022",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-22-971249",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_023_1419",
+      "name": "Кроссовки 023",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-23-300705",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_024_2239",
+      "name": "Кроссовки 024",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-24-761317",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_025_9470",
+      "name": "Кроссовки 025",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-25-380493",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_026_2274",
+      "name": "Кроссовки 026",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-26-601757",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_027_9444",
+      "name": "Кроссовки 027",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-27-789281",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_028_8732",
+      "name": "Кроссовки 028",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-28-370753",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_029_7638",
+      "name": "Кроссовки 029",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-29-259145",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_030_2638",
+      "name": "Кроссовки 030",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-30-239296",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_031_3973",
+      "name": "Кроссовки 031",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-31-510035",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_032_3515",
+      "name": "Кроссовки 032",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-32-176297",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_033_1951",
+      "name": "Кроссовки 033",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-33-240156",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_034_5528",
+      "name": "Кроссовки 034",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-34-460705",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кро_035_4965",
+      "name": "Кроссовки 035",
+      "category": "кроссовки",
+      "image": "https://loremflickr.com/600/800/кроссовки?lock=Кроссовки-35-503983",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_001_8064",
+      "name": "Кеды 001",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-1-169060",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_002_4811",
+      "name": "Кеды 002",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-2-970529",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_003_8950",
+      "name": "Кеды 003",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-3-910549",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_004_8838",
+      "name": "Кеды 004",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-4-290380",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_005_2983",
+      "name": "Кеды 005",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-5-750167",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_006_4201",
+      "name": "Кеды 006",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-6-636273",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_007_1141",
+      "name": "Кеды 007",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-7-341200",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_008_4809",
+      "name": "Кеды 008",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-8-842582",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_009_9244",
+      "name": "Кеды 009",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-9-431329",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_010_6598",
+      "name": "Кеды 010",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-10-916439",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_011_8786",
+      "name": "Кеды 011",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-11-336651",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_012_9181",
+      "name": "Кеды 012",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-12-735920",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_013_9647",
+      "name": "Кеды 013",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-13-151963",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_014_1667",
+      "name": "Кеды 014",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-14-666289",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_015_8174",
+      "name": "Кеды 015",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-15-445900",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_016_2725",
+      "name": "Кеды 016",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-16-292326",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_017_9194",
+      "name": "Кеды 017",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-17-658222",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_018_8694",
+      "name": "Кеды 018",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-18-929393",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_019_1625",
+      "name": "Кеды 019",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-19-497248",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_020_9469",
+      "name": "Кеды 020",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-20-519081",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_021_8562",
+      "name": "Кеды 021",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-21-935088",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_022_1390",
+      "name": "Кеды 022",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-22-597848",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_023_2318",
+      "name": "Кеды 023",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-23-414222",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_024_8152",
+      "name": "Кеды 024",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-24-772770",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_025_7605",
+      "name": "Кеды 025",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-25-523037",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_026_4943",
+      "name": "Кеды 026",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-26-256795",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_027_4543",
+      "name": "Кеды 027",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-27-498873",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_028_3472",
+      "name": "Кеды 028",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-28-598555",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_029_3209",
+      "name": "Кеды 029",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-29-528203",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_030_2344",
+      "name": "Кеды 030",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-30-818931",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_031_1227",
+      "name": "Кеды 031",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-31-836318",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_032_3192",
+      "name": "Кеды 032",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-32-965497",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_033_7188",
+      "name": "Кеды 033",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-33-992221",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_034_7836",
+      "name": "Кеды 034",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-34-868327",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_035_1006",
+      "name": "Кеды 035",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-35-262621",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_036_6235",
+      "name": "Кеды 036",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-36-946684",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_037_5708",
+      "name": "Кеды 037",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-37-198530",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_038_2379",
+      "name": "Кеды 038",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-38-947321",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_039_1590",
+      "name": "Кеды 039",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-39-520648",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_040_6880",
+      "name": "Кеды 040",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-40-295487",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_041_8466",
+      "name": "Кеды 041",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-41-827536",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_кед_042_4412",
+      "name": "Кеды 042",
+      "category": "кеды",
+      "image": "https://loremflickr.com/600/800/кеды?lock=Кеды-42-549061",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_001_7420",
+      "name": "Туфли 001",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-1-929002",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_002_9805",
+      "name": "Туфли 002",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-2-137772",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_003_2280",
+      "name": "Туфли 003",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-3-813667",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_004_8683",
+      "name": "Туфли 004",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-4-962244",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_005_3627",
+      "name": "Туфли 005",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-5-115221",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_006_3269",
+      "name": "Туфли 006",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-6-247106",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_007_8669",
+      "name": "Туфли 007",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-7-749412",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_008_5534",
+      "name": "Туфли 008",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-8-337233",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_009_9079",
+      "name": "Туфли 009",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-9-205710",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_010_4107",
+      "name": "Туфли 010",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-10-106200",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_011_1079",
+      "name": "Туфли 011",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-11-131761",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_012_5844",
+      "name": "Туфли 012",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-12-372360",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_013_1023",
+      "name": "Туфли 013",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-13-929745",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_014_6191",
+      "name": "Туфли 014",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-14-769051",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_015_1736",
+      "name": "Туфли 015",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-15-619169",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_016_6430",
+      "name": "Туфли 016",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-16-629360",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_017_3801",
+      "name": "Туфли 017",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-17-524848",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_018_5616",
+      "name": "Туфли 018",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-18-695881",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_019_7529",
+      "name": "Туфли 019",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-19-796878",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_020_6668",
+      "name": "Туфли 020",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-20-691791",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_021_8033",
+      "name": "Туфли 021",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-21-154679",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_022_9761",
+      "name": "Туфли 022",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-22-351627",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_023_1454",
+      "name": "Туфли 023",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-23-964553",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_024_5761",
+      "name": "Туфли 024",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-24-165573",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_025_3007",
+      "name": "Туфли 025",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-25-738302",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_026_4401",
+      "name": "Туфли 026",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-26-376213",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_027_7362",
+      "name": "Туфли 027",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-27-130912",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_028_1743",
+      "name": "Туфли 028",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-28-789770",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_029_7461",
+      "name": "Туфли 029",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-29-173121",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_030_4162",
+      "name": "Туфли 030",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-30-553411",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_031_8165",
+      "name": "Туфли 031",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-31-482650",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_032_3287",
+      "name": "Туфли 032",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-32-377503",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_033_1346",
+      "name": "Туфли 033",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-33-226701",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_034_1461",
+      "name": "Туфли 034",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-34-213322",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_035_8617",
+      "name": "Туфли 035",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-35-727830",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_036_4848",
+      "name": "Туфли 036",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-36-761730",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_037_8207",
+      "name": "Туфли 037",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-37-251713",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_038_1283",
+      "name": "Туфли 038",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-38-870523",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_039_1451",
+      "name": "Туфли 039",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-39-800678",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_040_3636",
+      "name": "Туфли 040",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-40-630485",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_041_7136",
+      "name": "Туфли 041",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-41-518206",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_042_4741",
+      "name": "Туфли 042",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-42-926580",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_043_8192",
+      "name": "Туфли 043",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-43-696832",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_туф_044_7873",
+      "name": "Туфли 044",
+      "category": "туфли",
+      "image": "https://loremflickr.com/600/800/туфли?lock=Туфли-44-681634",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_001_3815",
+      "name": "Лоферы 001",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-1-287677",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_002_7326",
+      "name": "Лоферы 002",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-2-578330",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_003_1085",
+      "name": "Лоферы 003",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-3-523401",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_004_3430",
+      "name": "Лоферы 004",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-4-946476",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_005_9348",
+      "name": "Лоферы 005",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-5-431458",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_006_5850",
+      "name": "Лоферы 006",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-6-279811",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_007_8885",
+      "name": "Лоферы 007",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-7-200037",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_008_2582",
+      "name": "Лоферы 008",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-8-196322",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_009_9975",
+      "name": "Лоферы 009",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-9-938966",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_010_6031",
+      "name": "Лоферы 010",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-10-202206",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_011_3635",
+      "name": "Лоферы 011",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-11-750121",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_012_4061",
+      "name": "Лоферы 012",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-12-149628",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_013_6140",
+      "name": "Лоферы 013",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-13-660853",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_014_8198",
+      "name": "Лоферы 014",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-14-859652",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_015_8075",
+      "name": "Лоферы 015",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-15-991617",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_016_8657",
+      "name": "Лоферы 016",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-16-144466",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_017_2970",
+      "name": "Лоферы 017",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-17-613687",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_018_4475",
+      "name": "Лоферы 018",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-18-702572",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_019_6336",
+      "name": "Лоферы 019",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-19-419310",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_020_7748",
+      "name": "Лоферы 020",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-20-262429",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_021_6978",
+      "name": "Лоферы 021",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-21-852868",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_022_7554",
+      "name": "Лоферы 022",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-22-705509",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_023_2180",
+      "name": "Лоферы 023",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-23-991570",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_024_4048",
+      "name": "Лоферы 024",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-24-255247",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_025_9553",
+      "name": "Лоферы 025",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-25-744739",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_026_2392",
+      "name": "Лоферы 026",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-26-800882",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_027_3663",
+      "name": "Лоферы 027",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-27-459518",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_028_8477",
+      "name": "Лоферы 028",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-28-331885",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_029_1970",
+      "name": "Лоферы 029",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-29-361095",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_030_3829",
+      "name": "Лоферы 030",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-30-162664",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_031_2702",
+      "name": "Лоферы 031",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-31-785900",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_032_5454",
+      "name": "Лоферы 032",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-32-373619",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_033_8598",
+      "name": "Лоферы 033",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-33-956914",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_034_5940",
+      "name": "Лоферы 034",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-34-559686",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_035_9856",
+      "name": "Лоферы 035",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-35-281162",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_036_3454",
+      "name": "Лоферы 036",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-36-423141",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_037_2774",
+      "name": "Лоферы 037",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-37-873015",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_038_3128",
+      "name": "Лоферы 038",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-38-884428",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_лоф_039_6036",
+      "name": "Лоферы 039",
+      "category": "лоферы",
+      "image": "https://loremflickr.com/600/800/лоферы?lock=Лоферы-39-390069",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_001_8214",
+      "name": "Ботинки 001",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-1-311271",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_002_5300",
+      "name": "Ботинки 002",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-2-464093",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_003_4879",
+      "name": "Ботинки 003",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-3-349618",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_004_6190",
+      "name": "Ботинки 004",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-4-504380",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_005_4389",
+      "name": "Ботинки 005",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-5-960887",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_006_4576",
+      "name": "Ботинки 006",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-6-930967",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_007_2190",
+      "name": "Ботинки 007",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-7-226148",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_008_9146",
+      "name": "Ботинки 008",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-8-180044",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_009_3580",
+      "name": "Ботинки 009",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-9-216866",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_010_7826",
+      "name": "Ботинки 010",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-10-621725",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_011_4602",
+      "name": "Ботинки 011",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-11-233241",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_012_6533",
+      "name": "Ботинки 012",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-12-484164",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_013_4542",
+      "name": "Ботинки 013",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-13-335796",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_014_6030",
+      "name": "Ботинки 014",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-14-116683",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_015_1135",
+      "name": "Ботинки 015",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-15-208353",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_016_9729",
+      "name": "Ботинки 016",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-16-235848",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_017_7099",
+      "name": "Ботинки 017",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-17-800272",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_018_2712",
+      "name": "Ботинки 018",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-18-751267",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_019_9198",
+      "name": "Ботинки 019",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-19-412233",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_020_7635",
+      "name": "Ботинки 020",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-20-529288",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_021_1960",
+      "name": "Ботинки 021",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-21-999649",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_022_7286",
+      "name": "Ботинки 022",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-22-691970",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_023_5763",
+      "name": "Ботинки 023",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-23-442516",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_024_7788",
+      "name": "Ботинки 024",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-24-320208",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_025_2379",
+      "name": "Ботинки 025",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-25-320071",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_026_5551",
+      "name": "Ботинки 026",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-26-993723",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_027_2605",
+      "name": "Ботинки 027",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-27-442378",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_028_2153",
+      "name": "Ботинки 028",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-28-251662",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_029_2824",
+      "name": "Ботинки 029",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-29-342703",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_030_7790",
+      "name": "Ботинки 030",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-30-919530",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_031_8865",
+      "name": "Ботинки 031",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-31-280016",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_032_1005",
+      "name": "Ботинки 032",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-32-132918",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_033_8147",
+      "name": "Ботинки 033",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-33-736762",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_034_7959",
+      "name": "Ботинки 034",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-34-773341",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_035_2042",
+      "name": "Ботинки 035",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-35-944368",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_036_7806",
+      "name": "Ботинки 036",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-36-168649",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_037_6866",
+      "name": "Ботинки 037",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-37-845061",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бот_038_4058",
+      "name": "Ботинки 038",
+      "category": "ботинки",
+      "image": "https://loremflickr.com/600/800/ботинки?lock=Ботинки-38-973250",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_001_9147",
+      "name": "Сандалии 001",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-1-123153",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_002_5389",
+      "name": "Сандалии 002",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-2-487467",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_003_7936",
+      "name": "Сандалии 003",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-3-993037",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_004_9837",
+      "name": "Сандалии 004",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-4-462926",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_005_2838",
+      "name": "Сандалии 005",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-5-104678",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_006_7866",
+      "name": "Сандалии 006",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-6-366001",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_007_5612",
+      "name": "Сандалии 007",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-7-943595",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_008_6992",
+      "name": "Сандалии 008",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-8-422113",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_009_9077",
+      "name": "Сандалии 009",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-9-458549",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_010_3731",
+      "name": "Сандалии 010",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-10-978230",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_011_8546",
+      "name": "Сандалии 011",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-11-593147",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_012_8434",
+      "name": "Сандалии 012",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-12-557867",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_013_7905",
+      "name": "Сандалии 013",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-13-435854",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_014_2673",
+      "name": "Сандалии 014",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-14-864618",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_015_5727",
+      "name": "Сандалии 015",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-15-388559",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_016_5152",
+      "name": "Сандалии 016",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-16-100972",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_017_3473",
+      "name": "Сандалии 017",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-17-190430",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_018_1108",
+      "name": "Сандалии 018",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-18-150054",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_019_7978",
+      "name": "Сандалии 019",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-19-545858",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_020_6814",
+      "name": "Сандалии 020",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-20-518958",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_021_8789",
+      "name": "Сандалии 021",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-21-866814",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_022_7507",
+      "name": "Сандалии 022",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-22-688455",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_023_3641",
+      "name": "Сандалии 023",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-23-270046",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_024_4597",
+      "name": "Сандалии 024",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-24-710410",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_025_4963",
+      "name": "Сандалии 025",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-25-520429",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_026_2190",
+      "name": "Сандалии 026",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-26-141360",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_027_9490",
+      "name": "Сандалии 027",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-27-782375",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_028_9638",
+      "name": "Сандалии 028",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-28-547502",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_029_1283",
+      "name": "Сандалии 029",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-29-599637",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_030_9411",
+      "name": "Сандалии 030",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-30-347026",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_031_2258",
+      "name": "Сандалии 031",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-31-818595",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_032_9404",
+      "name": "Сандалии 032",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-32-248517",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_033_5011",
+      "name": "Сандалии 033",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-33-838314",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_034_4076",
+      "name": "Сандалии 034",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-34-552934",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_035_4673",
+      "name": "Сандалии 035",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-35-472975",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_036_1991",
+      "name": "Сандалии 036",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-36-115633",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_037_8452",
+      "name": "Сандалии 037",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-37-122564",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_038_9870",
+      "name": "Сандалии 038",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-38-960132",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_039_7055",
+      "name": "Сандалии 039",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-39-887865",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сан_040_4408",
+      "name": "Сандалии 040",
+      "category": "сандалии",
+      "image": "https://loremflickr.com/600/800/сандалии?lock=Сандалии-40-190136",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_001_4110",
+      "name": "Сапоги 001",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-1-950401",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_002_5868",
+      "name": "Сапоги 002",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-2-244482",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_003_3778",
+      "name": "Сапоги 003",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-3-408718",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_004_8458",
+      "name": "Сапоги 004",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-4-460985",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_005_5366",
+      "name": "Сапоги 005",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-5-423948",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_006_4700",
+      "name": "Сапоги 006",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-6-369130",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_007_9091",
+      "name": "Сапоги 007",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-7-709690",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_008_1743",
+      "name": "Сапоги 008",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-8-189547",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_009_5001",
+      "name": "Сапоги 009",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-9-154938",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_010_2842",
+      "name": "Сапоги 010",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-10-498034",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_011_6450",
+      "name": "Сапоги 011",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-11-961991",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_012_2138",
+      "name": "Сапоги 012",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-12-860761",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_013_6313",
+      "name": "Сапоги 013",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-13-919638",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_014_6534",
+      "name": "Сапоги 014",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-14-496146",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_015_1615",
+      "name": "Сапоги 015",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-15-140367",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_016_9823",
+      "name": "Сапоги 016",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-16-646437",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_017_5265",
+      "name": "Сапоги 017",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-17-401959",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_018_8131",
+      "name": "Сапоги 018",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-18-228617",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_019_7896",
+      "name": "Сапоги 019",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-19-909740",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_020_9600",
+      "name": "Сапоги 020",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-20-294111",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_021_7049",
+      "name": "Сапоги 021",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-21-622643",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_022_9693",
+      "name": "Сапоги 022",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-22-714242",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_023_4095",
+      "name": "Сапоги 023",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-23-341852",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_024_5359",
+      "name": "Сапоги 024",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-24-271744",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_025_5592",
+      "name": "Сапоги 025",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-25-150512",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_026_3848",
+      "name": "Сапоги 026",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-26-693932",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_027_3496",
+      "name": "Сапоги 027",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-27-809860",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_028_5082",
+      "name": "Сапоги 028",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-28-915284",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_029_3381",
+      "name": "Сапоги 029",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-29-912282",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_030_2776",
+      "name": "Сапоги 030",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-30-220887",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_031_5877",
+      "name": "Сапоги 031",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-31-818943",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_032_8361",
+      "name": "Сапоги 032",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-32-708007",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_033_3857",
+      "name": "Сапоги 033",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-33-713616",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_034_4431",
+      "name": "Сапоги 034",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-34-141221",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_035_8756",
+      "name": "Сапоги 035",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-35-969832",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_036_4036",
+      "name": "Сапоги 036",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-36-797624",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_сап_037_3120",
+      "name": "Сапоги 037",
+      "category": "сапоги",
+      "image": "https://loremflickr.com/600/800/сапоги?lock=Сапоги-37-840990",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_001_2908",
+      "name": "Босоножки 001",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-1-362850",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_002_4260",
+      "name": "Босоножки 002",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-2-864502",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_003_5865",
+      "name": "Босоножки 003",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-3-416992",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_004_6066",
+      "name": "Босоножки 004",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-4-371697",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_005_8658",
+      "name": "Босоножки 005",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-5-482978",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_006_9913",
+      "name": "Босоножки 006",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-6-756073",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_007_2774",
+      "name": "Босоножки 007",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-7-616614",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_008_3694",
+      "name": "Босоножки 008",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-8-106163",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_009_3499",
+      "name": "Босоножки 009",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-9-587533",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_010_3604",
+      "name": "Босоножки 010",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-10-868259",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_011_3401",
+      "name": "Босоножки 011",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-11-330828",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_012_4126",
+      "name": "Босоножки 012",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-12-655008",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_013_6131",
+      "name": "Босоножки 013",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-13-994388",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_014_5189",
+      "name": "Босоножки 014",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-14-932708",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_015_9668",
+      "name": "Босоножки 015",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-15-389926",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_016_5919",
+      "name": "Босоножки 016",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-16-233356",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_017_5269",
+      "name": "Босоножки 017",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-17-847903",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_018_5482",
+      "name": "Босоножки 018",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-18-846579",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_019_8031",
+      "name": "Босоножки 019",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-19-123705",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_020_8855",
+      "name": "Босоножки 020",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-20-700313",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_021_9479",
+      "name": "Босоножки 021",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-21-662430",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_022_9101",
+      "name": "Босоножки 022",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-22-168470",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_023_5121",
+      "name": "Босоножки 023",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-23-974003",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_024_8979",
+      "name": "Босоножки 024",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-24-620849",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_025_5538",
+      "name": "Босоножки 025",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-25-869123",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_026_8366",
+      "name": "Босоножки 026",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-26-268643",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_027_1760",
+      "name": "Босоножки 027",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-27-675145",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_028_6505",
+      "name": "Босоножки 028",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-28-964321",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_029_9102",
+      "name": "Босоножки 029",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-29-884924",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_030_9313",
+      "name": "Босоножки 030",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-30-942729",
+      "color": "чёрный",
+      "brand": "VizoLife"
+    },
+    {
+      "id": "sh_бос_031_4729",
+      "name": "Босоножки 031",
+      "category": "босоножки",
+      "image": "https://loremflickr.com/600/800/босоножки?lock=Босоножки-31-234575",
+      "color": "бежевый",
+      "brand": "VizoLife"
+    }
   ]
 }

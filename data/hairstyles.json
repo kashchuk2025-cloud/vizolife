@@ -1,40 +1,124 @@
 {
   "categories": [
-    {"id":"classic","name":"Классические","icon":""},
-    {"id":"long","name":"Длинные","icon":""},
-    {"id":"bob","name":"Боб/Каре","icon":""},
-    {"id":"short","name":"Короткие","icon":""},
-    {"id":"updo","name":"Собранные","icon":""},
-    {"id":"textured","name":"Текстурированные","icon":""}
+    {
+      "id": "стрижки",
+      "name": "СТРИЖКИ"
+    }
   ],
-  "styles": [
-    {"id":"hs001","name":"Классика","category":"classic","image":"https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400"},
-    {"id":"hs002","name":"Длинные волосы","category":"long","image":"https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=400"},
-    {"id":"hs003","name":"Длинное каре","category":"bob","image":"https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400"},
-    {"id":"hs004","name":"Короткий боб","category":"bob","image":"https://images.unsplash.com/photo-1554519934-e3216b3fa4c6?w=400"},
-    {"id":"hs005","name":"Французский боб","category":"bob","image":"https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=400"},
-    {"id":"hs006","name":"Пикси","category":"short","image":"https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=400"},
-    {"id":"hs007","name":"Удлинённый боб","category":"bob","image":"https://images.unsplash.com/photo-1595476108010-b4d1f10d67b1?w=400"},
-    {"id":"hs008","name":"Каскад","category":"long","image":"https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=400"},
-    {"id":"hs009","name":"Локоны","category":"textured","image":"https://images.unsplash.com/photo-1522336572468-97b06e8ef183?w=400"},
-    {"id":"hs010","name":"Волны","category":"textured","image":"https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=400"},
-    {"id":"hs011","name":"Прямые волосы","category":"long","image":"https://images.unsplash.com/photo-1560869713-7d0a29430803?w=400"},
-    {"id":"hs012","name":"Высокий хвост","category":"updo","image":"https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400"},
-    {"id":"hs013","name":"Низкий хвост","category":"updo","image":"https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400"},
-    {"id":"hs014","name":"Пучок","category":"updo","image":"https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=400"},
-    {"id":"hs015","name":"Коса французская","category":"updo","image":"https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=400"}
-  ],
-  "colors": [
-    {"id":"c1","name":"Чёрный","hex":"#1a1a1a"},
-    {"id":"c2","name":"Тёмно-коричневый","hex":"#3d2817"},
-    {"id":"c3","name":"Каштановый","hex":"#6b4423"},
-    {"id":"c4","name":"Шоколадный","hex":"#5d3a1a"},
-    {"id":"c5","name":"Русый","hex":"#a89068"},
-    {"id":"c6","name":"Блонд","hex":"#d4b896"},
-    {"id":"c7","name":"Платиновый","hex":"#e8dcc8"},
-    {"id":"c8","name":"Рыжий","hex":"#c45c26"},
-    {"id":"c9","name":"Медный","hex":"#b87333"},
-    {"id":"c10","name":"Розовый","hex":"#e8a0bf"},
-    {"id":"c11","name":"Серебристый","hex":"#c0c0c0"}
+  "items": [
+    {
+      "id": "ha_001_1560",
+      "name": "СТРИЖКИ 001",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-1-923503"
+    },
+    {
+      "id": "ha_002_6619",
+      "name": "СТРИЖКИ 002",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-2-271738"
+    },
+    {
+      "id": "ha_003_2054",
+      "name": "СТРИЖКИ 003",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-3-354658"
+    },
+    {
+      "id": "ha_004_3094",
+      "name": "СТРИЖКИ 004",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-4-361327"
+    },
+    {
+      "id": "ha_005_4004",
+      "name": "СТРИЖКИ 005",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-5-671912"
+    },
+    {
+      "id": "ha_006_2858",
+      "name": "СТРИЖКИ 006",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-6-572221"
+    },
+    {
+      "id": "ha_007_8704",
+      "name": "СТРИЖКИ 007",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-7-784487"
+    },
+    {
+      "id": "ha_008_3912",
+      "name": "СТРИЖКИ 008",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-8-480830"
+    },
+    {
+      "id": "ha_009_7133",
+      "name": "СТРИЖКИ 009",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-9-452643"
+    },
+    {
+      "id": "ha_010_8276",
+      "name": "СТРИЖКИ 010",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-10-496315"
+    },
+    {
+      "id": "ha_011_6697",
+      "name": "СТРИЖКИ 011",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-11-987289"
+    },
+    {
+      "id": "ha_012_8908",
+      "name": "СТРИЖКИ 012",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-12-221283"
+    },
+    {
+      "id": "ha_013_4155",
+      "name": "СТРИЖКИ 013",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-13-100244"
+    },
+    {
+      "id": "ha_014_4826",
+      "name": "СТРИЖКИ 014",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-14-926233"
+    },
+    {
+      "id": "ha_015_1268",
+      "name": "СТРИЖКИ 015",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-15-166505"
+    },
+    {
+      "id": "ha_016_4928",
+      "name": "СТРИЖКИ 016",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-16-607080"
+    },
+    {
+      "id": "ha_017_7248",
+      "name": "СТРИЖКИ 017",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-17-561438"
+    },
+    {
+      "id": "ha_018_9198",
+      "name": "СТРИЖКИ 018",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-18-816877"
+    },
+    {
+      "id": "ha_019_8171",
+      "name": "СТРИЖКИ 019",
+      "category": "стрижки",
+      "image": "https://loremflickr.com/600/800/стрижки?lock=СТРИЖКИ-19-924789"
+    }
   ]
 }
