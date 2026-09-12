@@ -47,6 +47,456 @@
   ],
   "items": [
     {
+      "id": "jeans_001",
+      "name": "VizoLife Denim Джинсы чёрные скинни — 001",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_001.jpg",
+      "brand": "VizoLife Denim",
+      "color": "чёрные",
+      "style": "скинни"
+    },
+    {
+      "id": "jeans_002",
+      "name": "Maison Noir Джинсы синие прямые — 002",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_002.jpg",
+      "brand": "Maison Noir",
+      "color": "синие",
+      "style": "прямые"
+    },
+    {
+      "id": "jeans_003",
+      "name": "Levi Джинсы голубые широкие — 003",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_003.jpg",
+      "brand": "Levi",
+      "color": "голубые",
+      "style": "широкие"
+    },
+    {
+      "id": "jeans_004",
+      "name": "Mavi Джинсы тёмно-синие mom — 004",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_004.jpg",
+      "brand": "Mavi",
+      "color": "тёмно-синие",
+      "style": "mom"
+    },
+    {
+      "id": "jeans_005",
+      "name": "VizoLife Denim Джинсы светлые бойфренд — 005",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_005.jpg",
+      "brand": "VizoLife Denim",
+      "color": "светлые",
+      "style": "бойфренд"
+    },
+    {
+      "id": "jeans_006",
+      "name": "Maison Noir Джинсы графит клёш — 006",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_006.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "клёш"
+    },
+    {
+      "id": "jeans_007",
+      "name": "Levi Джинсы индиго рваные — 007",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_007.jpg",
+      "brand": "Levi",
+      "color": "индиго",
+      "style": "рваные"
+    },
+    {
+      "id": "jeans_008",
+      "name": "Mavi Джинсы чёрный деним высокая посадка — 008",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_008.jpg",
+      "brand": "Mavi",
+      "color": "чёрный деним",
+      "style": "высокая посадка"
+    },
+    {
+      "id": "jeans_009",
+      "name": "VizoLife Denim Джинсы чёрные палаццо — 009",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_009.jpg",
+      "brand": "VizoLife Denim",
+      "color": "чёрные",
+      "style": "палаццо"
+    },
+    {
+      "id": "jeans_010",
+      "name": "Maison Noir Джинсы синие straight — 010",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_010.jpg",
+      "brand": "Maison Noir",
+      "color": "синие",
+      "style": "straight"
+    },
+    {
+      "id": "jeans_011",
+      "name": "Levi Джинсы голубые скинни — 011",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_011.jpg",
+      "brand": "Levi",
+      "color": "голубые",
+      "style": "скинни"
+    },
+    {
+      "id": "jeans_012",
+      "name": "Mavi Джинсы тёмно-синие прямые — 012",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_012.jpg",
+      "brand": "Mavi",
+      "color": "тёмно-синие",
+      "style": "прямые"
+    },
+    {
+      "id": "jeans_013",
+      "name": "VizoLife Denim Джинсы светлые широкие — 013",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_013.jpg",
+      "brand": "VizoLife Denim",
+      "color": "светлые",
+      "style": "широкие"
+    },
+    {
+      "id": "jeans_014",
+      "name": "Maison Noir Джинсы графит mom — 014",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_014.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "mom"
+    },
+    {
+      "id": "jeans_015",
+      "name": "Levi Джинсы индиго бойфренд — 015",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_015.jpg",
+      "brand": "Levi",
+      "color": "индиго",
+      "style": "бойфренд"
+    },
+    {
+      "id": "jeans_016",
+      "name": "Mavi Джинсы чёрный деним клёш — 016",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_016.jpg",
+      "brand": "Mavi",
+      "color": "чёрный деним",
+      "style": "клёш"
+    },
+    {
+      "id": "jeans_017",
+      "name": "VizoLife Denim Джинсы чёрные рваные — 017",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_017.jpg",
+      "brand": "VizoLife Denim",
+      "color": "чёрные",
+      "style": "рваные"
+    },
+    {
+      "id": "jeans_018",
+      "name": "Maison Noir Джинсы синие высокая посадка — 018",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_018.jpg",
+      "brand": "Maison Noir",
+      "color": "синие",
+      "style": "высокая посадка"
+    },
+    {
+      "id": "jeans_019",
+      "name": "Levi Джинсы голубые палаццо — 019",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_019.jpg",
+      "brand": "Levi",
+      "color": "голубые",
+      "style": "палаццо"
+    },
+    {
+      "id": "jeans_020",
+      "name": "Mavi Джинсы тёмно-синие straight — 020",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_020.jpg",
+      "brand": "Mavi",
+      "color": "тёмно-синие",
+      "style": "straight"
+    },
+    {
+      "id": "jeans_021",
+      "name": "VizoLife Denim Джинсы светлые скинни — 021",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_021.jpg",
+      "brand": "VizoLife Denim",
+      "color": "светлые",
+      "style": "скинни"
+    },
+    {
+      "id": "jeans_022",
+      "name": "Maison Noir Джинсы графит прямые — 022",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_022.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "прямые"
+    },
+    {
+      "id": "jeans_023",
+      "name": "Levi Джинсы индиго широкие — 023",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_023.jpg",
+      "brand": "Levi",
+      "color": "индиго",
+      "style": "широкие"
+    },
+    {
+      "id": "jeans_024",
+      "name": "Mavi Джинсы чёрный деним mom — 024",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_024.jpg",
+      "brand": "Mavi",
+      "color": "чёрный деним",
+      "style": "mom"
+    },
+    {
+      "id": "jeans_025",
+      "name": "VizoLife Denim Джинсы чёрные бойфренд — 025",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_025.jpg",
+      "brand": "VizoLife Denim",
+      "color": "чёрные",
+      "style": "бойфренд"
+    },
+    {
+      "id": "jeans_026",
+      "name": "Maison Noir Джинсы синие клёш — 026",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_026.jpg",
+      "brand": "Maison Noir",
+      "color": "синие",
+      "style": "клёш"
+    },
+    {
+      "id": "jeans_027",
+      "name": "Levi Джинсы голубые рваные — 027",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_027.jpg",
+      "brand": "Levi",
+      "color": "голубые",
+      "style": "рваные"
+    },
+    {
+      "id": "jeans_028",
+      "name": "Mavi Джинсы тёмно-синие высокая посадка — 028",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_028.jpg",
+      "brand": "Mavi",
+      "color": "тёмно-синие",
+      "style": "высокая посадка"
+    },
+    {
+      "id": "jeans_029",
+      "name": "VizoLife Denim Джинсы светлые палаццо — 029",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_029.jpg",
+      "brand": "VizoLife Denim",
+      "color": "светлые",
+      "style": "палаццо"
+    },
+    {
+      "id": "jeans_030",
+      "name": "Maison Noir Джинсы графит straight — 030",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_030.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "straight"
+    },
+    {
+      "id": "jeans_031",
+      "name": "Levi Джинсы индиго скинни — 031",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_031.jpg",
+      "brand": "Levi",
+      "color": "индиго",
+      "style": "скинни"
+    },
+    {
+      "id": "jeans_032",
+      "name": "Mavi Джинсы чёрный деним прямые — 032",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_032.jpg",
+      "brand": "Mavi",
+      "color": "чёрный деним",
+      "style": "прямые"
+    },
+    {
+      "id": "jeans_033",
+      "name": "VizoLife Denim Джинсы чёрные широкие — 033",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_033.jpg",
+      "brand": "VizoLife Denim",
+      "color": "чёрные",
+      "style": "широкие"
+    },
+    {
+      "id": "jeans_034",
+      "name": "Maison Noir Джинсы синие mom — 034",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_034.jpg",
+      "brand": "Maison Noir",
+      "color": "синие",
+      "style": "mom"
+    },
+    {
+      "id": "jeans_035",
+      "name": "Levi Джинсы голубые бойфренд — 035",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_035.jpg",
+      "brand": "Levi",
+      "color": "голубые",
+      "style": "бойфренд"
+    },
+    {
+      "id": "jeans_036",
+      "name": "Mavi Джинсы тёмно-синие клёш — 036",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_036.jpg",
+      "brand": "Mavi",
+      "color": "тёмно-синие",
+      "style": "клёш"
+    },
+    {
+      "id": "jeans_037",
+      "name": "VizoLife Denim Джинсы светлые рваные — 037",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_037.jpg",
+      "brand": "VizoLife Denim",
+      "color": "светлые",
+      "style": "рваные"
+    },
+    {
+      "id": "jeans_038",
+      "name": "Maison Noir Джинсы графит высокая посадка — 038",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_038.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "высокая посадка"
+    },
+    {
+      "id": "jeans_039",
+      "name": "Levi Джинсы индиго палаццо — 039",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_039.jpg",
+      "brand": "Levi",
+      "color": "индиго",
+      "style": "палаццо"
+    },
+    {
+      "id": "jeans_040",
+      "name": "Mavi Джинсы чёрный деним straight — 040",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_040.jpg",
+      "brand": "Mavi",
+      "color": "чёрный деним",
+      "style": "straight"
+    },
+    {
+      "id": "jeans_041",
+      "name": "VizoLife Denim Джинсы чёрные скинни — 041",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_041.jpg",
+      "brand": "VizoLife Denim",
+      "color": "чёрные",
+      "style": "скинни"
+    },
+    {
+      "id": "jeans_042",
+      "name": "Maison Noir Джинсы синие прямые — 042",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_042.jpg",
+      "brand": "Maison Noir",
+      "color": "синие",
+      "style": "прямые"
+    },
+    {
+      "id": "jeans_043",
+      "name": "Levi Джинсы голубые широкие — 043",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_043.webp",
+      "brand": "Levi",
+      "color": "голубые",
+      "style": "широкие"
+    },
+    {
+      "id": "jeans_044",
+      "name": "Mavi Джинсы тёмно-синие mom — 044",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_044.webp",
+      "brand": "Mavi",
+      "color": "тёмно-синие",
+      "style": "mom"
+    },
+    {
+      "id": "jeans_045",
+      "name": "VizoLife Denim Джинсы светлые бойфренд — 045",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_045.webp",
+      "brand": "VizoLife Denim",
+      "color": "светлые",
+      "style": "бойфренд"
+    },
+    {
+      "id": "jeans_046",
+      "name": "Maison Noir Джинсы графит клёш — 046",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_046.webp",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "клёш"
+    },
+    {
+      "id": "jeans_047",
+      "name": "Levi Джинсы индиго рваные — 047",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_047.webp",
+      "brand": "Levi",
+      "color": "индиго",
+      "style": "рваные"
+    },
+    {
+      "id": "jeans_048",
+      "name": "Mavi Джинсы чёрный деним высокая посадка — 048",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_048.webp",
+      "brand": "Mavi",
+      "color": "чёрный деним",
+      "style": "высокая посадка"
+    },
+    {
+      "id": "jeans_049",
+      "name": "VizoLife Denim Джинсы чёрные палаццо — 049",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_049.webp",
+      "brand": "VizoLife Denim",
+      "color": "чёрные",
+      "style": "палаццо"
+    },
+    {
+      "id": "jeans_050",
+      "name": "Maison Noir Джинсы синие straight — 050",
+      "category": "джинсы",
+      "image": "images/clothes/jeans/jeans_050.webp",
+      "brand": "Maison Noir",
+      "color": "синие",
+      "style": "straight"
+    },
+    {
       "id": "pants_001",
       "name": "VizoLife Atelier Брюки чёрные классические — 001",
       "category": "брюки",
@@ -1350,270 +1800,6 @@
       "brand": "AURA",
       "color": "синее",
       "style": "бархат"
-    },
-    {
-      "id": "cl_джи_001_5048",
-      "name": "Джинсы 001",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-1-302820",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_002_3389",
-      "name": "Джинсы 002",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-2-805747",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_003_6986",
-      "name": "Джинсы 003",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-3-588974",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_004_4415",
-      "name": "Джинсы 004",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-4-108593",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_005_9221",
-      "name": "Джинсы 005",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-5-193722",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_006_2238",
-      "name": "Джинсы 006",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-6-546682",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_007_6091",
-      "name": "Джинсы 007",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-7-506822",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_008_6915",
-      "name": "Джинсы 008",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-8-796469",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_009_4074",
-      "name": "Джинсы 009",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-9-818431",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_010_7829",
-      "name": "Джинсы 010",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-10-883974",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_011_8066",
-      "name": "Джинсы 011",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-11-373431",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_012_8965",
-      "name": "Джинсы 012",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-12-759843",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_013_5475",
-      "name": "Джинсы 013",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-13-136575",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_014_2326",
-      "name": "Джинсы 014",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-14-503338",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_015_2857",
-      "name": "Джинсы 015",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-15-295660",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_016_9644",
-      "name": "Джинсы 016",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-16-476128",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_017_3276",
-      "name": "Джинсы 017",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-17-840169",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_018_5030",
-      "name": "Джинсы 018",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-18-402343",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_019_2843",
-      "name": "Джинсы 019",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-19-760337",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_020_7122",
-      "name": "Джинсы 020",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-20-823653",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_021_8860",
-      "name": "Джинсы 021",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-21-327336",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_022_8274",
-      "name": "Джинсы 022",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-22-135997",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_023_7924",
-      "name": "Джинсы 023",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-23-661767",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_024_4432",
-      "name": "Джинсы 024",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-24-288608",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_025_5017",
-      "name": "Джинсы 025",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-25-268298",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_026_4141",
-      "name": "Джинсы 026",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-26-870351",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_027_6831",
-      "name": "Джинсы 027",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-27-110510",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_028_3394",
-      "name": "Джинсы 028",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-28-229624",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_029_4556",
-      "name": "Джинсы 029",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-29-230848",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_030_6159",
-      "name": "Джинсы 030",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-30-390111",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_031_7088",
-      "name": "Джинсы 031",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-31-750631",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_032_3362",
-      "name": "Джинсы 032",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-32-273148",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_джи_033_3213",
-      "name": "Джинсы 033",
-      "category": "джинсы",
-      "image": "https://loremflickr.com/600/800/джинсы?lock=Джинсы-33-620424",
-      "color": "чёрный",
-      "brand": "VizoLife"
     },
     {
       "id": "cl_юбк_001_4979",
