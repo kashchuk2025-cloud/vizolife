@@ -1167,10 +1167,8 @@ document.getElementById('btn-back-to-look').addEventListener('click', ()=>{ show
 document.getElementById('my-look-card').addEventListener('click', ()=>{ navigate('mylook'); });
 
 /* ===================== TRY-ON LOGIC ===================== */
-const API_URLS = [
-  "https://5.181.253.139:8001",
-  "http://5.181.253.139:8001"
-];
+const API_URL = "https://api.vizolife.ru";
+const API_URLS = [API_URL];
 let lastResultUrl = null;
 
 function dataURLtoBlob(dataURL){
