@@ -1,435 +1,1370 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>VizoLife AI</title>
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0a0a;color:#fff;min-height:100vh;overflow-x:hidden}
-        .app{max-width:500px;margin:0 auto;padding-bottom:80px}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>VizoLife — Premium AI Fashion</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0B0B0D;
+  --bg2:#121214;
+  --card:#17171A;
+  --card2:#1E1E22;
+  --card3:#252529;
+  --border:rgba(255,255,255,0.07);
+  --border2:rgba(212,175,55,0.18);
+  --gold:#D4AF37;
+  --gold2:#C9A86A;
+  --gold3:#F5E6C8;
+  --gold-grad:linear-gradient(135deg,#D4AF37 0%,#F5E6C8 50%,#C9A86A 100%);
+  --text:#F2F2F3;
+  --text2:#A1A1AA;
+  --text3:#71717A;
+  --red:#FF4D5A;
+  --green:#22C55E;
+  --radius:20px;
+  --radius-sm:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{
+  font-family:'Manrope',-apple-system,BlinkMacSystemFont,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  min-height:100dvh;
+  overflow-x:hidden;
+  overscroll-behavior:none;
+}
+button{font-family:inherit}
+img{display:block;max-width:100%}
 
-        /* Header */
-        .header{background:#000;padding:15px;text-align:center;border-bottom:1px solid #1a1a1a;position:sticky;top:0;z-index:50}
-        .header h1{font-size:1.4em;letter-spacing:3px;color:#c9a84c}
-        .header p{font-size:0.7em;color:rgba(255,255,255,0.5);margin-top:2px;text-transform:uppercase;letter-spacing:1px}
+#app{max-width:480px;margin:0 auto;min-height:100vh;min-height:100dvh;position:relative;background:var(--bg);display:flex;flex-direction:column}
 
-        /* My Photo */
-        .my-photo-section{padding:15px}
-        .my-photo-box{background:#111;border-radius:12px;overflow:hidden;position:relative;aspect-ratio:3/4;cursor:pointer;border:2px dashed rgba(201,168,76,0.3)}
-        .my-photo-box img{width:100%;height:100%;object-fit:cover}
-        .my-photo-box .ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:rgba(255,255,255,0.4);font-size:0.9em}
-        .my-photo-box .ph span{font-size:2em;margin-bottom:8px}
+/* HEADER HERO */
+.hero{
+  position:relative;
+  padding:28px 20px 26px;
+  overflow:hidden;
+  background:radial-gradient(120% 120% at 20% 0%, rgba(212,175,55,0.18) 0%, rgba(212,175,55,0) 55%),
+             radial-gradient(100% 100% at 90% 20%, rgba(120,80,255,0.12) 0%, rgba(0,0,0,0) 60%),
+             linear-gradient(180deg,#16161A 0%,#0B0B0D 100%);
+  border-bottom:1px solid var(--border);
+}
+.hero-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+.hero-logo{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;letter-spacing:0.18em;color:var(--text)}
+.hero-logo span{color:var(--gold)}
+.hero-badge{font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold2);border:1px solid var(--border2);padding:6px 10px;border-radius:999px;background:rgba(212,175,55,0.08)}
+.hero-title{font-family:'Playfair Display',serif;font-size:32px;line-height:0.95;font-weight:700;margin-bottom:10px;letter-spacing:-0.02em}
+.hero-title i{font-style:normal;background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{font-size:13px;line-height:1.5;color:var(--text2);max-width:280px}
+.hero-visual{
+  position:absolute;right:-10px;top:10px;width:170px;height:220px;opacity:0.42;
+  background:url('https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=600&fit=crop') center/cover no-repeat;
+  mask-image:radial-gradient(100% 100% at 50% 30%, black 40%, transparent 75%);
+  -webkit-mask-image:radial-gradient(100% 100% at 50% 30%, black 40%, transparent 75%);
+  border-radius:24px;pointer-events:none;
+}
 
-        /* Look Constructor */
-        .look-section{padding:0 15px 15px}
-        .look-title{font-size:0.8em;color:#c9a84c;text-transform:uppercase;letter-spacing:2px;margin-bottom:10px;font-weight:700}
-        .look-items{display:flex;flex-direction:column;gap:6px}
-        .look-item{display:flex;align-items:center;gap:10px;background:#1a1a1a;border-radius:10px;padding:10px 12px;cursor:pointer;border:1px solid rgba(255,255,255,0.05)}
-        .look-item:active{background:#222}
-        .look-item .li-icon{font-size:1.2em;width:28px;text-align:center}
-        .look-item .li-name{flex:1;font-size:0.85em;color:rgba(255,255,255,0.9)}
-        .look-item .li-cat{font-size:0.7em;color:rgba(255,255,255,0.4)}
-        .look-item .li-rm{color:rgba(255,255,255,0.3);font-size:1.2em;padding:0 5px}
-        .look-item.empty{opacity:0.4}
-        .look-item.empty .li-name{color:rgba(255,255,255,0.4)}
+/* VIEWS */
+.view{display:none;flex:1;flex-direction:column;min-height:0}
+.view.active{display:flex}
+.view-scroll{flex:1;overflow-y:auto;overflow-x:hidden;padding:0 16px 24px;-webkit-overflow-scrolling:touch}
+.view-scroll::-webkit-scrollbar{display:none}
 
-        /* Tabs */
-        .tabs{display:flex;overflow-x:auto;background:#111;border-bottom:1px solid #1a1a1a;-webkit-overflow-scrolling:touch;position:sticky;top:60px;z-index:40}
-        .tabs::-webkit-scrollbar{display:none}
-        .tab{flex-shrink:0;padding:12px 10px;font-size:0.7em;font-weight:600;cursor:pointer;color:rgba(255,255,255,0.5);border-bottom:2px solid transparent;text-transform:uppercase;letter-spacing:0.5px;text-align:center;min-width:60px}
-        .tab.active{color:#c9a84c;border-bottom-color:#c9a84c}
+/* CARDS */
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  overflow:hidden;
+  position:relative;
+}
+.card-gold{border-color:var(--border2);background:linear-gradient(180deg,rgba(212,175,55,0.08) 0%, var(--card) 100%)}
+.section-label{
+  font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--text3);
+  margin:26px 4px 10px;font-weight:600;
+}
+.section-label:first-child{margin-top:18px}
 
-        /* Panels */
-        .panel{display:none;padding:15px}
-        .panel.active{display:block}
+/* MY PHOTO */
+.photo-card{display:flex;gap:14px;padding:14px;align-items:center}
+.photo-preview{
+  width:68px;height:84px;border-radius:16px;flex-shrink:0;
+  background:var(--card2);border:1px dashed rgba(255,255,255,0.18);
+  overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center;
+}
+.photo-preview.has{border-style:solid;border-color:var(--border2)}
+.photo-preview img{width:100%;height:100%;object-fit:cover}
+.photo-preview .ph{font-size:22px;color:var(--text3)}
+.photo-info{flex:1;min-width:0}
+.photo-title{font-size:14px;font-weight:600;margin-bottom:3px}
+.photo-sub{font-size:12px;color:var(--text2);line-height:1.4}
+.photo-actions{margin-top:10px;display:flex;gap:8px}
+.btn-sm{
+  font-size:12px;font-weight:600;padding:8px 14px;border-radius:999px;
+  border:1px solid var(--border);background:var(--card2);color:var(--text);
+  cursor:pointer;transition:.2s;
+}
+.btn-sm.gold{border-color:var(--border2);background:rgba(212,175,55,0.12);color:var(--gold3)}
+.btn-sm:active{transform:scale(0.97)}
 
-        /* Category pills */
-        .cat-pills{display:flex;overflow-x:auto;gap:8px;padding-bottom:12px;-webkit-overflow-scrolling:touch;margin-bottom:5px}
-        .cat-pills::-webkit-scrollbar{display:none}
-        .cat-pill{flex-shrink:0;background:#1a1a1a;border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:8px 16px;font-size:0.8em;color:rgba(255,255,255,0.7);cursor:pointer;white-space:nowrap}
-        .cat-pill.active{background:#c9a84c;color:#000;border-color:#c9a84c;font-weight:600}
+/* MY LOOK CARD */
+.look-card{display:flex;gap:14px;padding:14px;align-items:center;cursor:pointer}
+.look-preview{
+  width:68px;height:68px;border-radius:16px;background:var(--card2);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;position:relative;overflow:hidden;
+}
+.look-preview .lp-count{
+  position:absolute;bottom:-1px;right:-1px;background:var(--gold-grad);color:#000;
+  font-size:10px;font-weight:800;min-width:20px;height:20px;display:flex;align-items:center;justify-content:center;
+  border-radius:999px;padding:0 5px;
+}
+.look-info{flex:1;min-width:0}
+.look-title{font-size:14px;font-weight:600;display:flex;align-items:center;gap:6px}
+.look-sub{font-size:12px;color:var(--text2);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chip{font-size:10px;padding:4px 8px;border-radius:999px;background:var(--card2);border:1px solid var(--border);color:var(--text2)}
 
-        /* Grid */
-        .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-        .card{background:#1a1a1a;border-radius:12px;overflow:hidden;cursor:pointer;border:2px solid transparent;transition:border 0.2s}
-        .card:active{border-color:#c9a84c}
-        .card.in-look{border-color:#c9a84c;box-shadow:0 0 10px rgba(201,168,76,0.3)}
-        .card img{width:100%;height:130px;object-fit:cover;display:block}
-        .card .ci{padding:8px}
-        .card .cn{font-size:0.8em;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-        .card .cb{font-size:0.7em;color:rgba(255,255,255,0.5);margin-top:2px}
-        .card .cc{font-size:0.7em;color:#c9a84c;margin-top:3px}
+/* MAIN CATEGORIES LIST */
+.cat-list{display:flex;flex-direction:column;gap:10px}
+.cat-row{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 16px;background:var(--card);border:1px solid var(--border);
+  border-radius:var(--radius);cursor:pointer;transition:.2s;
+}
+.cat-row:active{transform:scale(0.99);border-color:var(--border2)}
+.cat-left{display:flex;align-items:center;gap:14px}
+.cat-icon{
+  width:44px;height:44px;border-radius:14px;display:flex;align-items:center;justify-content:center;
+  background:var(--card2);border:1px solid var(--border);font-size:18px;
+}
+.cat-row:hover .cat-icon{border-color:var(--border2)}
+.cat-name{font-size:14px;font-weight:600;letter-spacing:0.02em}
+.cat-desc{font-size:11px;color:var(--text3);margin-top:2px}
+.cat-right{display:flex;align-items:center;gap:10px;color:var(--text3)}
+.cat-count{font-size:11px;color:var(--text2);background:var(--card2);border:1px solid var(--border);padding:5px 9px;border-radius:999px}
+.cat-arrow{width:28px;height:28px;border-radius:999px;background:var(--card2);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:12px}
 
-        /* Hair color swatches */
-        .color-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
-        .color-swatch{width:36px;height:36px;border-radius:50%;cursor:pointer;border:3px solid transparent;transition:border 0.2s}
-        .color-swatch.active{border-color:#c9a84c;transform:scale(1.15)}
+/* HEADER NAV */
+.nav-header{
+  display:flex;align-items:center;gap:12px;padding:14px 16px;
+  position:sticky;top:0;z-index:20;background:rgba(11,11,13,0.92);backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+}
+.nav-back{
+  width:38px;height:38px;border-radius:999px;background:var(--card2);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0;
+}
+.nav-back:active{transform:scale(0.95)}
+.nav-titles{flex:1;min-width:0}
+.nav-title{font-size:15px;font-weight:700;letter-spacing:0.01em}
+.nav-sub{font-size:11px;color:var(--text2);margin-top:1px}
 
-        /* Try button */
-        .try-btn{position:fixed;bottom:0;left:0;right:0;background:#c9a84c;color:#000;border:none;padding:16px;font-size:1em;font-weight:700;cursor:pointer;text-transform:uppercase;letter-spacing:2px;z-index:100;max-width:500px;margin:0 auto;left:50%;transform:translateX(-50%)}
-        .try-btn:disabled{opacity:0.5;cursor:not-allowed}
+/* SUBCATEGORIES */
+.sub-list{display:flex;flex-direction:column;gap:8px;padding:16px}
+.sub-row{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:16px;background:var(--card);border:1px solid var(--border);
+  border-radius:16px;cursor:pointer;transition:.18s;
+}
+.sub-row:active{transform:scale(0.99)}
+.sub-row.active{border-color:var(--gold);background:linear-gradient(90deg,rgba(212,175,55,0.10),var(--card))}
+.sub-left{font-size:14px;font-weight:500}
+.sub-right{display:flex;align-items:center;gap:10px}
+.sub-count{font-size:11px;color:var(--text3)}
+.sub-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);opacity:0}
 
-        /* Loading / Result */
-        .overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.95);z-index:200;flex-direction:column;align-items:center;justify-content:center;padding:20px}
-        .overlay.show{display:flex}
-        .spinner{border:3px solid rgba(255,255,255,0.1);border-top:3px solid #c9a84c;border-radius:50%;width:50px;height:50px;animation:spin 1s linear infinite;margin-bottom:20px}
-        @keyframes spin{to{transform:rotate(360deg)}}
-        .overlay img{max-width:100%;max-height:70vh;border-radius:12px;margin-bottom:15px}
-        .overlay-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
-        .overlay-actions button{background:#1a1a1a;color:#fff;border:1px solid rgba(255,255,255,0.15);padding:12px 20px;border-radius:10px;font-size:0.9em;cursor:pointer}
-        .overlay-actions button.primary{background:#c9a84c;color:#000;border-color:#c9a84c}
+/* CATALOG GRID */
+.catalog-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px 0 20px}
+.product-card{
+  background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;
+  cursor:pointer;transition:.2s;position:relative;
+}
+.product-card:active{transform:scale(0.98)}
+.product-card.selected{border-color:var(--gold);box-shadow:0 0 0 1px rgba(212,175,55,0.3),0 8px 24px rgba(212,175,55,0.12)}
+.product-img{aspect-ratio:3/4;background:var(--card2);position:relative;overflow:hidden}
+.product-img img{width:100%;height:100%;object-fit:cover}
+.product-badge{
+  position:absolute;top:8px;left:8px;font-size:9px;letter-spacing:0.12em;text-transform:uppercase;
+  background:rgba(0,0,0,0.6);backdrop-filter:blur(8px);color:#fff;padding:5px 8px;border-radius:999px;
+  border:1px solid rgba(255,255,255,0.12);
+}
+.product-sel{
+  position:absolute;top:8px;right:8px;width:26px;height:26px;border-radius:999px;
+  background:rgba(0,0,0,0.55);border:1px solid rgba(255,255,255,0.15);
+  display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;
+}
+.product-card.selected .product-sel{background:var(--gold-grad);color:#000;border-color:var(--gold)}
+.product-info{padding:10px 11px 11px}
+.product-name{font-size:12px;font-weight:600;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.product-meta{font-size:10px;color:var(--text3);margin-top:3px;display:flex;gap:6px;flex-wrap:wrap}
+.product-meta span{white-space:nowrap}
+.product-price{font-size:11px;color:var(--gold3);margin-top:6px;font-weight:600}
 
-        /* My looks grid */
-        .looks-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-        .look-card{background:#1a1a1a;border-radius:10px;overflow:hidden}
-        .look-card img{width:100%;height:140px;object-fit:cover}
-        .look-card .ld{padding:8px;font-size:0.75em;color:rgba(255,255,255,0.6);text-align:center}
-        .look-card .la{display:flex;border-top:1px solid rgba(255,255,255,0.05)}
-        .look-card .la button{flex:1;padding:8px;background:none;border:none;color:rgba(255,255,255,0.6);font-size:0.75em;cursor:pointer}
-        .look-card .la button:active{background:rgba(255,255,255,0.05)}
+/* MY LOOK VIEW */
+.look-section{margin-top:18px}
+.look-section-title{
+  font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text3);font-weight:700;
+  display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;padding:0 2px;
+}
+.look-empty{
+  padding:18px;background:var(--card);border:1px dashed rgba(255,255,255,0.12);
+  border-radius:16px;text-align:center;color:var(--text3);font-size:12px;line-height:1.5;
+}
+.selected-list{display:flex;flex-direction:column;gap:8px}
+.selected-item{
+  display:flex;gap:12px;padding:10px;background:var(--card);border:1px solid var(--border);
+  border-radius:16px;align-items:center;
+}
+.selected-item img{width:52px;height:64px;border-radius:12px;object-fit:cover;background:var(--card2);flex-shrink:0}
+.selected-item-info{flex:1;min-width:0}
+.selected-item-name{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.selected-item-sub{font-size:11px;color:var(--text2);margin-top:2px}
+.selected-item-actions{display:flex;gap:6px;margin-left:auto}
+.icon-btn{
+  width:32px;height:32px;border-radius:999px;background:var(--card2);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:12px;
+}
+.icon-btn.danger{color:var(--red);border-color:rgba(255,77,90,0.18)}
 
-        .empty-state{text-align:center;padding:40px 20px;color:rgba(255,255,255,0.4);font-size:0.9em}
+/* BOTTOM BAR */
+.bottom-bar{
+  position:sticky;bottom:0;z-index:15;padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+  background:linear-gradient(180deg,rgba(11,11,13,0) 0%, rgba(11,11,13,0.92) 18%, var(--bg) 55%);
+  backdrop-filter:blur(12px);border-top:1px solid var(--border);
+}
+.btn-primary{
+  width:100%;padding:16px 20px;border-radius:999px;border:none;cursor:pointer;
+  background:var(--gold-grad);color:#000;font-size:14px;font-weight:800;letter-spacing:0.04em;
+  display:flex;align-items:center;justify-content:center;gap:8px;transition:.2s;
+  box-shadow:0 8px 24px rgba(212,175,55,0.25);
+}
+.btn-primary:active{transform:scale(0.98)}
+.btn-primary:disabled{opacity:0.45;cursor:not-allowed;transform:none;box-shadow:none}
+.btn-secondary{
+  width:100%;padding:14px;border-radius:999px;border:1px solid var(--border);
+  background:var(--card2);color:var(--text);font-size:13px;font-weight:600;cursor:pointer;
+}
+.btn-secondary:active{transform:scale(0.98)}
 
-        /* Toast */
-        .toast{position:fixed;bottom:90px;left:50%;transform:translateX(-50%);background:#c9a84c;color:#000;padding:10px 20px;border-radius:20px;font-size:0.85em;font-weight:600;z-index:300;opacity:0;transition:opacity 0.3s;pointer-events:none}
-        .toast.show{opacity:1}
-    </style>
+/* OVERLAYS */
+#global-loading{
+  position:fixed;inset:0;z-index:100;background:rgba(11,11,13,0.78);backdrop-filter:blur(14px);
+  display:none;align-items:center;justify-content:center;flex-direction:column;gap:16px;padding:24px;
+}
+#global-loading.show{display:flex}
+.spinner{
+  width:44px;height:44px;border-radius:50%;
+  border:3px solid rgba(255,255,255,0.12);border-top-color:var(--gold);
+  animation:spin 0.9s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-text{font-size:13px;color:var(--text2);text-align:center;line-height:1.5}
+.loading-sub{font-size:11px;color:var(--text3);margin-top:4px}
+
+#toast{
+  position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(120px);
+  background:var(--card2);border:1px solid var(--border);color:var(--text);
+  padding:12px 16px;border-radius:999px;font-size:12px;font-weight:600;
+  display:flex;align-items:center;gap:8px;z-index:120;opacity:0;transition:.35s cubic-bezier(.16,1,.3,1);
+  max-width:90vw;white-space:nowrap;pointer-events:none;
+}
+#toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+#toast.gold{border-color:var(--border2);background:rgba(212,175,55,0.12);color:var(--gold3)}
+
+#error-banner{
+  display:none;margin:12px 16px;padding:12px 14px;border-radius:14px;
+  background:rgba(255,77,90,0.10);border:1px solid rgba(255,77,90,0.18);color:#FF9AA2;
+  font-size:12px;line-height:1.5;
+}
+#error-banner.show{display:block}
+#error-banner b{color:#fff}
+
+/* RESULT */
+.result-img{border-radius:20px;overflow:hidden;background:var(--card2);border:1px solid var(--border);margin:12px 0}
+.result-img img{width:100%;height:auto;display:block}
+.result-actions{display:flex;gap:10px;margin-top:14px}
+
+/* SCROLLBAR FIX */
+*{scrollbar-width:none}
+*::-webkit-scrollbar{display:none}
+
+/* UTILS */
+.hidden{display:none !important}
+.muted{color:var(--text2)}
+.small{font-size:11px}
+.gold-text{color:var(--gold)}
+</style>
 </head>
 <body>
-<div class="app">
-    <div class="header">
-        <h1>VIZOLIFE</h1>
-        <p>AI-примерочная</p>
+<div id="app">
+  <!-- HERO -->
+  <div class="hero" id="hero">
+    <div class="hero-top">
+      <div class="hero-logo">VIZO<span>LIFE</span></div>
+      <div class="hero-badge">WOMEN ONLY</div>
     </div>
+    <div class="hero-title">Твоё <i>царство</i><br>моды</div>
+    <div class="hero-sub">Собери образ из реальных вещей и примерь его на своё фото с помощью AI</div>
+    <div class="hero-visual"></div>
+  </div>
 
-    <!-- МОЁ ФОТО -->
-    <div class="my-photo-section">
-        <div class="my-photo-box" id="myPhotoBox">
-            <div class="ph"><span>📷</span>Загрузи своё фото</div>
+  <!-- VIEW: HOME -->
+  <div class="view active" id="view-home">
+    <div class="view-scroll" id="home-scroll">
+      <div class="section-label">Твоя основа</div>
+
+      <div class="card photo-card" id="my-photo-card">
+        <div class="photo-preview" id="photo-preview"><span class="ph">📸</span></div>
+        <div class="photo-info">
+          <div class="photo-title">Моё фото</div>
+          <div class="photo-sub" id="photo-sub">Загрузи фото в полный рост на светлом фоне — так примерка будет точнее</div>
+          <div class="photo-actions">
+            <button class="btn-sm gold" id="btn-upload-photo">Загрузить</button>
+            <button class="btn-sm hidden" id="btn-remove-photo">Удалить</button>
+          </div>
         </div>
-        <input type="file" id="myPhotoInput" accept="image/*" style="display:none">
+      </div>
+
+      <div class="card look-card" id="my-look-card" style="margin-top:10px">
+        <div class="look-preview" id="look-preview-icon">👑<div class="lp-count hidden" id="look-count">0</div></div>
+        <div class="look-info">
+          <div class="look-title">Мой образ <span class="gold-text" id="look-count-text"></span></div>
+          <div class="look-sub" id="look-sub">Пока пусто — начни с одежды</div>
+          <div class="chips" id="look-chips"></div>
+        </div>
+        <div class="cat-arrow">→</div>
+      </div>
+
+      <div class="section-label">Конструктор</div>
+      <div class="cat-list" id="main-categories"></div>
+
+      <div style="height:24px"></div>
+      <div class="card" style="padding:14px 16px;display:flex;gap:12px;align-items:center">
+        <div style="width:36px;height:36px;border-radius:12px;background:rgba(212,175,55,0.12);border:1px solid var(--border2);display:flex;align-items:center;justify-content:center">💡</div>
+        <div style="flex:1">
+          <div style="font-size:12px;font-weight:600">Как собрать идеальный образ?</div>
+          <div style="font-size:11px;color:var(--text2);margin-top:2px;line-height:1.4">Фото → Брюки → Блузка → Туфли → Сумка → Волосы → Макияж → Мой образ → Примерить</div>
+        </div>
+      </div>
+      <div style="height:90px"></div>
     </div>
+  </div>
 
-    <!-- КОНСТРУКТОР ОБРАЗА -->
-    <div class="look-section">
-        <div class="look-title">📁 Мой образ</div>
-        <div class="look-items" id="lookItems"></div>
+  <!-- VIEW: CATEGORY LIST (e.g. ОДЕЖДА -> subcats) -->
+  <div class="view" id="view-category">
+    <div class="nav-header">
+      <div class="nav-back" id="back-from-category">←</div>
+      <div class="nav-titles">
+        <div class="nav-title" id="category-title">ОДЕЖДА</div>
+        <div class="nav-sub" id="category-sub">11 категорий</div>
+      </div>
     </div>
+    <div class="view-scroll"><div class="sub-list" id="subcategory-list"></div></div>
+  </div>
 
-    <!-- ВКЛАДКИ -->
-    <div class="tabs" id="tabs">
-        <div class="tab active" data-tab="clothes">Одежда</div>
-        <div class="tab" data-tab="lingerie">Бельё</div>
-        <div class="tab" data-tab="shoes">Обувь</div>
-        <div class="tab" data-tab="accessories">Аксессуары</div>
-        <div class="tab" data-tab="hair">Волосы</div>
-        <div class="tab" data-tab="makeup">Макияж</div>
-        <div class="tab" data-tab="mylooks">Образы</div>
+  <!-- VIEW: HAIR ROOT (СТРИЖКА / ЦВЕТ) -->
+  <div class="view" id="view-hair-root">
+    <div class="nav-header">
+      <div class="nav-back" id="back-from-hair-root">←</div>
+      <div class="nav-titles"><div class="nav-title">ВОЛОСЫ</div><div class="nav-sub">Выбери стрижку и цвет</div></div>
     </div>
+    <div class="view-scroll"><div class="cat-list" id="hair-root-list" style="margin-top:16px"></div></div>
+  </div>
 
-    <!-- ПАНЕЛИ -->
-    <div class="panel active" id="p-clothes"></div>
-    <div class="panel" id="p-lingerie"></div>
-    <div class="panel" id="p-shoes"></div>
-    <div class="panel" id="p-accessories"></div>
-    <div class="panel" id="p-hair"></div>
-    <div class="panel" id="p-makeup"></div>
-    <div class="panel" id="p-mylooks"></div>
+  <!-- VIEW: CATALOG -->
+  <div class="view" id="view-catalog">
+    <div class="nav-header">
+      <div class="nav-back" id="back-from-catalog">←</div>
+      <div class="nav-titles">
+        <div class="nav-title" id="catalog-title">Брюки</div>
+        <div class="nav-sub" id="catalog-sub">128 моделей</div>
+      </div>
+    </div>
+    <div id="error-banner"></div>
+    <div class="view-scroll"><div class="catalog-grid" id="catalog-grid"></div></div>
+  </div>
 
-    <button class="try-btn" id="tryBtn">✨ Примерить образ</button>
+  <!-- VIEW: MY LOOK -->
+  <div class="view" id="view-mylook">
+    <div class="nav-header">
+      <div class="nav-back" id="back-from-mylook">←</div>
+      <div class="nav-titles"><div class="nav-title">МОЙ ОБРАЗ</div><div class="nav-sub" id="mylook-sub">0 элементов</div></div>
+    </div>
+    <div class="view-scroll" id="mylook-scroll">
+      <div style="margin-top:16px" class="card photo-card">
+        <div class="photo-preview" id="mylook-photo-preview"><span class="ph">📸</span></div>
+        <div class="photo-info">
+          <div class="photo-title">Фото для примерки</div>
+          <div class="photo-sub" id="mylook-photo-sub">Загрузи фото чтобы увидеть результат</div>
+          <div class="photo-actions"><button class="btn-sm gold" id="btn-upload-photo-2">Загрузить фото</button></div>
+        </div>
+      </div>
+
+      <div id="mylook-content"></div>
+      <div style="height:20px"></div>
+    </div>
+    <div class="bottom-bar" id="mylook-bottom">
+      <button class="btn-primary" id="btn-tryon">✨ ПРИМЕРИТЬ ОБРАЗ</button>
+      <div style="text-align:center;margin-top:8px;font-size:10px;color:var(--text3);letter-spacing:0.08em">AI СОЗДАСТ ОДНО ЦЕЛЬНОЕ ФОТО</div>
+    </div>
+  </div>
+
+  <!-- VIEW: RESULT -->
+  <div class="view" id="view-result">
+    <div class="nav-header">
+      <div class="nav-back" id="back-from-result">←</div>
+      <div class="nav-titles"><div class="nav-title">Результат</div><div class="nav-sub">Твой новый образ</div></div>
+    </div>
+    <div class="view-scroll">
+      <div class="result-img" id="result-img-wrap"><div style="padding:40px;text-align:center;color:var(--text3)">Здесь появится результат</div></div>
+      <div class="result-actions">
+        <button class="btn-secondary" id="btn-save-look">💾 Сохранить</button>
+        <button class="btn-secondary" id="btn-share-look">↗ Поделиться</button>
+      </div>
+      <button class="btn-primary" style="margin-top:12px" id="btn-back-to-look">← Вернуться в образ</button>
+      <div style="height:24px"></div>
+    </div>
+  </div>
+
 </div>
 
-<!-- ОВЕРЛЕЙ РЕЗУЛЬТАТА -->
-<div class="overlay" id="overlay">
-    <div id="overlayContent"></div>
+<!-- GLOBAL LOADING -->
+<div id="global-loading">
+  <div class="spinner"></div>
+  <div class="loading-text" id="loading-text">AI создаёт твой образ...<div class="loading-sub" id="loading-sub">обычно 30–60 секунд</div></div>
 </div>
 
-<div class="toast" id="toast"></div>
+<div id="toast"></div>
+<input type="file" id="file-input" accept="image/*" style="display:none">
 
 <script>
-const API_URL = "http://5.181.253.139:8001";
-const DATA_URL = "https://kashchuk2025-cloud.github.io/vizolife/data/";
+/* ===================== TELEGRAM SAFE INIT + LIFECYCLE FIX ===================== */
+let tg = null;
+function initTelegram(){
+  try{
+    if(window.Telegram && window.Telegram.WebApp){
+      tg = window.Telegram.WebApp;
+      tg.ready();
+      tg.expand();
+      tg.enableClosingConfirmation && tg.enableClosingConfirmation();
+      try{ tg.setHeaderColor('#0B0B0D'); tg.setBackgroundColor('#0B0B0D'); }catch(e){}
+      document.documentElement.style.setProperty('--tg-viewport-height', (tg.viewportHeight||window.innerHeight)+'px');
+      tg.onEvent && tg.onEvent('viewportChanged', ()=>{ document.documentElement.style.setProperty('--tg-viewport-height', (tg.viewportHeight||window.innerHeight)+'px'); });
+    }
+  }catch(e){ console.warn('TG init fail', e); }
+}
+initTelegram();
 
-// Состояние образа
-let look = {
-    lingerie: null,
-    top: null,
-    bottom: null,
-    dress: null,
-    outer: null,
-    shoes: null,
-    accessory: null,
-    hairstyle: null,
-    hairColor: null,
-    makeup: null
+// Freeze fix: global state for abort & loading watchdog
+let currentAbort = null;
+let loadingWatchdog = null;
+let loadingStart = 0;
+
+function showLoading(text, sub){
+  const el = document.getElementById('global-loading');
+  document.getElementById('loading-text').childNodes[0].textContent = text||'AI создаёт твой образ...';
+  document.getElementById('loading-sub').textContent = sub||'обычно 30–60 секунд';
+  el.classList.add('show');
+  loadingStart = Date.now();
+  clearTimeout(loadingWatchdog);
+  // watchdog: auto hide after 90s with error
+  loadingWatchdog = setTimeout(()=>{
+    hideLoading();
+    showToast('Превышено время ожидания, попробуй ещё раз', true);
+    showError('AI не ответил вовремя. Проверь интернет и попробуй снова. Сервер может быть перегружен.');
+    enableAllButtons();
+  }, 90000);
+  // prevent scroll
+  document.body.style.overflow='hidden';
+}
+function hideLoading(){
+  const el = document.getElementById('global-loading');
+  el.classList.remove('show');
+  document.body.style.overflow='';
+  clearTimeout(loadingWatchdog);
+  loadingWatchdog=null;
+}
+function hideLoadingIfStuck(){
+  const el = document.getElementById('global-loading');
+  if(!el.classList.contains('show')) return;
+  const elapsed = Date.now() - loadingStart;
+  // if no active request and elapsed > 3s, hide
+  if(!currentAbort || elapsed>4000){
+    // if request still active but page became visible after long time, keep but ensure button enabled? we hide only if no abort
+    if(!currentAbort) hideLoading();
+  }
+}
+function enableAllButtons(){
+  document.querySelectorAll('button').forEach(b=>{ if(b.id!=='btn-tryon' || hasPhoto()) b.disabled=false; });
+  const tryBtn = document.getElementById('btn-tryon');
+  if(tryBtn) tryBtn.disabled = !canTryOn();
+}
+function showError(msg){
+  const b = document.getElementById('error-banner');
+  if(!b) return;
+  b.innerHTML = '<b>Ошибка:</b> '+msg;
+  b.classList.add('show');
+  setTimeout(()=>b.classList.remove('show'), 7000);
+}
+function showToast(msg, isError){
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = isError ? '' : 'gold';
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'), 2600);
+}
+
+// Lifecycle events - critical for freeze fix
+document.addEventListener('visibilitychange', ()=>{
+  if(document.visibilityState==='visible'){
+    initTelegram();
+    hideLoadingIfStuck();
+    enableAllButtons();
+    restoreStateUI();
+  }
+});
+window.addEventListener('pageshow', (e)=>{
+  // bfcache restore
+  initTelegram();
+  hideLoading();
+  if(currentAbort){ try{ currentAbort.abort(); }catch(e){} currentAbort=null; }
+  enableAllButtons();
+  restoreStateUI();
+  // force reflow to fix possible stuck overlay
+  document.body.style.display='none'; document.body.offsetHeight; document.body.style.display='';
+});
+window.addEventListener('pagehide', ()=>{
+  if(currentAbort){ try{ currentAbort.abort(); }catch(e){} }
+});
+window.addEventListener('focus', ()=>{
+  hideLoadingIfStuck();
+  enableAllButtons();
+});
+window.addEventListener('blur', ()=>{});
+window.addEventListener('error', (e)=>{
+  console.error('Global error', e.message);
+  hideLoading();
+  enableAllButtons();
+});
+window.addEventListener('unhandledrejection', (e)=>{
+  console.error('Unhandled', e.reason);
+  hideLoading();
+  enableAllButtons();
+});
+
+/* ===================== DATA LAYER - REAL FASHION ===================== */
+const IMG = {
+  dress: [
+    'https://images.unsplash.com/photo-1515372039744-b8f02a3c67ae?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1495385794356-15371f348c31?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&h=800&fit=crop'
+  ],
+  pants: [
+    'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&h=800&fit=crop'
+  ],
+  jeans: [
+    'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=800&fit=crop'
+  ],
+  skirt: [
+    'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=800&fit=crop'
+  ],
+  blouse: [
+    'https://images.unsplash.com/photo-1554568218-0f1715e72254?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&h=800&fit=crop'
+  ],
+  outer: [
+    'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600&h=800&fit=crop'
+  ],
+  shoes: [
+    'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop',
+    'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&h=600&fit=crop',
+    'https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=600&h=600&fit=crop',
+    'https://images.unsplash.com/photo-1560343090-f4df9e18b80e?w=600&h=600&fit=crop',
+    'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&h=600&fit=crop'
+  ],
+  bag: [
+    'https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&h=800&fit=crop'
+  ],
+  portrait: [
+    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1526510747491-58f928ec870f?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1485875437342-9b39470b3d95?w=600&h=800&fit=crop',
+    'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&h=800&fit=crop'
+  ]
 };
 
-let myPhoto = null;
-let myLooks = JSON.parse(localStorage.getItem('vl_looks')||'[]');
-let catalogs = {};
-let activeCat = {};
+const BRANDS = ['ZARA','Mango','Massimo Dutti','COS','LIME','12Storeez','Toteme','The Row'];
+const COLORS = ['Чёрный','Бежевый','Молочный','Шоколад','Графит','Пудра','Олива','Синий'];
+const SIZES = ['XS','S','M','L'];
 
-// СЛОИ
-const LAYERS = [
-    {key:'lingerie',icon:'🩲',name:'Бельё',empty:'Выбрать бельё'},
-    {key:'top',icon:'👚',name:'Верх',empty:'Выбрать верх'},
-    {key:'bottom',icon:'👖',name:'Низ',empty:'Выбрать низ'},
-    {key:'dress',icon:'',name:'Платье',empty:'Выбрать платье'},
-    {key:'outer',icon:'🧥',name:'Верхняя одежда',empty:'Выбрать верхнюю одежду'},
-    {key:'shoes',icon:'👟',name:'Обувь',empty:'Выбрать обувь'},
-    {key:'accessory',icon:'👜',name:'Аксессуар',empty:'Выбрать аксессуар'},
-    {key:'hairstyle',icon:'💇',name:'Причёска',empty:'Выбрать причёску'},
-    {key:'hairColor',icon:'🎨',name:'Цвет волос',empty:'Выбрать цвет'},
-    {key:'makeup',icon:'💄',name:'Макияж',empty:'Выбрать макияж'}
+function mkItem(id, name, cat, imgPool, extra={}){
+  const img = imgPool[id % imgPool.length];
+  return {
+    id: cat+'-'+id,
+    name,
+    category: cat,
+    brand: BRANDS[id % BRANDS.length],
+    color: COLORS[id % COLORS.length],
+    size: SIZES[id % SIZES.length],
+    image: img,
+    price: (Math.floor(Math.random()*12000)+3900),
+    ...extra
+  };
+}
+
+const CATALOG = {};
+// Одежда
+CATALOG['Брюки'] = Array.from({length:18},(_,i)=>mkItem(i, ['Прямые брюки палаццо','Брюки с высокой посадкой','Кюлоты из шерсти','Брюки-карго премиум','Классические брюки'][i%5]+' '+(i+1), 'Брюки', IMG.pants));
+CATALOG['Джинсы'] = Array.from({length:14},(_,i)=>mkItem(i, ['Straight джинсы','Wide-leg джинсы','Mom джинсы','Skinny джинсы'][i%4]+' '+(i+1), 'Джинсы', IMG.jeans));
+CATALOG['Юбки'] = Array.from({length:12},(_,i)=>mkItem(i, ['Миди юбка-карандаш','Плиссированная юбка','Юбка А-силуэта','Кожаная юбка'][i%4]+' '+(i+1), 'Юбки', IMG.skirt));
+CATALOG['Платья'] = Array.from({length:22},(_,i)=>mkItem(i, ['Платье-комбинация','Платье-рубашка','Миди платье с разрезом','Платье-футляр','Льняное платье'][i%5]+' '+(i+1), 'Платья', IMG.dress));
+CATALOG['Блузки'] = Array.from({length:15},(_,i)=>mkItem(i, ['Шёлковая блузка','Блузка с бантом','Блузка oversize'][i%3]+' '+(i+1), 'Блузки', IMG.blouse));
+CATALOG['Рубашки'] = Array.from({length:10},(_,i)=>mkItem(i, ['Белая рубашка','Рубашка из хлопка','Льняная рубашка'][i%3]+' '+(i+1), 'Рубашки', IMG.blouse));
+CATALOG['Футболки'] = Array.from({length:12},(_,i)=>mkItem(i, ['Базовая футболка','Лонгслив премиум','Топ с открытой спиной'][i%3]+' '+(i+1), 'Футболки', IMG.blouse));
+CATALOG['Свитеры'] = Array.from({length:11},(_,i)=>mkItem(i, ['Кашемировый свитер','Свитер с косами','Джемпер оверсайз'][i%3]+' '+(i+1), 'Свитеры', IMG.outer));
+CATALOG['Кардиганы'] = Array.from({length:8},(_,i)=>mkItem(i, ['Длинный кардиган','Кардиган на пуговицах'][i%2]+' '+(i+1), 'Кардиганы', IMG.outer));
+CATALOG['Жакеты'] = Array.from({length:13},(_,i)=>mkItem(i, ['Жакет оверсайз','Приталенный жакет','Твидовый жакет'][i%3]+' '+(i+1), 'Жакеты', IMG.outer));
+CATALOG['Верхняя одежда'] = Array.from({length:16},(_,i)=>mkItem(i, ['Тренч','Пальто-халат','Кожаная куртка','Пуховик премиум'][i%4]+' '+(i+1), 'Верхняя одежда', IMG.outer));
+
+// Обувь
+CATALOG['Кроссовки'] = Array.from({length:10},(_,i)=>mkItem(i, 'Кроссовки '+(i+1), 'Кроссовки', IMG.shoes));
+CATALOG['Кеды'] = Array.from({length:8},(_,i)=>mkItem(i, 'Кеды '+(i+1), 'Кеды', IMG.shoes));
+CATALOG['Туфли'] = Array.from({length:14},(_,i)=>mkItem(i, ['Лодочки','Туфли Мэри Джейн','Туфли с ремешком'][i%3]+' '+(i+1), 'Туфли', IMG.shoes));
+CATALOG['Лоферы'] = Array.from({length:7},(_,i)=>mkItem(i, 'Лоферы '+(i+1), 'Лоферы', IMG.shoes));
+CATALOG['Ботинки'] = Array.from({length:9},(_,i)=>mkItem(i, 'Ботинки '+(i+1), 'Ботинки', IMG.shoes));
+CATALOG['Сандалии'] = Array.from({length:8},(_,i)=>mkItem(i, 'Сандалии '+(i+1), 'Сандалии', IMG.shoes));
+CATALOG['Сапоги'] = Array.from({length:11},(_,i)=>mkItem(i, 'Сапоги '+(i+1), 'Сапоги', IMG.shoes));
+CATALOG['Босоножки'] = Array.from({length:6},(_,i)=>mkItem(i, 'Босоножки '+(i+1), 'Босоножки', IMG.shoes));
+
+// Аксессуары
+CATALOG['Сумки'] = Array.from({length:15},(_,i)=>mkItem(i, ['Тоте','Кросс-боди','Клатч','Шоппер'][i%4]+' '+(i+1), 'Сумки', IMG.bag));
+CATALOG['Рюкзаки'] = Array.from({length:6},(_,i)=>mkItem(i, 'Рюкзак '+(i+1), 'Рюкзаки', IMG.bag));
+CATALOG['Ремни'] = Array.from({length:7},(_,i)=>mkItem(i, 'Ремень '+(i+1), 'Ремни', IMG.bag));
+CATALOG['Очки'] = Array.from({length:8},(_,i)=>mkItem(i, 'Очки '+(i+1), 'Очки', IMG.bag));
+CATALOG['Часы'] = Array.from({length:6},(_,i)=>mkItem(i, 'Часы '+(i+1), 'Часы', IMG.bag));
+CATALOG['Украшения'] = Array.from({length:12},(_,i)=>mkItem(i, ['Серьги','Колье','Браслет'][i%3]+' '+(i+1), 'Украшения', IMG.bag));
+CATALOG['Головные уборы'] = Array.from({length:5},(_,i)=>mkItem(i, 'Головной убор '+(i+1), 'Головные уборы', IMG.bag));
+
+// Волосы - стрижки
+CATALOG['Стрижка:Классика'] = [{id:'cut-classic',name:'Классика',category:'Стрижка',brand:'VizoLife',color:'—',image:IMG.portrait[0]}];
+const hairCuts = ['Классика','Длинные волосы','Длинное каре','Короткий боб','Французский боб','Пикси','Удлинённый боб','Каскад','Локоны','Волны','Прямые волосы','Высокий хвост','Низкий хвост','Пучок'];
+CATALOG['СТРИЖКИ'] = hairCuts.map((n,i)=>mkItem(i,n,'Стрижка',IMG.portrait,{id:'haircut-'+i}));
+const hairColors = ['Чёрный','Тёмно-коричневый','Каштановый','Шоколадный','Русый','Блонд','Платиновый','Рыжий','Медный','Розовый','Серебристый','Другой'];
+CATALOG['ЦВЕТ ВОЛОС'] = hairColors.map((n,i)=>mkItem(i,n,'Цвет волос',IMG.portrait,{id:'haircolor-'+i,color:n}));
+
+// Макияж
+const makeupStyles = [
+  {id:'natural',name:'Natural',desc:'Лёгкий дневной'},
+  {id:'nude',name:'Nude',desc:'Нежный нюд'},
+  {id:'softglam',name:'Soft Glam',desc:'Мягкий гламур'},
+  {id:'evening',name:'Evening',desc:'Вечерний'},
+  {id:'classic',name:'Classic',desc:'Классический'},
+  {id:'bright',name:'Bright',desc:'Яркий акцент'}
+];
+CATALOG['МАКИЯЖ'] = makeupStyles.map((s,i)=>mkItem(i,s.name,'Макияж',IMG.portrait,{id:'makeup-'+s.id,desc:s.desc}));
+
+// Группы
+const GROUPS = {
+  'ОДЕЖДА': ['Брюки','Джинсы','Юбки','Платья','Блузки','Рубашки','Футболки','Свитеры','Кардиганы','Жакеты','Верхняя одежда'],
+  'ОБУВЬ': ['Кроссовки','Кеды','Туфли','Лоферы','Ботинки','Сандалии','Сапоги','Босоножки'],
+  'АКСЕССУАРЫ': ['Сумки','Рюкзаки','Ремни','Очки','Часы','Украшения','Головные уборы'],
+  'ВОЛОСЫ': ['СТРИЖКИ','ЦВЕТ ВОЛОС'],
+  'МАКИЯЖ': ['МАКИЯЖ']
+};
+
+const MAIN_CATEGORIES = [
+  {id:'ОДЕЖДА',icon:'👗',desc:'Брюки, платья, жакеты'},
+  {id:'ОБУВЬ',icon:'👠',desc:'Туфли, кроссовки, сапоги'},
+  {id:'АКСЕССУАРЫ',icon:'👜',desc:'Сумки, украшения, очки'},
+  {id:'ВОЛОСЫ',icon:'💇‍♀️',desc:'Стрижка и цвет'},
+  {id:'МАКИЯЖ',icon:'💄',desc:'6 премиальных стилей'}
 ];
 
-// Загрузка каталогов
-async function loadData(){
-    const files = ['clothes.json','lingerie.json','shoes.json','accessories.json','hairstyles.json','makeup.json'];
-    for(const f of files){
-        try{
-            const r = await fetch(DATA_URL + f);
-            catalogs[f.replace('.json','')] = await r.json();
-        }catch(e){console.log('Load error:',f,e)}
-    }
+/* ===================== STATE ===================== */
+let state = {
+  photoDataUrl: null,
+  photoFile: null,
+  look: {
+    clothes: {}, // key: subcategory -> item
+    shoes: null,
+    accessories: {}, // key: subcat -> item
+    hairCut: null,
+    hairColor: null,
+    makeup: null
+  },
+  history: [], // nav stack [{view, params}]
+  currentView: 'home',
+  currentCategory: null,
+  currentSubcategory: null
+};
+
+function saveState(){
+  try{
+    if(state.photoDataUrl) localStorage.setItem('vl_photo', state.photoDataUrl);
+    localStorage.setItem('vl_look', JSON.stringify(state.look));
+  }catch(e){ console.warn('save fail', e); }
+}
+function loadState(){
+  try{
+    const ph = localStorage.getItem('vl_photo');
+    if(ph) state.photoDataUrl = ph;
+    const lk = localStorage.getItem('vl_look');
+    if(lk) state.look = JSON.parse(lk);
+  }catch(e){}
+}
+loadState();
+
+function hasPhoto(){ return !!state.photoDataUrl; }
+function countLook(){
+  let c=0;
+  c+=Object.keys(state.look.clothes).length;
+  if(state.look.shoes) c++;
+  c+=Object.keys(state.look.accessories).length;
+  if(state.look.hairCut) c++;
+  if(state.look.hairColor) c++;
+  if(state.look.makeup) c++;
+  return c;
+}
+function canTryOn(){
+  return hasPhoto() && countLook()>0;
+}
+function getFirstGarment(){
+  // pick dress first, then top categories
+  const order = ['Платья','Блузки','Рубашки','Футболки','Жакеты','Свитеры','Брюки','Юбки','Джинсы','Верхняя одежда','Кардиганы'];
+  for(const k of order){ if(state.look.clothes[k]) return state.look.clothes[k]; }
+  const keys = Object.keys(state.look.clothes);
+  if(keys.length) return state.look.clothes[keys[0]];
+  return null;
 }
 
-// Рендер конструктора
-function renderLook(){
-    const el = document.getElementById('lookItems');
-    el.innerHTML = LAYERS.map(l=>{
-        const item = look[l.key];
-        const empty = !item;
-        return `<div class="look-item ${empty?'empty':''}" data-layer="${l.key}">
-            <div class="li-icon">${l.icon}</div>
-            <div style="flex:1"><div class="li-name">${empty?l.empty:item.name}</div>
-            ${item&&item.brand?'<div class="li-cat">'+item.brand+'</div>':''}</div>
-            ${!empty?'<div class="li-rm" data-rm="'+l.key+'">✕</div>':''}
+/* ===================== NAVIGATION ===================== */
+function navigate(view, params={}){
+  // push history
+  if(state.currentView) state.history.push({view:state.currentView, params:{cat:state.currentCategory, sub:state.currentSubcategory}});
+  if(state.history.length>20) state.history.shift();
+  showView(view, params);
+}
+function showView(view, params={}){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  const el = document.getElementById('view-'+view);
+  if(el) el.classList.add('active');
+  state.currentView = view;
+  if(params.category) state.currentCategory = params.category;
+  if(params.subcategory!==undefined) state.currentSubcategory = params.subcategory;
+
+  // hide hero only on home
+  document.getElementById('hero').style.display = view==='home' ? 'block' : 'none';
+
+  // render logic
+  if(view==='home') renderHome();
+  if(view==='category') renderSubcategories(params.category);
+  if(view==='hair-root') renderHairRoot();
+  if(view==='catalog') renderCatalog(params.subcategory);
+  if(view==='mylook') renderMyLook();
+  if(view==='result'){ /* result already */ }
+
+  window.scrollTo(0,0);
+  // for view-scroll containers reset scroll
+  document.querySelectorAll('.view-scroll').forEach(s=>s.scrollTop=0);
+}
+function goBack(){
+  if(state.history.length===0){ showView('home'); return; }
+  const prev = state.history.pop();
+  showView(prev.view, {category:prev.params.cat, subcategory:prev.params.sub});
+}
+
+/* ===================== RENDERING ===================== */
+function renderHome(){
+  // photo
+  const prev = document.getElementById('photo-preview');
+  const sub = document.getElementById('photo-sub');
+  const btnRemove = document.getElementById('btn-remove-photo');
+  const mylookPhotoPrev = document.getElementById('mylook-photo-preview');
+  if(hasPhoto()){
+    prev.innerHTML = `<img src="${state.photoDataUrl}">`;
+    prev.classList.add('has');
+    sub.textContent = 'Фото загружено — можно примерять';
+    btnRemove.classList.remove('hidden');
+    if(mylookPhotoPrev) mylookPhotoPrev.innerHTML = `<img src="${state.photoDataUrl}">`;
+  }else{
+    prev.innerHTML = '<span class="ph">📸</span>';
+    prev.classList.remove('has');
+    sub.textContent = 'Загрузи фото в полный рост на светлом фоне — так примерка будет точнее';
+    btnRemove.classList.add('hidden');
+    if(mylookPhotoPrev) mylookPhotoPrev.innerHTML = '<span class="ph">📸</span>';
+  }
+
+  // look card
+  const cnt = countLook();
+  document.getElementById('look-count').textContent = cnt;
+  document.getElementById('look-count').classList.toggle('hidden', cnt===0);
+  document.getElementById('look-count-text').textContent = cnt ? `• ${cnt}` : '';
+  const lookSub = document.getElementById('look-sub');
+  const chips = document.getElementById('look-chips');
+  if(cnt===0){
+    lookSub.textContent = 'Пока пусто — начни с одежды';
+    chips.innerHTML='';
+  }else{
+    const items=[];
+    Object.values(state.look.clothes).forEach(it=>items.push(it.name));
+    if(state.look.shoes) items.push(state.look.shoes.name);
+    Object.values(state.look.accessories).forEach(it=>items.push(it.name));
+    if(state.look.hairCut) items.push(state.look.hairCut.name);
+    if(state.look.hairColor) items.push(state.look.hairColor.name);
+    if(state.look.makeup) items.push(state.look.makeup.name);
+    lookSub.textContent = items.slice(0,3).join(' • ') + (items.length>3 ? ` +${items.length-3}` : '');
+    chips.innerHTML = items.slice(0,5).map(n=>`<span class="chip">${n}</span>`).join('');
+  }
+
+  // main categories
+  const cont = document.getElementById('main-categories');
+  cont.innerHTML = MAIN_CATEGORIES.map(cat=>{
+    const group = GROUPS[cat.id];
+    let total=0;
+    if(group) group.forEach(sub=>{ total+=(CATALOG[sub]?.length||0); });
+    const selectedCount = (()=> {
+      if(cat.id==='ОДЕЖДА') return Object.keys(state.look.clothes).length;
+      if(cat.id==='ОБУВЬ') return state.look.shoes?1:0;
+      if(cat.id==='АКСЕССУАРЫ') return Object.keys(state.look.accessories).length;
+      if(cat.id==='ВОЛОСЫ') return (state.look.hairCut?1:0)+(state.look.hairColor?1:0);
+      if(cat.id==='МАКИЯЖ') return state.look.makeup?1:0;
+      return 0;
+    })();
+    return `<div class="cat-row" data-cat="${cat.id}">
+      <div class="cat-left">
+        <div class="cat-icon">${cat.icon}</div>
+        <div><div class="cat-name">${cat.id} ${selectedCount?`• <span style="color:var(--gold)">${selectedCount}</span>`:''}</div><div class="cat-desc">${cat.desc} • ${total} моделей</div></div>
+      </div>
+      <div class="cat-right"><div class="cat-count">${total}</div><div class="cat-arrow">→</div></div>
+    </div>`;
+  }).join('');
+
+  cont.querySelectorAll('.cat-row').forEach(row=>{
+    row.addEventListener('click', ()=>{
+      const cat = row.dataset.cat;
+      if(cat==='ВОЛОСЫ'){ navigate('hair-root'); }
+      else if(cat==='МАКИЯЖ'){ navigate('catalog', {subcategory:'МАКИЯЖ'}); }
+      else{ navigate('category', {category:cat}); }
+    });
+  });
+}
+
+function renderSubcategories(category){
+  document.getElementById('category-title').textContent = category;
+  const subs = GROUPS[category]||[];
+  let total=0; subs.forEach(s=>total+=CATALOG[s]?.length||0);
+  document.getElementById('category-sub').textContent = `${subs.length} категорий • ${total} моделей`;
+  const list = document.getElementById('subcategory-list');
+  list.innerHTML = subs.map(sub=>{
+    const count = CATALOG[sub]?.length||0;
+    const isSelected = (()=> {
+      if(category==='ОДЕЖДА') return !!state.look.clothes[sub];
+      if(category==='ОБУВЬ') return state.look.shoes && state.look.shoes.category===sub;
+      if(category==='АКСЕССУАРЫ') return !!state.look.accessories[sub];
+      return false;
+    })();
+    return `<div class="sub-row ${isSelected?'active':''}" data-sub="${sub}">
+      <div class="sub-left">${sub} ${isSelected?'• <span style="color:var(--gold)">выбрано</span>':''}</div>
+      <div class="sub-right"><div class="sub-count">${count}</div><div style="font-size:12px">→</div></div>
+    </div>`;
+  }).join('');
+  list.querySelectorAll('.sub-row').forEach(r=>{
+    r.addEventListener('click', ()=>{
+      const sub = r.dataset.sub;
+      navigate('catalog', {subcategory:sub});
+    });
+  });
+}
+
+function renderHairRoot(){
+  const cont = document.getElementById('hair-root-list');
+  const cuts = CATALOG['СТРИЖКИ']?.length||0;
+  const colors = CATALOG['ЦВЕТ ВОЛОС']?.length||0;
+  cont.innerHTML = `
+    <div class="cat-row" data-hair="cut">
+      <div class="cat-left"><div class="cat-icon">✂️</div><div><div class="cat-name">Стрижка ${state.look.hairCut?`• <span style="color:var(--gold)">${state.look.hairCut.name}</span>`:''}</div><div class="cat-desc">14 форм • от пикси до локонов</div></div></div>
+      <div class="cat-right"><div class="cat-count">${cuts}</div><div class="cat-arrow">→</div></div>
+    </div>
+    <div class="cat-row" data-hair="color" style="margin-top:10px">
+      <div class="cat-left"><div class="cat-icon">🎨</div><div><div class="cat-name">Цвет волос ${state.look.hairColor?`• <span style="color:var(--gold)">${state.look.hairColor.name}</span>`:''}</div><div class="cat-desc">12 оттенков • от платины до медного</div></div></div>
+      <div class="cat-right"><div class="cat-count">${colors}</div><div class="cat-arrow">→</div></div>
+    </div>
+  `;
+  cont.querySelectorAll('.cat-row').forEach(r=>{
+    r.addEventListener('click', ()=>{
+      const type = r.dataset.hair;
+      if(type==='cut') navigate('catalog', {subcategory:'СТРИЖКИ'});
+      else navigate('catalog', {subcategory:'ЦВЕТ ВОЛОС'});
+    });
+  });
+}
+
+function renderCatalog(subcategory){
+  document.getElementById('catalog-title').textContent = subcategory;
+  const items = CATALOG[subcategory]||[];
+  document.getElementById('catalog-sub').textContent = `${items.length} моделей`;
+  const grid = document.getElementById('catalog-grid');
+  if(items.length===0){
+    grid.innerHTML = `<div style="grid-column:span 2;padding:40px;text-align:center;color:var(--text3)">Каталог пуст</div>`;
+    return;
+  }
+  grid.innerHTML = items.map(item=>{
+    // check if selected
+    let selected=false;
+    if(item.category==='Стрижка' || subcategory==='СТРИЖКИ') selected = state.look.hairCut && state.look.hairCut.id===item.id;
+    else if(item.category==='Цвет волос' || subcategory==='ЦВЕТ ВОЛОС') selected = state.look.hairColor && state.look.hairColor.id===item.id;
+    else if(item.category==='Макияж' || subcategory==='МАКИЯЖ') selected = state.look.makeup && state.look.makeup.id===item.id;
+    else if(GROUPS['ОДЕЖДА'].includes(item.category)) selected = state.look.clothes[item.category] && state.look.clothes[item.category].id===item.id;
+    else if(GROUPS['ОБУВЬ'].includes(item.category)) selected = state.look.shoes && state.look.shoes.id===item.id;
+    else if(GROUPS['АКСЕССУАРЫ'].includes(item.category)) selected = state.look.accessories[item.category] && state.look.accessories[item.category].id===item.id;
+
+    return `<div class="product-card ${selected?'selected':''}" data-id="${item.id}">
+      <div class="product-img">
+        <img src="${item.image}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400'">
+        <div class="product-badge">${item.category}</div>
+        <div class="product-sel">${selected?'✓':'+'}</div>
+      </div>
+      <div class="product-info">
+        <div class="product-name">${item.name}</div>
+        <div class="product-meta"><span>${item.color}</span><span>•</span><span>${item.brand}</span></div>
+        ${item.price?`<div class="product-price">${item.price.toLocaleString('ru-RU')} ₽</div>`:''}
+      </div>
+    </div>`;
+  }).join('');
+
+  grid.querySelectorAll('.product-card').forEach(card=>{
+    card.addEventListener('click', ()=>{
+      const id = card.dataset.id;
+      const item = items.find(it=>it.id===id);
+      if(!item) return;
+      selectItem(item, subcategory);
+      // re-render to show selected
+      renderCatalog(subcategory);
+      showToast(`Добавлено: ${item.name}`, false);
+      // haptic
+      try{ tg && tg.HapticFeedback && tg.HapticFeedback.impactOccurred('light'); }catch(e){}
+    });
+  });
+}
+
+function selectItem(item, subcategory){
+  // logic per type
+  if(subcategory==='СТРИЖКИ' || item.category==='Стрижка'){
+    state.look.hairCut = item;
+  }else if(subcategory==='ЦВЕТ ВОЛОС' || item.category==='Цвет волос'){
+    state.look.hairColor = item;
+  }else if(subcategory==='МАКИЯЖ' || item.category==='Макияж'){
+    state.look.makeup = item;
+  }else if(GROUPS['ОДЕЖДА'].includes(item.category)){
+    state.look.clothes[item.category] = item;
+  }else if(GROUPS['ОБУВЬ'].includes(item.category)){
+    state.look.shoes = item;
+  }else if(GROUPS['АКСЕССУАРЫ'].includes(item.category)){
+    state.look.accessories[item.category] = item;
+  }else{
+    // fallback
+    if(item.category in CATALOG && GROUPS['ОДЕЖДА'].includes(subcategory)){
+      state.look.clothes[subcategory]=item;
+    }
+  }
+  saveState();
+  renderHome(); // update counts
+}
+
+function removeItem(type, key){
+  if(type==='clothes') delete state.look.clothes[key];
+  if(type==='shoes') state.look.shoes=null;
+  if(type==='accessories') delete state.look.accessories[key];
+  if(type==='hairCut') state.look.hairCut=null;
+  if(type==='hairColor') state.look.hairColor=null;
+  if(type==='makeup') state.look.makeup=null;
+  saveState();
+  renderMyLook();
+  renderHome();
+  showToast('Удалено из образа');
+}
+
+function renderMyLook(){
+  const cnt = countLook();
+  document.getElementById('mylook-sub').textContent = `${cnt} ${plural(cnt,'элемент','элемента','элементов')}`;
+  const photoPrev = document.getElementById('mylook-photo-preview');
+  const photoSub = document.getElementById('mylook-photo-sub');
+  if(hasPhoto()){
+    photoPrev.innerHTML = `<img src="${state.photoDataUrl}">`;
+    photoSub.textContent = 'Фото готово для примерки';
+  }else{
+    photoPrev.innerHTML = '<span class="ph">📸</span>';
+    photoSub.textContent = 'Загрузи фото чтобы увидеть результат';
+  }
+
+  const cont = document.getElementById('mylook-content');
+  const sections = [];
+
+  // Одежда
+  const clothesKeys = Object.keys(state.look.clothes);
+  sections.push(`
+    <div class="look-section">
+      <div class="look-section-title"><span>Одежда</span><span style="color:var(--text2)">${clothesKeys.length}</span></div>
+      ${clothesKeys.length?`<div class="selected-list">${clothesKeys.map(k=>{
+        const it = state.look.clothes[k];
+        return `<div class="selected-item">
+          <img src="${it.image}"><div class="selected-item-info"><div class="selected-item-name">${it.name}</div><div class="selected-item-sub">${k} • ${it.color} • ${it.brand}</div></div>
+          <div class="selected-item-actions"><div class="icon-btn" data-action="replace" data-type="clothes" data-key="${k}">↻</div><div class="icon-btn danger" data-action="remove" data-type="clothes" data-key="${k}">✕</div></div>
         </div>`;
-    }).join('');
+      }).join('')}</div>`:`<div class="look-empty">Выбери брюки, платье или блузку<br><span style="color:var(--gold2);cursor:pointer" onclick="navigate('category',{category:'ОДЕЖДА'})">→ Перейти в одежду</span></div>`}
+    </div>
+  `);
 
-    el.querySelectorAll('[data-rm]').forEach(b=>{
-        b.addEventListener('click',e=>{e.stopPropagation();look[e.target.dataset.rm]=null;renderLook();renderAllPanels()});
+  // Обувь
+  sections.push(`
+    <div class="look-section">
+      <div class="look-section-title"><span>Обувь</span></div>
+      ${state.look.shoes?`<div class="selected-list"><div class="selected-item"><img src="${state.look.shoes.image}"><div class="selected-item-info"><div class="selected-item-name">${state.look.shoes.name}</div><div class="selected-item-sub">${state.look.shoes.category} • ${state.look.shoes.color}</div></div><div class="selected-item-actions"><div class="icon-btn" data-action="replace" data-type="shoes">↻</div><div class="icon-btn danger" data-action="remove" data-type="shoes">✕</div></div></div></div>`:`<div class="look-empty">Добавь туфли или кроссовки<br><span style="color:var(--gold2);cursor:pointer" onclick="navigate('category',{category:'ОБУВЬ'})">→ Перейти в обувь</span></div>`}
+    </div>
+  `);
+
+  // Аксессуары
+  const accKeys = Object.keys(state.look.accessories);
+  sections.push(`
+    <div class="look-section">
+      <div class="look-section-title"><span>Аксессуары</span><span style="color:var(--text2)">${accKeys.length}</span></div>
+      ${accKeys.length?`<div class="selected-list">${accKeys.map(k=>{
+        const it=state.look.accessories[k];
+        return `<div class="selected-item"><img src="${it.image}"><div class="selected-item-info"><div class="selected-item-name">${it.name}</div><div class="selected-item-sub">${k} • ${it.brand}</div></div><div class="selected-item-actions"><div class="icon-btn danger" data-action="remove" data-type="accessories" data-key="${k}">✕</div></div></div>`;
+      }).join('')}</div>`:`<div class="look-empty">Сумка, очки, украшения<br><span style="color:var(--gold2);cursor:pointer" onclick="navigate('category',{category:'АКСЕССУАРЫ'})">→ Перейти в аксессуары</span></div>`}
+    </div>
+  `);
+
+  // Волосы
+  sections.push(`
+    <div class="look-section">
+      <div class="look-section-title"><span>Волосы</span></div>
+      <div class="selected-list">
+        ${state.look.hairCut?`<div class="selected-item"><img src="${state.look.hairCut.image}"><div class="selected-item-info"><div class="selected-item-name">${state.look.hairCut.name}</div><div class="selected-item-sub">Стрижка</div></div><div class="selected-item-actions"><div class="icon-btn danger" data-action="remove" data-type="hairCut">✕</div></div></div>`:`<div class="look-empty" style="margin-bottom:8px">Стрижка не выбрана — <span style="color:var(--gold2);cursor:pointer" onclick="navigate('catalog',{subcategory:'СТРИЖКИ'})">выбрать</span></div>`}
+        ${state.look.hairColor?`<div class="selected-item"><img src="${state.look.hairColor.image}"><div class="selected-item-info"><div class="selected-item-name">${state.look.hairColor.name}</div><div class="selected-item-sub">Цвет волос</div></div><div class="selected-item-actions"><div class="icon-btn danger" data-action="remove" data-type="hairColor">✕</div></div></div>`:`<div class="look-empty">Цвет не выбран — <span style="color:var(--gold2);cursor:pointer" onclick="navigate('catalog',{subcategory:'ЦВЕТ ВОЛОС'})">выбрать</span></div>`}
+      </div>
+    </div>
+  `);
+
+  // Макияж
+  sections.push(`
+    <div class="look-section">
+      <div class="look-section-title"><span>Макияж</span></div>
+      ${state.look.makeup?`<div class="selected-list"><div class="selected-item"><img src="${state.look.makeup.image}"><div class="selected-item-info"><div class="selected-item-name">${state.look.makeup.name}</div><div class="selected-item-sub">${state.look.makeup.desc||'Макияж'}</div></div><div class="selected-item-actions"><div class="icon-btn danger" data-action="remove" data-type="makeup">✕</div></div></div></div>`:`<div class="look-empty">Выбери стиль макияжа<br><span style="color:var(--gold2);cursor:pointer" onclick="navigate('catalog',{subcategory:'МАКИЯЖ'})">→ Перейти в макияж</span></div>`}
+    </div>
+  `);
+
+  cont.innerHTML = sections.join('');
+
+  // bind remove/replace
+  cont.querySelectorAll('.icon-btn').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const action = btn.dataset.action;
+      const type = btn.dataset.type;
+      const key = btn.dataset.key;
+      if(action==='remove') removeItem(type,key);
+      if(action==='replace'){
+        if(type==='clothes') navigate('catalog',{subcategory:key});
+        if(type==='shoes') navigate('category',{category:'ОБУВЬ'});
+        if(type==='accessories') navigate('catalog',{subcategory:key});
+      }
     });
-    el.querySelectorAll('.look-item:not(.empty)').forEach(b=>{
-        b.addEventListener('click',()=>{
-            const layer = b.dataset.layer;
-            const tabMap = {lingerie:'lingerie',top:'clothes',bottom:'clothes',dress:'clothes',outer:'clothes',shoes:'shoes',accessory:'accessories',hairstyle:'hair',hairColor:'hair',makeup:'makeup'};
-            switchTab(tabMap[layer]||'clothes');
-        });
-    });
+  });
+
+  // try-on button state
+  const tryBtn = document.getElementById('btn-tryon');
+  tryBtn.disabled = !canTryOn();
+  tryBtn.textContent = !hasPhoto() ? 'Загрузи фото для примерки' : (cnt===0 ? 'Добавь вещи в образ' : `✨ ПРИМЕРИТЬ ОБРАЗ • ${cnt}`);
 }
 
-// Рендер панели каталога
-function renderCatalogPanel(panelId, catalogKey, layerKey){
-    const cat = catalogs[catalogKey];
-    if(!cat){document.getElementById(panelId).innerHTML='<div class="empty-state">Загрузка...</div>';return}
-
-    const cats = cat.categories||[];
-    const items = cat.items||cat.styles||[];
-    const colors = cat.colors||null;
-
-    if(!activeCat[catalogKey]) activeCat[catalogKey] = cats[0]?.id || '';
-
-    let html = '<div class="cat-pills" id="cp-'+catalogKey+'">';
-    if(cats.length) html += cats.map(c=>`<div class="cat-pill ${c.id===activeCat[catalogKey]?'active':''}" data-c="${c.id}">${c.icon||''} ${c.name}</div>`).join('');
-    html += '</div>';
-
-    const filtered = activeCat[catalogKey] ? items.filter(i=>i.category===activeCat[catalogKey]) : items;
-
-    html += '<div class="grid">';
-    filtered.forEach(item=>{
-        const inLook = look[layerKey]?.id===item.id || (layerKey==='hairColor'&&look[layerKey]===item.id);
-        html += `<div class="card ${inLook?'in-look':''}" data-id="${item.id}" data-layer="${layerKey}">
-            <img src="${item.image}" loading="lazy" alt="${item.name||item.id}">
-            <div class="ci">
-                <div class="cn">${item.name||item.id}</div>
-                ${item.brand?'<div class="cb">'+item.brand+'</div>':''}
-                ${item.color?'<div class="cc">'+item.color+'</div>':''}
-            </div>
-        </div>`;
-    });
-    html += '</div>';
-
-    if(colors){
-        html += '<div style="margin-top:15px"><div class="look-title">Цвет волос</div><div class="color-row">';
-        colors.forEach(c=>{
-            const active = look.hairColor===c.id;
-            html += `<div class="color-swatch ${active?'active':''}" style="background:${c.hex}" data-color="${c.id}" title="${c.name}"></div>`;
-        });
-        html += '</div></div>';
-    }
-
-    document.getElementById(panelId).innerHTML = html;
-
-    // Обработчики категорий
-    document.querySelectorAll('#cp-'+catalogKey+' .cat-pill').forEach(p=>{
-        p.addEventListener('click',()=>{activeCat[catalogKey]=p.dataset.c;renderCatalogPanel(panelId,catalogKey,layerKey)});
-    });
-
-    // Обработчики карточек
-    document.querySelectorAll('#'+panelId+' .card').forEach(c=>{
-        c.addEventListener('click',()=>{
-            const id = c.dataset.id;
-            const layer = c.dataset.layer;
-            const item = items.find(i=>i.id===id);
-            if(item){
-                look[layer] = item;
-                if(layer==='top'||layer==='bottom'||layer==='dress'){
-                    // Автоопределение слоя для одежды
-                    if(item.layer==='dress') look.dress=item;
-                    else if(item.layer==='top') look.top=item;
-                    else if(item.layer==='bottom') look.bottom=item;
-                    else if(item.layer==='outer') look.outer=item;
-                }
-                renderLook();
-                renderAllPanels();
-                toast('✓ Добавлено в образ');
-            }
-        });
-    });
-
-    // Обработчики цветов
-    document.querySelectorAll('#'+panelId+' .color-swatch').forEach(s=>{
-        s.addEventListener('click',()=>{
-            look.hairColor = s.dataset.color;
-            renderLook();
-            renderAllPanels();
-            toast('✓ Цвет выбран');
-        });
-    });
+function plural(n, one, few, many){
+  const mod10 = n%10, mod100=n%100;
+  if(mod10===1 && mod100!==11) return one;
+  if(mod10>=2 && mod10<=4 && (mod100<10 || mod100>=20)) return few;
+  return many;
 }
 
-function renderAllPanels(){
-    renderCatalogPanel('p-clothes','clothes','top');
-    renderCatalogPanel('p-lingerie','lingerie','lingerie');
-    renderCatalogPanel('p-shoes','shoes','shoes');
-    renderCatalogPanel('p-accessories','accessories','accessory');
-    renderCatalogPanel('p-hair','hairstyles','hairstyle');
-    renderCatalogPanel('p-makeup','makeup','makeup');
-    renderMyLooks();
+function restoreStateUI(){
+  renderHome();
+  if(state.currentView==='mylook') renderMyLook();
 }
 
-// Мои образы
-function renderMyLooks(){
-    const el = document.getElementById('p-mylooks');
-    if(!myLooks.length){el.innerHTML='<div class="empty-state">Пока нет сохранённых образов<br>Создай первый!</div>';return}
-    el.innerHTML = '<div class="looks-grid">'+myLooks.map((l,i)=>`
-        <div class="look-card">
-            <img src="${l.result}" loading="lazy">
-            <div class="ld">${l.date}</div>
-            <div class="la">
-                <button data-act="repeat" data-i="${i}">Повторить</button>
-                <button data-act="delete" data-i="${i}">Удалить</button>
-            </div>
-        </div>`).join('')+'</div>';
+/* ===================== PHOTO UPLOAD ===================== */
+const fileInput = document.getElementById('file-input');
+let photoUploadContext = null; // for future use
 
-    el.querySelectorAll('[data-act]').forEach(b=>{
-        b.addEventListener('click',()=>{
-            const i=+b.dataset.i, act=b.dataset.act;
-            if(act==='delete'){myLooks.splice(i,1);localStorage.setItem('vl_looks',JSON.stringify(myLooks));renderMyLooks()}
-            else if(act==='repeat'){look=myLooks[i].look||{};renderLook();renderAllPanels();toast('Образ восстановлен')}
-        });
-    });
+function openPhotoPicker(){
+  fileInput.click();
 }
-
-// Загрузка фото
-document.getElementById('myPhotoBox').addEventListener('click',()=>document.getElementById('myPhotoInput').click());
-document.getElementById('myPhotoInput').addEventListener('change',e=>{
-    const f=e.target.files[0];
-    if(f){
-        const r=new FileReader();
-        r.onload=ev=>{
-            myPhoto=ev.target.result;
-            document.getElementById('myPhotoBox').innerHTML='<img src="'+ev.target.result+'">';
-            toast('✓ Фото загружено');
-        };
-        r.readAsDataURL(f);
-    }
+fileInput.addEventListener('change', (e)=>{
+  const file = e.target.files[0];
+  if(!file) return;
+  if(file.size>10*1024*1024){ showToast('Фото слишком большое, выбери до 10МБ', true); return; }
+  const reader = new FileReader();
+  reader.onload = (ev)=>{
+    state.photoDataUrl = ev.target.result;
+    state.photoFile = file;
+    saveState();
+    renderHome();
+    renderMyLook();
+    showToast('Фото загружено');
+    try{ tg && tg.HapticFeedback && tg.HapticFeedback.notificationOccurred('success'); }catch(e){}
+  };
+  reader.readAsDataURL(file);
+  // reset input
+  e.target.value='';
 });
 
-// Вкладки
-function switchTab(tab){
-    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-    document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
-    document.querySelector(`.tab[data-tab="${tab}"]`).classList.add('active');
-    document.getElementById('p-'+tab).classList.add('active');
-    if(tab==='mylooks') renderMyLooks();
-}
-document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>switchTab(t.dataset.tab)));
-
-// Примерка
-document.getElementById('tryBtn').addEventListener('click',async()=>{
-    if(!myPhoto){toast('Сначала загрузи фото!');return}
-    const ov=document.getElementById('overlay');
-    ov.classList.add('show');
-    document.getElementById('overlayContent').innerHTML='<div class="spinner"></div><div style="color:rgba(255,255,255,0.6);font-size:0.9em">AI создаёт образ... 30-60 сек</div>';
-
-    try{
-        const fd=new FormData();
-        fd.append('person_image', dataURLtoBlob(myPhoto), 'person.png');
-
-        // Собираем все выбранные предметы
-        const selected = [];
-        Object.entries(look).forEach(([k,v])=>{
-            if(v&&v.image) selected.push(v.image);
-        });
-
-        // Для примерки одежды — берём верх или платье + низ
-        const garment = look.dress?.image || look.top?.image;
-        if(garment){
-            const r = await fetch(garment);
-            const blob = await r.blob();
-            fd.append('garment_image', blob, 'garment.png');
-        }
-
-        const r = await fetch(API_URL+'/try-on',{method:'POST',body:fd});
-        const d = await r.json();
-        if(d.success){
-            const saved = {result:d.result, date:new Date().toLocaleDateString('ru'), look:{...look}};
-            myLooks.unshift(saved);
-            localStorage.setItem('vl_looks',JSON.stringify(myLooks));
-            document.getElementById('overlayContent').innerHTML=`
-                <img src="${d.result}">
-                <div class="overlay-actions">
-                    <button class="primary" onclick="closeOverlay()">Закрыть</button>
-                    <button onclick="shareResult('${d.result}')">Поделиться</button>
-                </div>`;
-        } else throw new Error(d.detail||'Ошибка AI');
-    }catch(e){
-        document.getElementById('overlayContent').innerHTML=`
-            <div style="color:#e74c3c;text-align:center;padding:20px">
-                <div style="font-size:2em;margin-bottom:10px">⚠</div>
-                <div>${e.message}</div>
-                <button class="primary" style="margin-top:15px;background:#c9a84c;color:#000;border:none;padding:12px 24px;border-radius:10px" onclick="closeOverlay()">Закрыть</button>
-            </div>`;
-    }
+document.getElementById('btn-upload-photo').addEventListener('click', openPhotoPicker);
+document.getElementById('btn-upload-photo-2').addEventListener('click', openPhotoPicker);
+document.getElementById('my-photo-card').addEventListener('click', (e)=>{
+  if(e.target.closest('button')) return;
+  if(!hasPhoto()) openPhotoPicker();
+});
+document.getElementById('btn-remove-photo').addEventListener('click', ()=>{
+  state.photoDataUrl=null;
+  state.photoFile=null;
+  localStorage.removeItem('vl_photo');
+  renderHome();
+  renderMyLook();
+  showToast('Фото удалено');
 });
 
-function closeOverlay(){document.getElementById('overlay').classList.remove('show')}
-function shareResult(url){
-    if(navigator.share) navigator.share({title:'Мой образ VizoLife',url});
-    else{navigator.clipboard.writeText(url);toast('Ссылка скопирована')}
-}
+/* ===================== NAV BACK ===================== */
+document.getElementById('back-from-category').addEventListener('click', goBack);
+document.getElementById('back-from-hair-root').addEventListener('click', goBack);
+document.getElementById('back-from-catalog').addEventListener('click', goBack);
+document.getElementById('back-from-mylook').addEventListener('click', goBack);
+document.getElementById('back-from-result').addEventListener('click', ()=>{ showView('mylook'); });
+document.getElementById('btn-back-to-look').addEventListener('click', ()=>{ showView('mylook'); });
+document.getElementById('my-look-card').addEventListener('click', ()=>{ navigate('mylook'); });
+
+/* ===================== TRY-ON LOGIC ===================== */
+const API_URLS = [
+  "https://5.181.253.139:8001",
+  "http://5.181.253.139:8001"
+];
+let lastResultUrl = null;
 
 function dataURLtoBlob(dataURL){
-    const parts=dataURL.split(',');
-    const mime=parts[0].match(/:(.*?);/)[1];
-    const raw=atob(parts[1]);
-    const arr=new Uint8Array(raw.length);
-    for(let i=0;i<raw.length;i++) arr[i]=raw.charCodeAt(i);
-    return new Blob([arr],{type:mime});
+  const arr = dataURL.split(',');
+  const mime = arr[0].match(/:(.*?);/)[1];
+  const bstr = atob(arr[1]);
+  let n = bstr.length;
+  const u8arr = new Uint8Array(n);
+  while(n--) u8arr[n]=bstr.charCodeAt(n);
+  return new Blob([u8arr], {type:mime});
 }
 
-function toast(msg){
-    const t=document.getElementById('toast');
-    t.textContent=msg;t.classList.add('show');
-    setTimeout(()=>t.classList.remove('show'),2000);
+async function tryOn(){
+  if(!canTryOn()){
+    if(!hasPhoto()){ showToast('Сначала загрузи фото', true); openPhotoPicker(); return; }
+    showToast('Добавь хотя бы одну вещь', true);
+    return;
+  }
+  const garment = getFirstGarment();
+  if(!garment){
+    showToast('Выбери одежду', true);
+    navigate('category',{category:'ОДЕЖДА'});
+    return;
+  }
+
+  // prepare form
+  const form = new FormData();
+  try{
+    if(state.photoFile){
+      form.append('person_image', state.photoFile);
+    }else if(state.photoDataUrl){
+      const blob = dataURLtoBlob(state.photoDataUrl);
+      form.append('person_image', blob, 'person.jpg');
+    }else{
+      throw new Error('Нет фото');
+    }
+
+    // For garment, we need image blob. Since catalog images are remote URLs, we need to fetch them or use placeholder upload.
+    // We will try to fetch garment image as blob
+    showLoading('Готовим образ...','загружаем вещи');
+    let garmentBlob = null;
+    try{
+      const resp = await fetch(garment.image, {mode:'cors'});
+      garmentBlob = await resp.blob();
+    }catch(e){
+      console.warn('garment fetch cors fail, try no-cors proxy via canvas', e);
+      // fallback: create a small placeholder blob from dataURL? We'll try to use image element + canvas
+      try{
+        const img = new Image();
+        img.crossOrigin='anonymous';
+        await new Promise((res,rej)=>{ img.onload=res; img.onerror=rej; img.src=garment.image; });
+        const canvas = document.createElement('canvas');
+        canvas.width=img.width; canvas.height=img.height;
+        canvas.getContext('2d').drawImage(img,0,0);
+        const dataUrl = canvas.toDataURL('image/jpeg',0.85);
+        garmentBlob = dataURLtoBlob(dataUrl);
+      }catch(e2){
+        console.warn('canvas fail', e2);
+        // final fallback: use photo as garment? will error but we show
+        garmentBlob = dataURLtoBlob(state.photoDataUrl);
+      }
+    }
+    form.append('garment_image', garmentBlob, 'garment.jpg');
+
+    // additional metadata for future server
+    form.append('look_json', JSON.stringify({
+      clothes: state.look.clothes,
+      shoes: state.look.shoes,
+      accessories: state.look.accessories,
+      hairCut: state.look.hairCut?.name,
+      hairColor: state.look.hairColor?.name,
+      makeup: state.look.makeup?.name
+    }));
+
+  }catch(e){
+    hideLoading();
+    showError('Не удалось подготовить фото: '+e.message);
+    enableAllButtons();
+    return;
+  }
+
+  // try API URLs sequentially
+  let success=false;
+  let lastErr=null;
+  for(const base of API_URLS){
+    if(success) break;
+    const controller = new AbortController();
+    currentAbort = controller;
+    const timeout = setTimeout(()=>controller.abort(), 75000);
+    try{
+      showLoading('AI создаёт твой образ...','обычно 30–60 секунд, не закрывай окно');
+      document.getElementById('btn-tryon').disabled=true;
+      const resp = await fetch(base+'/try-on', {method:'POST', body:form, signal:controller.signal});
+      clearTimeout(timeout);
+      currentAbort=null;
+      if(!resp.ok){
+        const txt = await resp.text();
+        throw new Error(`Сервер ${resp.status}: ${txt.slice(0,200)}`);
+      }
+      const data = await resp.json();
+      if(data.success && data.result){
+        lastResultUrl = data.result;
+        success=true;
+        hideLoading();
+        showResult(data.result);
+        try{ tg && tg.HapticFeedback && tg.HapticFeedback.notificationOccurred('success'); }catch(e){}
+        break;
+      }else{
+        throw new Error(data.detail||'Ошибка AI');
+      }
+    }catch(err){
+      clearTimeout(timeout);
+      currentAbort=null;
+      lastErr=err;
+      console.warn('API fail', base, err);
+      if(err.name==='AbortError'){
+        lastErr = new Error('Превышено время ожидания');
+      }
+      // try next url
+      continue;
+    }
+  }
+
+  if(!success){
+    hideLoading();
+    enableAllButtons();
+    showError(lastErr ? lastErr.message : 'Не удалось связаться с AI сервером. Попробуй позже.');
+    showToast('Ошибка примерки', true);
+  }
 }
 
-// Init
-loadData().then(()=>{renderLook();renderAllPanels()});
+function showResult(url){
+  const wrap = document.getElementById('result-img-wrap');
+  wrap.innerHTML = `<img src="${url}" alt="result" loading="eager">`;
+  showView('result');
+}
+
+document.getElementById('btn-tryon').addEventListener('click', tryOn);
+
+// save/share
+document.getElementById('btn-save-look').addEventListener('click', ()=>{
+  if(!lastResultUrl) return;
+  try{
+    const looks = JSON.parse(localStorage.getItem('vl_saved_looks')||'[]');
+    looks.unshift({url:lastResultUrl, date:new Date().toLocaleDateString('ru-RU'), look:state.look});
+    localStorage.setItem('vl_saved_looks', JSON.stringify(looks.slice(0,50)));
+    showToast('Сохранено в Мои образы');
+  }catch(e){ showToast('Сохранено', false); }
+});
+document.getElementById('btn-share-look').addEventListener('click', async ()=>{
+  if(!lastResultUrl) return;
+  try{
+    if(navigator.share){
+      await navigator.share({title:'Мой образ VizoLife', text:'Смотри что получилось в VizoLife AI', url:lastResultUrl});
+    }else if(navigator.clipboard){
+      await navigator.clipboard.writeText(lastResultUrl);
+      showToast('Ссылка скопирована');
+    }else{
+      prompt('Скопируй ссылку:', lastResultUrl);
+    }
+  }catch(e){ console.warn(e); }
+});
+
+/* ===================== INIT ===================== */
+function init(){
+  renderHome();
+  // preload
+  // safety: ensure no loading stuck on start
+  hideLoading();
+  enableAllButtons();
+  // restore scroll
+  // handle hardware back in Telegram
+  try{
+    if(tg && tg.BackButton){
+      tg.BackButton.onClick(()=>{ if(state.history.length>0) goBack(); else tg.close && tg.close(); });
+      // show/hide based on history
+      const upd = ()=>{
+        if(state.history.length>0) tg.BackButton.show(); else tg.BackButton.hide();
+      };
+      const origNavigate = navigate;
+      const origShow = showView;
+      // monkey patch to update button
+      const origNav = navigate;
+      window.addEventListener('popstate', upd);
+      setInterval(upd, 500);
+    }
+  }catch(e){}
+}
+init();
+
+// Expose for debug
+window.VizoState = state;
+window.navigate = navigate;
+window.goBack = goBack;
 </script>
 </body>
 </html>
