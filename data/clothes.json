@@ -47,6 +47,456 @@
   ],
   "items": [
     {
+      "id": "blouse_001",
+      "name": "VizoLife Блузка чёрная шёлковая — 001",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_001.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "шёлковая"
+    },
+    {
+      "id": "blouse_002",
+      "name": "Maison Noir Блузка бежевая сатин — 002",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_002.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "сатин"
+    },
+    {
+      "id": "blouse_003",
+      "name": "Lune Блузка белая шифон — 003",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_003.jpg",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "шифон"
+    },
+    {
+      "id": "blouse_004",
+      "name": "VizoLife Блузка молочная офис — 004",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_004.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "офис"
+    },
+    {
+      "id": "blouse_005",
+      "name": "Maison Noir Блузка графит кружевная — 005",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_005.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "кружевная"
+    },
+    {
+      "id": "blouse_006",
+      "name": "Lune Блузка пудра бархат — 006",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_006.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "бархат"
+    },
+    {
+      "id": "blouse_007",
+      "name": "VizoLife Блузка чёрная с бантом — 007",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_007.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "с бантом"
+    },
+    {
+      "id": "blouse_008",
+      "name": "Maison Noir Блузка бежевая с рюшами — 008",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_008.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "с рюшами"
+    },
+    {
+      "id": "blouse_009",
+      "name": "Lune Блузка белая кроп — 009",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_009.jpg",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "кроп"
+    },
+    {
+      "id": "blouse_010",
+      "name": "VizoLife Блузка молочная минимал — 010",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_010.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "минимал"
+    },
+    {
+      "id": "blouse_011",
+      "name": "Maison Noir Блузка графит шёлковая — 011",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_011.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "шёлковая"
+    },
+    {
+      "id": "blouse_012",
+      "name": "Lune Блузка пудра сатин — 012",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_012.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "сатин"
+    },
+    {
+      "id": "blouse_013",
+      "name": "VizoLife Блузка чёрная шифон — 013",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_013.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "шифон"
+    },
+    {
+      "id": "blouse_014",
+      "name": "Maison Noir Блузка бежевая офис — 014",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_014.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "офис"
+    },
+    {
+      "id": "blouse_015",
+      "name": "Lune Блузка белая кружевная — 015",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_015.jpg",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "кружевная"
+    },
+    {
+      "id": "blouse_016",
+      "name": "VizoLife Блузка молочная бархат — 016",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_016.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "бархат"
+    },
+    {
+      "id": "blouse_017",
+      "name": "Maison Noir Блузка графит с бантом — 017",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_017.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "с бантом"
+    },
+    {
+      "id": "blouse_018",
+      "name": "Lune Блузка пудра с рюшами — 018",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_018.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "с рюшами"
+    },
+    {
+      "id": "blouse_019",
+      "name": "VizoLife Блузка чёрная кроп — 019",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_019.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "кроп"
+    },
+    {
+      "id": "blouse_020",
+      "name": "Maison Noir Блузка бежевая минимал — 020",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_020.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "минимал"
+    },
+    {
+      "id": "blouse_021",
+      "name": "Lune Блузка белая шёлковая — 021",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_021.jpg",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "шёлковая"
+    },
+    {
+      "id": "blouse_022",
+      "name": "VizoLife Блузка молочная сатин — 022",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_022.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "сатин"
+    },
+    {
+      "id": "blouse_023",
+      "name": "Maison Noir Блузка графит шифон — 023",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_023.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "шифон"
+    },
+    {
+      "id": "blouse_024",
+      "name": "Lune Блузка пудра офис — 024",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_024.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "офис"
+    },
+    {
+      "id": "blouse_025",
+      "name": "VizoLife Блузка чёрная кружевная — 025",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_025.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "кружевная"
+    },
+    {
+      "id": "blouse_026",
+      "name": "Maison Noir Блузка бежевая бархат — 026",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_026.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "бархат"
+    },
+    {
+      "id": "blouse_027",
+      "name": "Lune Блузка белая с бантом — 027",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_027.jpg",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "с бантом"
+    },
+    {
+      "id": "blouse_028",
+      "name": "VizoLife Блузка молочная с рюшами — 028",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_028.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "с рюшами"
+    },
+    {
+      "id": "blouse_029",
+      "name": "Maison Noir Блузка графит кроп — 029",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_029.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "кроп"
+    },
+    {
+      "id": "blouse_030",
+      "name": "Lune Блузка пудра минимал — 030",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_030.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "минимал"
+    },
+    {
+      "id": "blouse_031",
+      "name": "VizoLife Блузка чёрная шёлковая — 031",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_031.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "шёлковая"
+    },
+    {
+      "id": "blouse_032",
+      "name": "Maison Noir Блузка бежевая сатин — 032",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_032.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "сатин"
+    },
+    {
+      "id": "blouse_033",
+      "name": "Lune Блузка белая шифон — 033",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_033.jpg",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "шифон"
+    },
+    {
+      "id": "blouse_034",
+      "name": "VizoLife Блузка молочная офис — 034",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_034.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "офис"
+    },
+    {
+      "id": "blouse_035",
+      "name": "Maison Noir Блузка графит кружевная — 035",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_035.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "кружевная"
+    },
+    {
+      "id": "blouse_036",
+      "name": "Lune Блузка пудра бархат — 036",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_036.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "бархат"
+    },
+    {
+      "id": "blouse_037",
+      "name": "VizoLife Блузка чёрная с бантом — 037",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_037.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "с бантом"
+    },
+    {
+      "id": "blouse_038",
+      "name": "Maison Noir Блузка бежевая с рюшами — 038",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_038.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "с рюшами"
+    },
+    {
+      "id": "blouse_039",
+      "name": "Lune Блузка белая кроп — 039",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_039.jpg",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "кроп"
+    },
+    {
+      "id": "blouse_040",
+      "name": "VizoLife Блузка молочная минимал — 040",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_040.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "минимал"
+    },
+    {
+      "id": "blouse_041",
+      "name": "Maison Noir Блузка графит шёлковая — 041",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_041.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "шёлковая"
+    },
+    {
+      "id": "blouse_042",
+      "name": "Lune Блузка пудра сатин — 042",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_042.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "сатин"
+    },
+    {
+      "id": "blouse_043",
+      "name": "VizoLife Блузка чёрная шифон — 043",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_043.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "шифон"
+    },
+    {
+      "id": "blouse_044",
+      "name": "Maison Noir Блузка бежевая офис — 044",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_044.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "офис"
+    },
+    {
+      "id": "blouse_045",
+      "name": "Lune Блузка белая кружевная — 045",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_045.jpg",
+      "brand": "Lune",
+      "color": "белая",
+      "style": "кружевная"
+    },
+    {
+      "id": "blouse_046",
+      "name": "VizoLife Блузка молочная бархат — 046",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_046.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "бархат"
+    },
+    {
+      "id": "blouse_047",
+      "name": "Maison Noir Блузка графит с бантом — 047",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_047.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "с бантом"
+    },
+    {
+      "id": "blouse_048",
+      "name": "Lune Блузка пудра с рюшами — 048",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_048.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "с рюшами"
+    },
+    {
+      "id": "blouse_049",
+      "name": "VizoLife Блузка чёрная кроп — 049",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_049.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "кроп"
+    },
+    {
+      "id": "blouse_050",
+      "name": "Maison Noir Блузка бежевая минимал — 050",
+      "category": "блузки",
+      "image": "images/clothes/blouses/blouse_050.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "минимал"
+    },
+    {
       "id": "skirt_001",
       "name": "VizoLife Юбка чёрная мини — 001",
       "category": "юбки",
@@ -2250,350 +2700,6 @@
       "brand": "AURA",
       "color": "синее",
       "style": "бархат"
-    },
-    {
-      "id": "cl_блу_001_7692",
-      "name": "Блузки 001",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-1-442513",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_002_7161",
-      "name": "Блузки 002",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-2-728492",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_003_2705",
-      "name": "Блузки 003",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-3-114042",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_004_5640",
-      "name": "Блузки 004",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-4-805240",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_005_4449",
-      "name": "Блузки 005",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-5-885343",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_006_7939",
-      "name": "Блузки 006",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-6-477482",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_007_4366",
-      "name": "Блузки 007",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-7-667102",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_008_5707",
-      "name": "Блузки 008",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-8-826269",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_009_6361",
-      "name": "Блузки 009",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-9-296113",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_010_3510",
-      "name": "Блузки 010",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-10-828744",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_011_3843",
-      "name": "Блузки 011",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-11-896325",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_012_2745",
-      "name": "Блузки 012",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-12-845168",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_013_7738",
-      "name": "Блузки 013",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-13-176294",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_014_5324",
-      "name": "Блузки 014",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-14-487473",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_015_6179",
-      "name": "Блузки 015",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-15-881073",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_016_9012",
-      "name": "Блузки 016",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-16-540709",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_017_8479",
-      "name": "Блузки 017",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-17-388126",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_018_5267",
-      "name": "Блузки 018",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-18-878205",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_019_9988",
-      "name": "Блузки 019",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-19-914802",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_020_6201",
-      "name": "Блузки 020",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-20-539891",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_021_8394",
-      "name": "Блузки 021",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-21-612594",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_022_6141",
-      "name": "Блузки 022",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-22-951528",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_023_9329",
-      "name": "Блузки 023",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-23-873064",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_024_5407",
-      "name": "Блузки 024",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-24-174563",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_025_1157",
-      "name": "Блузки 025",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-25-238561",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_026_8882",
-      "name": "Блузки 026",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-26-815918",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_027_3268",
-      "name": "Блузки 027",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-27-144907",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_028_7182",
-      "name": "Блузки 028",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-28-848474",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_029_1667",
-      "name": "Блузки 029",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-29-513801",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_030_9370",
-      "name": "Блузки 030",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-30-736290",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_031_4269",
-      "name": "Блузки 031",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-31-184875",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_032_4161",
-      "name": "Блузки 032",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-32-139810",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_033_8382",
-      "name": "Блузки 033",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-33-374368",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_034_6406",
-      "name": "Блузки 034",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-34-562654",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_035_8699",
-      "name": "Блузки 035",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-35-463526",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_036_6828",
-      "name": "Блузки 036",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-36-666265",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_037_8372",
-      "name": "Блузки 037",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-37-560788",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_038_4883",
-      "name": "Блузки 038",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-38-192782",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_039_8630",
-      "name": "Блузки 039",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-39-902691",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_040_4090",
-      "name": "Блузки 040",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-40-243343",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_041_5623",
-      "name": "Блузки 041",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-41-136690",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_042_9501",
-      "name": "Блузки 042",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-42-272359",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_блу_043_2256",
-      "name": "Блузки 043",
-      "category": "блузки",
-      "image": "https://loremflickr.com/600/800/блузки?lock=Блузки-43-947167",
-      "color": "бежевый",
-      "brand": "VizoLife"
     },
     {
       "id": "cl_руб_001_8936",
