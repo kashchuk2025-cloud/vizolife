@@ -47,6 +47,231 @@
   ],
   "items": [
     {
+      "id": "shirt_001",
+      "name": "VizoLife Рубашка белая классическая — 001",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_001.jpg",
+      "brand": "VizoLife",
+      "color": "белая",
+      "style": "классическая"
+    },
+    {
+      "id": "shirt_002",
+      "name": "Maison Noir Рубашка чёрная офис — 002",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_002.jpg",
+      "brand": "Maison Noir",
+      "color": "чёрная",
+      "style": "офис"
+    },
+    {
+      "id": "shirt_003",
+      "name": "VizoLife Рубашка бежевая шёлковая — 003",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_003.jpg",
+      "brand": "VizoLife",
+      "color": "бежевая",
+      "style": "шёлковая"
+    },
+    {
+      "id": "shirt_004",
+      "name": "Maison Noir Рубашка молочная льняная — 004",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_004.jpg",
+      "brand": "Maison Noir",
+      "color": "молочная",
+      "style": "льняная"
+    },
+    {
+      "id": "shirt_005",
+      "name": "VizoLife Рубашка графит оверсайз — 005",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_005.jpg",
+      "brand": "VizoLife",
+      "color": "графит",
+      "style": "оверсайз"
+    },
+    {
+      "id": "shirt_006",
+      "name": "Maison Noir Рубашка белая приталенная — 006",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_006.jpg",
+      "brand": "Maison Noir",
+      "color": "белая",
+      "style": "приталенная"
+    },
+    {
+      "id": "shirt_007",
+      "name": "VizoLife Рубашка чёрная классическая — 007",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_007.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "классическая"
+    },
+    {
+      "id": "shirt_008",
+      "name": "Maison Noir Рубашка бежевая офис — 008",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_008.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "офис"
+    },
+    {
+      "id": "shirt_009",
+      "name": "VizoLife Рубашка молочная шёлковая — 009",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_009.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "шёлковая"
+    },
+    {
+      "id": "shirt_010",
+      "name": "Maison Noir Рубашка графит льняная — 010",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_010.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "льняная"
+    },
+    {
+      "id": "shirt_011",
+      "name": "VizoLife Рубашка белая оверсайз — 011",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_011.jpg",
+      "brand": "VizoLife",
+      "color": "белая",
+      "style": "оверсайз"
+    },
+    {
+      "id": "shirt_012",
+      "name": "Maison Noir Рубашка чёрная приталенная — 012",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_012.jpg",
+      "brand": "Maison Noir",
+      "color": "чёрная",
+      "style": "приталенная"
+    },
+    {
+      "id": "shirt_013",
+      "name": "VizoLife Рубашка бежевая классическая — 013",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_013.jpg",
+      "brand": "VizoLife",
+      "color": "бежевая",
+      "style": "классическая"
+    },
+    {
+      "id": "shirt_014",
+      "name": "Maison Noir Рубашка молочная офис — 014",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_014.jpg",
+      "brand": "Maison Noir",
+      "color": "молочная",
+      "style": "офис"
+    },
+    {
+      "id": "shirt_015",
+      "name": "VizoLife Рубашка графит шёлковая — 015",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_015.jpg",
+      "brand": "VizoLife",
+      "color": "графит",
+      "style": "шёлковая"
+    },
+    {
+      "id": "shirt_016",
+      "name": "Maison Noir Рубашка белая льняная — 016",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_016.jpg",
+      "brand": "Maison Noir",
+      "color": "белая",
+      "style": "льняная"
+    },
+    {
+      "id": "shirt_017",
+      "name": "VizoLife Рубашка чёрная оверсайз — 017",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_017.jpg",
+      "brand": "VizoLife",
+      "color": "чёрная",
+      "style": "оверсайз"
+    },
+    {
+      "id": "shirt_018",
+      "name": "Maison Noir Рубашка бежевая приталенная — 018",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_018.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевая",
+      "style": "приталенная"
+    },
+    {
+      "id": "shirt_019",
+      "name": "VizoLife Рубашка молочная классическая — 019",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_019.jpg",
+      "brand": "VizoLife",
+      "color": "молочная",
+      "style": "классическая"
+    },
+    {
+      "id": "shirt_020",
+      "name": "Maison Noir Рубашка графит офис — 020",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_020.webp",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "офис"
+    },
+    {
+      "id": "shirt_021",
+      "name": "VizoLife Рубашка белая шёлковая — 021",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_021.webp",
+      "brand": "VizoLife",
+      "color": "белая",
+      "style": "шёлковая"
+    },
+    {
+      "id": "shirt_022",
+      "name": "Maison Noir Рубашка чёрная льняная — 022",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_022.webp",
+      "brand": "Maison Noir",
+      "color": "чёрная",
+      "style": "льняная"
+    },
+    {
+      "id": "shirt_023",
+      "name": "VizoLife Рубашка бежевая оверсайз — 023",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_023.webp",
+      "brand": "VizoLife",
+      "color": "бежевая",
+      "style": "оверсайз"
+    },
+    {
+      "id": "shirt_024",
+      "name": "Maison Noir Рубашка молочная приталенная — 024",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_024.webp",
+      "brand": "Maison Noir",
+      "color": "молочная",
+      "style": "приталенная"
+    },
+    {
+      "id": "shirt_025",
+      "name": "VizoLife Рубашка графит классическая — 025",
+      "category": "рубашки",
+      "image": "images/clothes/shirts/shirt_025.png",
+      "brand": "VizoLife",
+      "color": "графит",
+      "style": "классическая"
+    },
+    {
       "id": "blouse_001",
       "name": "VizoLife Блузка чёрная шёлковая — 001",
       "category": "блузки",
@@ -2700,334 +2925,6 @@
       "brand": "AURA",
       "color": "синее",
       "style": "бархат"
-    },
-    {
-      "id": "cl_руб_001_8936",
-      "name": "Рубашки 001",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-1-382230",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_002_4039",
-      "name": "Рубашки 002",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-2-871097",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_003_8884",
-      "name": "Рубашки 003",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-3-440846",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_004_1778",
-      "name": "Рубашки 004",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-4-589673",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_005_3995",
-      "name": "Рубашки 005",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-5-947226",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_006_4238",
-      "name": "Рубашки 006",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-6-742211",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_007_6707",
-      "name": "Рубашки 007",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-7-965928",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_008_4924",
-      "name": "Рубашки 008",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-8-128903",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_009_5535",
-      "name": "Рубашки 009",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-9-969341",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_010_9000",
-      "name": "Рубашки 010",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-10-100677",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_011_6508",
-      "name": "Рубашки 011",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-11-282361",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_012_1454",
-      "name": "Рубашки 012",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-12-716911",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_013_5782",
-      "name": "Рубашки 013",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-13-165620",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_014_4891",
-      "name": "Рубашки 014",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-14-688902",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_015_6657",
-      "name": "Рубашки 015",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-15-279928",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_016_1029",
-      "name": "Рубашки 016",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-16-337555",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_017_6347",
-      "name": "Рубашки 017",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-17-371959",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_018_6650",
-      "name": "Рубашки 018",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-18-924194",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_019_6141",
-      "name": "Рубашки 019",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-19-554459",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_020_6551",
-      "name": "Рубашки 020",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-20-825947",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_021_8673",
-      "name": "Рубашки 021",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-21-346406",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_022_5252",
-      "name": "Рубашки 022",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-22-674735",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_023_8248",
-      "name": "Рубашки 023",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-23-555134",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_024_6753",
-      "name": "Рубашки 024",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-24-884429",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_025_4144",
-      "name": "Рубашки 025",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-25-446554",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_026_6328",
-      "name": "Рубашки 026",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-26-492296",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_027_5089",
-      "name": "Рубашки 027",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-27-234001",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_028_9493",
-      "name": "Рубашки 028",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-28-974246",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_029_1433",
-      "name": "Рубашки 029",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-29-420581",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_030_9534",
-      "name": "Рубашки 030",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-30-161221",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_031_8472",
-      "name": "Рубашки 031",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-31-123869",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_032_7887",
-      "name": "Рубашки 032",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-32-277620",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_033_4715",
-      "name": "Рубашки 033",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-33-827126",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_034_4633",
-      "name": "Рубашки 034",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-34-888552",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_035_9075",
-      "name": "Рубашки 035",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-35-504973",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_036_1951",
-      "name": "Рубашки 036",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-36-757300",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_037_3157",
-      "name": "Рубашки 037",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-37-937251",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_038_2517",
-      "name": "Рубашки 038",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-38-285302",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_039_5720",
-      "name": "Рубашки 039",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-39-339072",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_040_2549",
-      "name": "Рубашки 040",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-40-144066",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_руб_041_1616",
-      "name": "Рубашки 041",
-      "category": "рубашки",
-      "image": "https://loremflickr.com/600/800/рубашки?lock=Рубашки-41-979982",
-      "color": "бежевый",
-      "brand": "VizoLife"
     },
     {
       "id": "cl_фут_001_4231",
