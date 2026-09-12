@@ -47,6 +47,411 @@
   ],
   "items": [
     {
+      "id": "dress_001",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 001",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_001.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрное",
+      "style": "вечернее"
+    },
+    {
+      "id": "dress_002",
+      "name": "Maison Noir Платье бежевое коктейльное — 002",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_002.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевое",
+      "style": "коктейльное"
+    },
+    {
+      "id": "dress_003",
+      "name": "Lune Платье белое минимал — 003",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_003.jpg",
+      "brand": "Lune",
+      "color": "белое",
+      "style": "минимал"
+    },
+    {
+      "id": "dress_004",
+      "name": "AURA Платье бордо luxury — 004",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_004.jpg",
+      "brand": "AURA",
+      "color": "бордо",
+      "style": "luxury"
+    },
+    {
+      "id": "dress_005",
+      "name": "Noir Dore Платье красное casual — 005",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_005.jpg",
+      "brand": "Noir Dore",
+      "color": "красное",
+      "style": "casual"
+    },
+    {
+      "id": "dress_006",
+      "name": "VizoLife Atelier Платье молочное офис — 006",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_006.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "молочное",
+      "style": "офис"
+    },
+    {
+      "id": "dress_007",
+      "name": "Maison Noir Платье графит бохо — 007",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_007.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "бохо"
+    },
+    {
+      "id": "dress_008",
+      "name": "Lune Платье пудра летнее — 008",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_008.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "летнее"
+    },
+    {
+      "id": "dress_009",
+      "name": "AURA Платье олива макси — 009",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_009.jpg",
+      "brand": "AURA",
+      "color": "олива",
+      "style": "макси"
+    },
+    {
+      "id": "dress_010",
+      "name": "Noir Dore Платье карамель миди — 010",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_010.jpg",
+      "brand": "Noir Dore",
+      "color": "карамель",
+      "style": "миди"
+    },
+    {
+      "id": "dress_011",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 011",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_011.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрное",
+      "style": "вечернее"
+    },
+    {
+      "id": "dress_012",
+      "name": "Maison Noir Платье бежевое коктейльное — 012",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_012.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевое",
+      "style": "коктейльное"
+    },
+    {
+      "id": "dress_013",
+      "name": "Lune Платье белое минимал — 013",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_013.jpg",
+      "brand": "Lune",
+      "color": "белое",
+      "style": "минимал"
+    },
+    {
+      "id": "dress_014",
+      "name": "AURA Платье бордо luxury — 014",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_014.jpg",
+      "brand": "AURA",
+      "color": "бордо",
+      "style": "luxury"
+    },
+    {
+      "id": "dress_015",
+      "name": "Noir Dore Платье красное casual — 015",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_015.jpg",
+      "brand": "Noir Dore",
+      "color": "красное",
+      "style": "casual"
+    },
+    {
+      "id": "dress_016",
+      "name": "VizoLife Atelier Платье молочное офис — 016",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_016.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "молочное",
+      "style": "офис"
+    },
+    {
+      "id": "dress_017",
+      "name": "Maison Noir Платье графит бохо — 017",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_017.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "бохо"
+    },
+    {
+      "id": "dress_018",
+      "name": "Lune Платье пудра летнее — 018",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_018.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "летнее"
+    },
+    {
+      "id": "dress_019",
+      "name": "AURA Платье олива макси — 019",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_019.jpg",
+      "brand": "AURA",
+      "color": "олива",
+      "style": "макси"
+    },
+    {
+      "id": "dress_020",
+      "name": "Noir Dore Платье карамель миди — 020",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_020.jpg",
+      "brand": "Noir Dore",
+      "color": "карамель",
+      "style": "миди"
+    },
+    {
+      "id": "dress_021",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 021",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_021.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрное",
+      "style": "вечернее"
+    },
+    {
+      "id": "dress_022",
+      "name": "Maison Noir Платье бежевое коктейльное — 022",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_022.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевое",
+      "style": "коктейльное"
+    },
+    {
+      "id": "dress_023",
+      "name": "Lune Платье белое минимал — 023",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_023.jpg",
+      "brand": "Lune",
+      "color": "белое",
+      "style": "минимал"
+    },
+    {
+      "id": "dress_024",
+      "name": "AURA Платье бордо luxury — 024",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_024.jpg",
+      "brand": "AURA",
+      "color": "бордо",
+      "style": "luxury"
+    },
+    {
+      "id": "dress_025",
+      "name": "Noir Dore Платье красное casual — 025",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_025.jpg",
+      "brand": "Noir Dore",
+      "color": "красное",
+      "style": "casual"
+    },
+    {
+      "id": "dress_026",
+      "name": "VizoLife Atelier Платье молочное офис — 026",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_026.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "молочное",
+      "style": "офис"
+    },
+    {
+      "id": "dress_027",
+      "name": "Maison Noir Платье графит бохо — 027",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_027.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "бохо"
+    },
+    {
+      "id": "dress_028",
+      "name": "Lune Платье пудра летнее — 028",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_028.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "летнее"
+    },
+    {
+      "id": "dress_029",
+      "name": "AURA Платье олива макси — 029",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_029.jpg",
+      "brand": "AURA",
+      "color": "олива",
+      "style": "макси"
+    },
+    {
+      "id": "dress_030",
+      "name": "Noir Dore Платье карамель миди — 030",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_030.jpg",
+      "brand": "Noir Dore",
+      "color": "карамель",
+      "style": "миди"
+    },
+    {
+      "id": "dress_031",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 031",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_031.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрное",
+      "style": "вечернее"
+    },
+    {
+      "id": "dress_032",
+      "name": "Maison Noir Платье бежевое коктейльное — 032",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_032.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевое",
+      "style": "коктейльное"
+    },
+    {
+      "id": "dress_033",
+      "name": "Lune Платье белое минимал — 033",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_033.jpg",
+      "brand": "Lune",
+      "color": "белое",
+      "style": "минимал"
+    },
+    {
+      "id": "dress_034",
+      "name": "AURA Платье бордо luxury — 034",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_034.jpg",
+      "brand": "AURA",
+      "color": "бордо",
+      "style": "luxury"
+    },
+    {
+      "id": "dress_035",
+      "name": "Noir Dore Платье красное casual — 035",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_035.jpg",
+      "brand": "Noir Dore",
+      "color": "красное",
+      "style": "casual"
+    },
+    {
+      "id": "dress_036",
+      "name": "VizoLife Atelier Платье молочное офис — 036",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_036.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "молочное",
+      "style": "офис"
+    },
+    {
+      "id": "dress_037",
+      "name": "Maison Noir Платье графит бохо — 037",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_037.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "бохо"
+    },
+    {
+      "id": "dress_038",
+      "name": "Lune Платье пудра летнее — 038",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_038.jpg",
+      "brand": "Lune",
+      "color": "пудра",
+      "style": "летнее"
+    },
+    {
+      "id": "dress_039",
+      "name": "AURA Платье олива макси — 039",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_039.jpg",
+      "brand": "AURA",
+      "color": "олива",
+      "style": "макси"
+    },
+    {
+      "id": "dress_040",
+      "name": "Noir Dore Платье карамель миди — 040",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_040.jpg",
+      "brand": "Noir Dore",
+      "color": "карамель",
+      "style": "миди"
+    },
+    {
+      "id": "dress_041",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 041",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_041.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрное",
+      "style": "вечернее"
+    },
+    {
+      "id": "dress_042",
+      "name": "Maison Noir Платье бежевое коктейльное — 042",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_042.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевое",
+      "style": "коктейльное"
+    },
+    {
+      "id": "dress_043",
+      "name": "Lune Платье белое минимал — 043",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_043.png",
+      "brand": "Lune",
+      "color": "белое",
+      "style": "минимал"
+    },
+    {
+      "id": "dress_044",
+      "name": "AURA Платье бордо luxury — 044",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_044.png",
+      "brand": "AURA",
+      "color": "бордо",
+      "style": "luxury"
+    },
+    {
+      "id": "dress_045",
+      "name": "Noir Dore Платье красное casual — 045",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_045.png",
+      "brand": "Noir Dore",
+      "color": "красное",
+      "style": "casual"
+    },
+    {
       "id": "cl_брю_001_9849",
       "name": "Брюки 001",
       "category": "брюки",
@@ -828,246 +1233,6 @@
       "category": "юбки",
       "image": "https://loremflickr.com/600/800/юбки?lock=Юбки-36-474873",
       "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_001_9968",
-      "name": "Платья 001",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-1-526229",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_002_7244",
-      "name": "Платья 002",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-2-562363",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_003_4883",
-      "name": "Платья 003",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-3-710071",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_004_3400",
-      "name": "Платья 004",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-4-845736",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_005_5788",
-      "name": "Платья 005",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-5-199068",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_006_9378",
-      "name": "Платья 006",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-6-140739",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_007_1396",
-      "name": "Платья 007",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-7-137656",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_008_7497",
-      "name": "Платья 008",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-8-440706",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_009_2565",
-      "name": "Платья 009",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-9-931482",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_010_4921",
-      "name": "Платья 010",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-10-856184",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_011_2691",
-      "name": "Платья 011",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-11-237861",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_012_4847",
-      "name": "Платья 012",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-12-514575",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_013_8500",
-      "name": "Платья 013",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-13-686475",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_014_7273",
-      "name": "Платья 014",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-14-922099",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_015_4724",
-      "name": "Платья 015",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-15-775769",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_016_2616",
-      "name": "Платья 016",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-16-565076",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_017_5044",
-      "name": "Платья 017",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-17-539429",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_018_8241",
-      "name": "Платья 018",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-18-669548",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_019_2832",
-      "name": "Платья 019",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-19-296464",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_020_2349",
-      "name": "Платья 020",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-20-599425",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_021_2360",
-      "name": "Платья 021",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-21-601249",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_022_9455",
-      "name": "Платья 022",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-22-271416",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_023_5358",
-      "name": "Платья 023",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-23-183496",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_024_3102",
-      "name": "Платья 024",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-24-798764",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_025_6568",
-      "name": "Платья 025",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-25-630651",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_026_8295",
-      "name": "Платья 026",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-26-627964",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_027_3447",
-      "name": "Платья 027",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-27-754876",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_028_7160",
-      "name": "Платья 028",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-28-974101",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_029_6738",
-      "name": "Платья 029",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-29-407997",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_пла_030_5575",
-      "name": "Платья 030",
-      "category": "платья",
-      "image": "https://loremflickr.com/600/800/платья?lock=Платья-30-811052",
-      "color": "белый",
       "brand": "VizoLife"
     },
     {
