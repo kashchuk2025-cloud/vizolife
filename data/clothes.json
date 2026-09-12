@@ -47,6 +47,456 @@
   ],
   "items": [
     {
+      "id": "pants_001",
+      "name": "VizoLife Atelier Брюки чёрные классические — 001",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_001.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрные",
+      "style": "классические"
+    },
+    {
+      "id": "pants_002",
+      "name": "Maison Noir Брюки бежевые широкие — 002",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_002.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевые",
+      "style": "широкие"
+    },
+    {
+      "id": "pants_003",
+      "name": "Lune Брюки белые прямые — 003",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_003.jpg",
+      "brand": "Lune",
+      "color": "белые",
+      "style": "прямые"
+    },
+    {
+      "id": "pants_004",
+      "name": "VizoLife Atelier Брюки графит карго — 004",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_004.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "графит",
+      "style": "карго"
+    },
+    {
+      "id": "pants_005",
+      "name": "Maison Noir Брюки коричневые палаццо — 005",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_005.jpg",
+      "brand": "Maison Noir",
+      "color": "коричневые",
+      "style": "палаццо"
+    },
+    {
+      "id": "pants_006",
+      "name": "Lune Брюки молочные офис — 006",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_006.jpg",
+      "brand": "Lune",
+      "color": "молочные",
+      "style": "офис"
+    },
+    {
+      "id": "pants_007",
+      "name": "VizoLife Atelier Брюки хаки кожаные — 007",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_007.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "хаки",
+      "style": "кожаные"
+    },
+    {
+      "id": "pants_008",
+      "name": "Maison Noir Брюки песочные льняные — 008",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_008.jpg",
+      "brand": "Maison Noir",
+      "color": "песочные",
+      "style": "льняные"
+    },
+    {
+      "id": "pants_009",
+      "name": "Lune Брюки чёрные кюлоты — 009",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_009.jpg",
+      "brand": "Lune",
+      "color": "чёрные",
+      "style": "кюлоты"
+    },
+    {
+      "id": "pants_010",
+      "name": "VizoLife Atelier Брюки бежевые джоггеры — 010",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_010.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "бежевые",
+      "style": "джоггеры"
+    },
+    {
+      "id": "pants_011",
+      "name": "Maison Noir Брюки белые классические — 011",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_011.jpg",
+      "brand": "Maison Noir",
+      "color": "белые",
+      "style": "классические"
+    },
+    {
+      "id": "pants_012",
+      "name": "Lune Брюки графит широкие — 012",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_012.jpg",
+      "brand": "Lune",
+      "color": "графит",
+      "style": "широкие"
+    },
+    {
+      "id": "pants_013",
+      "name": "VizoLife Atelier Брюки коричневые прямые — 013",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_013.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "коричневые",
+      "style": "прямые"
+    },
+    {
+      "id": "pants_014",
+      "name": "Maison Noir Брюки молочные карго — 014",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_014.jpg",
+      "brand": "Maison Noir",
+      "color": "молочные",
+      "style": "карго"
+    },
+    {
+      "id": "pants_015",
+      "name": "Lune Брюки хаки палаццо — 015",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_015.jpg",
+      "brand": "Lune",
+      "color": "хаки",
+      "style": "палаццо"
+    },
+    {
+      "id": "pants_016",
+      "name": "VizoLife Atelier Брюки песочные офис — 016",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_016.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "песочные",
+      "style": "офис"
+    },
+    {
+      "id": "pants_017",
+      "name": "Maison Noir Брюки чёрные кожаные — 017",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_017.jpg",
+      "brand": "Maison Noir",
+      "color": "чёрные",
+      "style": "кожаные"
+    },
+    {
+      "id": "pants_018",
+      "name": "Lune Брюки бежевые льняные — 018",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_018.jpg",
+      "brand": "Lune",
+      "color": "бежевые",
+      "style": "льняные"
+    },
+    {
+      "id": "pants_019",
+      "name": "VizoLife Atelier Брюки белые кюлоты — 019",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_019.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "белые",
+      "style": "кюлоты"
+    },
+    {
+      "id": "pants_020",
+      "name": "Maison Noir Брюки графит джоггеры — 020",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_020.jpg",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "джоггеры"
+    },
+    {
+      "id": "pants_021",
+      "name": "Lune Брюки коричневые классические — 021",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_021.jpg",
+      "brand": "Lune",
+      "color": "коричневые",
+      "style": "классические"
+    },
+    {
+      "id": "pants_022",
+      "name": "VizoLife Atelier Брюки молочные широкие — 022",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_022.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "молочные",
+      "style": "широкие"
+    },
+    {
+      "id": "pants_023",
+      "name": "Maison Noir Брюки хаки прямые — 023",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_023.jpg",
+      "brand": "Maison Noir",
+      "color": "хаки",
+      "style": "прямые"
+    },
+    {
+      "id": "pants_024",
+      "name": "Lune Брюки песочные карго — 024",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_024.jpg",
+      "brand": "Lune",
+      "color": "песочные",
+      "style": "карго"
+    },
+    {
+      "id": "pants_025",
+      "name": "VizoLife Atelier Брюки чёрные палаццо — 025",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_025.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрные",
+      "style": "палаццо"
+    },
+    {
+      "id": "pants_026",
+      "name": "Maison Noir Брюки бежевые офис — 026",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_026.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевые",
+      "style": "офис"
+    },
+    {
+      "id": "pants_027",
+      "name": "Lune Брюки белые кожаные — 027",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_027.jpg",
+      "brand": "Lune",
+      "color": "белые",
+      "style": "кожаные"
+    },
+    {
+      "id": "pants_028",
+      "name": "VizoLife Atelier Брюки графит льняные — 028",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_028.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "графит",
+      "style": "льняные"
+    },
+    {
+      "id": "pants_029",
+      "name": "Maison Noir Брюки коричневые кюлоты — 029",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_029.jpg",
+      "brand": "Maison Noir",
+      "color": "коричневые",
+      "style": "кюлоты"
+    },
+    {
+      "id": "pants_030",
+      "name": "Lune Брюки молочные джоггеры — 030",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_030.jpg",
+      "brand": "Lune",
+      "color": "молочные",
+      "style": "джоггеры"
+    },
+    {
+      "id": "pants_031",
+      "name": "VizoLife Atelier Брюки хаки классические — 031",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_031.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "хаки",
+      "style": "классические"
+    },
+    {
+      "id": "pants_032",
+      "name": "Maison Noir Брюки песочные широкие — 032",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_032.jpg",
+      "brand": "Maison Noir",
+      "color": "песочные",
+      "style": "широкие"
+    },
+    {
+      "id": "pants_033",
+      "name": "Lune Брюки чёрные прямые — 033",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_033.jpg",
+      "brand": "Lune",
+      "color": "чёрные",
+      "style": "прямые"
+    },
+    {
+      "id": "pants_034",
+      "name": "VizoLife Atelier Брюки бежевые карго — 034",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_034.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "бежевые",
+      "style": "карго"
+    },
+    {
+      "id": "pants_035",
+      "name": "Maison Noir Брюки белые палаццо — 035",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_035.jpg",
+      "brand": "Maison Noir",
+      "color": "белые",
+      "style": "палаццо"
+    },
+    {
+      "id": "pants_036",
+      "name": "Lune Брюки графит офис — 036",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_036.jpg",
+      "brand": "Lune",
+      "color": "графит",
+      "style": "офис"
+    },
+    {
+      "id": "pants_037",
+      "name": "VizoLife Atelier Брюки коричневые кожаные — 037",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_037.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "коричневые",
+      "style": "кожаные"
+    },
+    {
+      "id": "pants_038",
+      "name": "Maison Noir Брюки молочные льняные — 038",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_038.png",
+      "brand": "Maison Noir",
+      "color": "молочные",
+      "style": "льняные"
+    },
+    {
+      "id": "pants_039",
+      "name": "Lune Брюки хаки кюлоты — 039",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_039.png",
+      "brand": "Lune",
+      "color": "хаки",
+      "style": "кюлоты"
+    },
+    {
+      "id": "pants_040",
+      "name": "VizoLife Atelier Брюки песочные джоггеры — 040",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_040.png",
+      "brand": "VizoLife Atelier",
+      "color": "песочные",
+      "style": "джоггеры"
+    },
+    {
+      "id": "pants_041",
+      "name": "Maison Noir Брюки чёрные классические — 041",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_041.webp",
+      "brand": "Maison Noir",
+      "color": "чёрные",
+      "style": "классические"
+    },
+    {
+      "id": "pants_042",
+      "name": "Lune Брюки бежевые широкие — 042",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_042.webp",
+      "brand": "Lune",
+      "color": "бежевые",
+      "style": "широкие"
+    },
+    {
+      "id": "pants_043",
+      "name": "VizoLife Atelier Брюки белые прямые — 043",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_043.webp",
+      "brand": "VizoLife Atelier",
+      "color": "белые",
+      "style": "прямые"
+    },
+    {
+      "id": "pants_044",
+      "name": "Maison Noir Брюки графит карго — 044",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_044.webp",
+      "brand": "Maison Noir",
+      "color": "графит",
+      "style": "карго"
+    },
+    {
+      "id": "pants_045",
+      "name": "Lune Брюки коричневые палаццо — 045",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_045.webp",
+      "brand": "Lune",
+      "color": "коричневые",
+      "style": "палаццо"
+    },
+    {
+      "id": "pants_046",
+      "name": "VizoLife Atelier Брюки молочные офис — 046",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_046.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "молочные",
+      "style": "офис"
+    },
+    {
+      "id": "pants_047",
+      "name": "Maison Noir Брюки хаки кожаные — 047",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_047.jpg",
+      "brand": "Maison Noir",
+      "color": "хаки",
+      "style": "кожаные"
+    },
+    {
+      "id": "pants_048",
+      "name": "Lune Брюки песочные льняные — 048",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_048.jpg",
+      "brand": "Lune",
+      "color": "песочные",
+      "style": "льняные"
+    },
+    {
+      "id": "pants_049",
+      "name": "VizoLife Atelier Брюки чёрные кюлоты — 049",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_049.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрные",
+      "style": "кюлоты"
+    },
+    {
+      "id": "pants_050",
+      "name": "Maison Noir Брюки бежевые джоггеры — 050",
+      "category": "брюки",
+      "image": "images/clothes/pants/pants_050.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевые",
+      "style": "джоггеры"
+    },
+    {
       "id": "dress_001",
       "name": "VizoLife Atelier Платье чёрное вечернее — 001",
       "category": "платья",
@@ -900,238 +1350,6 @@
       "brand": "AURA",
       "color": "синее",
       "style": "бархат"
-    },
-    {
-      "id": "cl_брю_001_9849",
-      "name": "Брюки 001",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-1-624198",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_002_8277",
-      "name": "Брюки 002",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-2-995239",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_003_3539",
-      "name": "Брюки 003",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-3-490594",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_004_8180",
-      "name": "Брюки 004",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-4-944684",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_005_1490",
-      "name": "Брюки 005",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-5-806597",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_006_7348",
-      "name": "Брюки 006",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-6-354807",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_007_1846",
-      "name": "Брюки 007",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-7-119930",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_008_9283",
-      "name": "Брюки 008",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-8-271026",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_009_2063",
-      "name": "Брюки 009",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-9-964216",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_010_3917",
-      "name": "Брюки 010",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-10-824852",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_011_9125",
-      "name": "Брюки 011",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-11-392063",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_012_2169",
-      "name": "Брюки 012",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-12-821847",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_013_4058",
-      "name": "Брюки 013",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-13-658334",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_014_9183",
-      "name": "Брюки 014",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-14-854943",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_015_5515",
-      "name": "Брюки 015",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-15-108761",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_016_3930",
-      "name": "Брюки 016",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-16-800608",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_017_1717",
-      "name": "Брюки 017",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-17-421548",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_018_6489",
-      "name": "Брюки 018",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-18-356487",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_019_2065",
-      "name": "Брюки 019",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-19-604072",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_020_2713",
-      "name": "Брюки 020",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-20-957839",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_021_5559",
-      "name": "Брюки 021",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-21-558278",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_022_7527",
-      "name": "Брюки 022",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-22-697715",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_023_7032",
-      "name": "Брюки 023",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-23-820132",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_024_5788",
-      "name": "Брюки 024",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-24-260593",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_025_2234",
-      "name": "Брюки 025",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-25-194172",
-      "color": "белый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_026_4722",
-      "name": "Брюки 026",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-26-445966",
-      "color": "бежевый",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_027_6047",
-      "name": "Брюки 027",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-27-107242",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_028_6637",
-      "name": "Брюки 028",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-28-941333",
-      "color": "чёрный",
-      "brand": "VizoLife"
-    },
-    {
-      "id": "cl_брю_029_3482",
-      "name": "Брюки 029",
-      "category": "брюки",
-      "image": "https://loremflickr.com/600/800/брюки?lock=Брюки-29-112928",
-      "color": "белый",
-      "brand": "VizoLife"
     },
     {
       "id": "cl_джи_001_5048",
