@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {"id":"sneakers","name":"Кроссовки","icon":""},
+    {"id":"trainers","name":"Кеды","icon":""},
+    {"id":"heels","name":"Туфли","icon":""},
+    {"id":"loafers","name":"Лоферы","icon":""},
+    {"id":"boots","name":"Ботинки","icon":""},
+    {"id":"boots_high","name":"Сапоги","icon":""},
+    {"id":"sandals","name":"Босоножки","icon":""},
+    {"id":"other","name":"Другая обувь","icon":""}
+  ],
+  "items": [
+    {"id":"sh001","name":"Nike Air Force 1","category":"sneakers","image":"https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=400","color":"белый","brand":"Nike","sizes":["36","37","38","39","40"],"layer":"shoes"},
+    {"id":"sh002","name":"Adidas Stan Smith","category":"sneakers","image":"https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400","color":"белый","brand":"Adidas","sizes":["36","37","38","39","40"],"layer":"shoes"},
+    {"id":"sh003","name":"Кроссовки беговые","category":"sneakers","image":"https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400","color":"красный","brand":"Nike","sizes":["36","37","38","39","40"],"layer":"shoes"},
+    {"id":"sh004","name":"Converse Chuck Taylor","category":"trainers","image":"https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400","color":"чёрный","brand":"Converse","sizes":["36","37","38","39","40"],"layer":"shoes"},
+    {"id":"sh005","name":"Туфли на каблуке","category":"heels","image":"https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400","color":"чёрный","brand":"Jimmy Choo","sizes":["36","37","38","39"],"layer":"shoes"},
+    {"id":"sh006","name":"Лодочки классические","category":"heels","image":"https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=400","color":"бежевый","brand":"Manolo Blahnik","sizes":["36","37","38","39"],"layer":"shoes"},
+    {"id":"sh007","name":"Лоферы кожаные","category":"loafers","image":"https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=400","color":"чёрный","brand":"Gucci","sizes":["36","37","38","39","40"],"layer":"shoes"},
+    {"id":"sh008","name":"Ботинки челси","category":"boots","image":"https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=400","color":"чёрный","brand":"Dr. Martens","sizes":["36","37","38","39","40"],"layer":"shoes"},
+    {"id":"sh009","name":"Сапоги высокие","category":"boots_high","image":"https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400","color":"чёрный","brand":"Zara","sizes":["36","37","38","39","40"],"layer":"shoes"},
+    {"id":"sh010","name":"Босоножки на ремешках","category":"sandals","image":"https://images.unsplash.com/photo-1562273138-f46be61f1a93?w=400","color":"бежевый","brand":"Zara","sizes":["36","37","38","39"],"layer":"shoes"},
+    {"id":"sh011","name":"Сандалии плоские","category":"sandals","image":"https://images.unsplash.com/photo-1560343090-f0409e92791a?w=400","color":"коричневый","brand":"Birkenstock","sizes":["36","37","38","39","40"],"layer":"shoes"},
+    {"id":"sh012","name":"Мартинсы классические","category":"boots","image":"https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=400","color":"чёрный","brand":"Dr. Martens","sizes":["36","37","38","39","40"],"layer":"shoes"}
+  ]
+}

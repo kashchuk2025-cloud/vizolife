@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {"id":"bras","name":"Бюстгальтеры","icon":""},
+    {"id":"tops","name":"Топы","icon":""},
+    {"id":"panties","name":"Трусики","icon":""},
+    {"id":"sets","name":"Комплекты","icon":""},
+    {"id":"bodysuits","name":"Боди","icon":""},
+    {"id":"basics","name":"Базовое бельё","icon":""}
+  ],
+  "items": [
+    {"id":"lg001","name":"Бюстгальтер push-up","category":"bras","image":"https://images.unsplash.com/photo-1571513800374-df1bbe650e56?w=400","color":"чёрный","brand":"Victoria's Secret","sizes":["A","B","C","D"],"layer":"lingerie"},
+    {"id":"lg002","name":"Бюстгальтер без косточек","category":"bras","image":"https://images.unsplash.com/photo-1571513722215-90132a5227a8?w=400","color":"бежевый","brand":"Calvin Klein","sizes":["A","B","C","D"],"layer":"lingerie"},
+    {"id":"lg003","name":"Спортивный топ","category":"tops","image":"https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=400","color":"чёрный","brand":"Nike","sizes":["XS","S","M","L"],"layer":"lingerie"},
+    {"id":"lg004","name":"Кружевной топ","category":"tops","image":"https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=400","color":"белый","brand":"La Perla","sizes":["XS","S","M","L"],"layer":"lingerie"},
+    {"id":"lg005","name":"Трусики классические","category":"panties","image":"https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=400","color":"чёрный","brand":"Calvin Klein","sizes":["XS","S","M","L"],"layer":"lingerie"},
+    {"id":"lg006","name":"Комплект кружевной","category":"sets","image":"https://images.unsplash.com/photo-1616422285623-13ff0162193d?w=400","color":"красный","brand":"La Perla","sizes":["S","M","L"],"layer":"lingerie"},
+    {"id":"lg007","name":"Боди классическое","category":"bodysuits","image":"https://images.unsplash.com/photo-1594633312681-425c7b97ccd2?w=400","color":"чёрный","brand":"Skims","sizes":["XS","S","M","L"],"layer":"lingerie"},
+    {"id":"lg008","name":"Майка базовая","category":"basics","image":"https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=400","color":"белый","brand":"Uniqlo","sizes":["XS","S","M","L","XL"],"layer":"lingerie"},
+    {"id":"lg009","name":"Комплект повседневный","category":"sets","image":"https://images.unsplash.com/photo-1617325247661-675ab3860b50?w=400","color":"бежевый","brand":"Intimissimi","sizes":["S","M","L"],"layer":"lingerie"},
+    {"id":"lg010","name":"Бюстгальтер балконет","category":"bras","image":"https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=400","color":"телесный","brand":"Victoria's Secret","sizes":["A","B","C","D"],"layer":"lingerie"}
+  ]
+}
