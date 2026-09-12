@@ -93,363 +93,813 @@
     },
     {
       "id": "dress_006",
-      "name": "VizoLife Atelier Платье молочное офис — 006",
+      "name": "Sable Платье молочное офис — 006",
       "category": "платья",
       "image": "images/clothes/dresses/dress_006.jpg",
-      "brand": "VizoLife Atelier",
+      "brand": "Sable",
       "color": "молочное",
       "style": "офис"
     },
     {
       "id": "dress_007",
-      "name": "Maison Noir Платье графит бохо — 007",
+      "name": "Onyx Платье графит бохо — 007",
       "category": "платья",
       "image": "images/clothes/dresses/dress_007.jpg",
-      "brand": "Maison Noir",
+      "brand": "Onyx",
       "color": "графит",
       "style": "бохо"
     },
     {
       "id": "dress_008",
-      "name": "Lune Платье пудра летнее — 008",
+      "name": "VizoLife Atelier Платье пудра летнее — 008",
       "category": "платья",
       "image": "images/clothes/dresses/dress_008.jpg",
-      "brand": "Lune",
+      "brand": "VizoLife Atelier",
       "color": "пудра",
       "style": "летнее"
     },
     {
       "id": "dress_009",
-      "name": "AURA Платье олива макси — 009",
+      "name": "Maison Noir Платье олива макси — 009",
       "category": "платья",
       "image": "images/clothes/dresses/dress_009.jpg",
-      "brand": "AURA",
+      "brand": "Maison Noir",
       "color": "олива",
       "style": "макси"
     },
     {
       "id": "dress_010",
-      "name": "Noir Dore Платье карамель миди — 010",
+      "name": "Lune Платье карамель миди — 010",
       "category": "платья",
       "image": "images/clothes/dresses/dress_010.jpg",
-      "brand": "Noir Dore",
+      "brand": "Lune",
       "color": "карамель",
       "style": "миди"
     },
     {
       "id": "dress_011",
-      "name": "VizoLife Atelier Платье чёрное вечернее — 011",
+      "name": "AURA Платье синее бархат — 011",
       "category": "платья",
       "image": "images/clothes/dresses/dress_011.jpg",
-      "brand": "VizoLife Atelier",
-      "color": "чёрное",
-      "style": "вечернее"
+      "brand": "AURA",
+      "color": "синее",
+      "style": "бархат"
     },
     {
       "id": "dress_012",
-      "name": "Maison Noir Платье бежевое коктейльное — 012",
+      "name": "Noir Dore Платье зелёное сатин — 012",
       "category": "платья",
       "image": "images/clothes/dresses/dress_012.jpg",
-      "brand": "Maison Noir",
-      "color": "бежевое",
-      "style": "коктейльное"
+      "brand": "Noir Dore",
+      "color": "зелёное",
+      "style": "сатин"
     },
     {
       "id": "dress_013",
-      "name": "Lune Платье белое минимал — 013",
+      "name": "Sable Платье розовое шёлк — 013",
       "category": "платья",
       "image": "images/clothes/dresses/dress_013.jpg",
-      "brand": "Lune",
-      "color": "белое",
-      "style": "минимал"
+      "brand": "Sable",
+      "color": "розовое",
+      "style": "шёлк"
     },
     {
       "id": "dress_014",
-      "name": "AURA Платье бордо luxury — 014",
+      "name": "Onyx Платье золотое кружево — 014",
       "category": "платья",
       "image": "images/clothes/dresses/dress_014.jpg",
-      "brand": "AURA",
-      "color": "бордо",
-      "style": "luxury"
+      "brand": "Onyx",
+      "color": "золотое",
+      "style": "кружево"
     },
     {
       "id": "dress_015",
-      "name": "Noir Dore Платье красное casual — 015",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 015",
       "category": "платья",
       "image": "images/clothes/dresses/dress_015.jpg",
-      "brand": "Noir Dore",
-      "color": "красное",
-      "style": "casual"
+      "brand": "VizoLife Atelier",
+      "color": "чёрное",
+      "style": "вечернее"
     },
     {
       "id": "dress_016",
-      "name": "VizoLife Atelier Платье молочное офис — 016",
+      "name": "Maison Noir Платье бежевое коктейльное — 016",
       "category": "платья",
       "image": "images/clothes/dresses/dress_016.jpg",
-      "brand": "VizoLife Atelier",
-      "color": "молочное",
-      "style": "офис"
+      "brand": "Maison Noir",
+      "color": "бежевое",
+      "style": "коктейльное"
     },
     {
       "id": "dress_017",
-      "name": "Maison Noir Платье графит бохо — 017",
+      "name": "Lune Платье белое минимал — 017",
       "category": "платья",
       "image": "images/clothes/dresses/dress_017.jpg",
-      "brand": "Maison Noir",
-      "color": "графит",
-      "style": "бохо"
+      "brand": "Lune",
+      "color": "белое",
+      "style": "минимал"
     },
     {
       "id": "dress_018",
-      "name": "Lune Платье пудра летнее — 018",
+      "name": "AURA Платье бордо luxury — 018",
       "category": "платья",
       "image": "images/clothes/dresses/dress_018.jpg",
-      "brand": "Lune",
-      "color": "пудра",
-      "style": "летнее"
+      "brand": "AURA",
+      "color": "бордо",
+      "style": "luxury"
     },
     {
       "id": "dress_019",
-      "name": "AURA Платье олива макси — 019",
+      "name": "Noir Dore Платье красное casual — 019",
       "category": "платья",
       "image": "images/clothes/dresses/dress_019.jpg",
-      "brand": "AURA",
-      "color": "олива",
-      "style": "макси"
+      "brand": "Noir Dore",
+      "color": "красное",
+      "style": "casual"
     },
     {
       "id": "dress_020",
-      "name": "Noir Dore Платье карамель миди — 020",
+      "name": "Sable Платье молочное офис — 020",
       "category": "платья",
       "image": "images/clothes/dresses/dress_020.jpg",
-      "brand": "Noir Dore",
-      "color": "карамель",
-      "style": "миди"
+      "brand": "Sable",
+      "color": "молочное",
+      "style": "офис"
     },
     {
       "id": "dress_021",
-      "name": "VizoLife Atelier Платье чёрное вечернее — 021",
+      "name": "Onyx Платье графит бохо — 021",
       "category": "платья",
       "image": "images/clothes/dresses/dress_021.jpg",
-      "brand": "VizoLife Atelier",
-      "color": "чёрное",
-      "style": "вечернее"
+      "brand": "Onyx",
+      "color": "графит",
+      "style": "бохо"
     },
     {
       "id": "dress_022",
-      "name": "Maison Noir Платье бежевое коктейльное — 022",
+      "name": "VizoLife Atelier Платье пудра летнее — 022",
       "category": "платья",
       "image": "images/clothes/dresses/dress_022.jpg",
-      "brand": "Maison Noir",
-      "color": "бежевое",
-      "style": "коктейльное"
+      "brand": "VizoLife Atelier",
+      "color": "пудра",
+      "style": "летнее"
     },
     {
       "id": "dress_023",
-      "name": "Lune Платье белое минимал — 023",
+      "name": "Maison Noir Платье олива макси — 023",
       "category": "платья",
       "image": "images/clothes/dresses/dress_023.jpg",
-      "brand": "Lune",
-      "color": "белое",
-      "style": "минимал"
+      "brand": "Maison Noir",
+      "color": "олива",
+      "style": "макси"
     },
     {
       "id": "dress_024",
-      "name": "AURA Платье бордо luxury — 024",
+      "name": "Lune Платье карамель миди — 024",
       "category": "платья",
       "image": "images/clothes/dresses/dress_024.jpg",
-      "brand": "AURA",
-      "color": "бордо",
-      "style": "luxury"
+      "brand": "Lune",
+      "color": "карамель",
+      "style": "миди"
     },
     {
       "id": "dress_025",
-      "name": "Noir Dore Платье красное casual — 025",
+      "name": "AURA Платье синее бархат — 025",
       "category": "платья",
       "image": "images/clothes/dresses/dress_025.jpg",
-      "brand": "Noir Dore",
-      "color": "красное",
-      "style": "casual"
+      "brand": "AURA",
+      "color": "синее",
+      "style": "бархат"
     },
     {
       "id": "dress_026",
-      "name": "VizoLife Atelier Платье молочное офис — 026",
+      "name": "Noir Dore Платье зелёное сатин — 026",
       "category": "платья",
       "image": "images/clothes/dresses/dress_026.jpg",
-      "brand": "VizoLife Atelier",
-      "color": "молочное",
-      "style": "офис"
+      "brand": "Noir Dore",
+      "color": "зелёное",
+      "style": "сатин"
     },
     {
       "id": "dress_027",
-      "name": "Maison Noir Платье графит бохо — 027",
+      "name": "Sable Платье розовое шёлк — 027",
       "category": "платья",
       "image": "images/clothes/dresses/dress_027.jpg",
-      "brand": "Maison Noir",
-      "color": "графит",
-      "style": "бохо"
+      "brand": "Sable",
+      "color": "розовое",
+      "style": "шёлк"
     },
     {
       "id": "dress_028",
-      "name": "Lune Платье пудра летнее — 028",
+      "name": "Onyx Платье золотое кружево — 028",
       "category": "платья",
       "image": "images/clothes/dresses/dress_028.jpg",
-      "brand": "Lune",
-      "color": "пудра",
-      "style": "летнее"
+      "brand": "Onyx",
+      "color": "золотое",
+      "style": "кружево"
     },
     {
       "id": "dress_029",
-      "name": "AURA Платье олива макси — 029",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 029",
       "category": "платья",
       "image": "images/clothes/dresses/dress_029.jpg",
-      "brand": "AURA",
-      "color": "олива",
-      "style": "макси"
-    },
-    {
-      "id": "dress_030",
-      "name": "Noir Dore Платье карамель миди — 030",
-      "category": "платья",
-      "image": "images/clothes/dresses/dress_030.jpg",
-      "brand": "Noir Dore",
-      "color": "карамель",
-      "style": "миди"
-    },
-    {
-      "id": "dress_031",
-      "name": "VizoLife Atelier Платье чёрное вечернее — 031",
-      "category": "платья",
-      "image": "images/clothes/dresses/dress_031.jpg",
       "brand": "VizoLife Atelier",
       "color": "чёрное",
       "style": "вечернее"
     },
     {
-      "id": "dress_032",
-      "name": "Maison Noir Платье бежевое коктейльное — 032",
+      "id": "dress_030",
+      "name": "Maison Noir Платье бежевое коктейльное — 030",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_032.jpg",
+      "image": "images/clothes/dresses/dress_030.jpg",
       "brand": "Maison Noir",
       "color": "бежевое",
       "style": "коктейльное"
     },
     {
-      "id": "dress_033",
-      "name": "Lune Платье белое минимал — 033",
+      "id": "dress_031",
+      "name": "Lune Платье белое минимал — 031",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_033.jpg",
+      "image": "images/clothes/dresses/dress_031.jpg",
       "brand": "Lune",
       "color": "белое",
       "style": "минимал"
     },
     {
-      "id": "dress_034",
-      "name": "AURA Платье бордо luxury — 034",
+      "id": "dress_032",
+      "name": "AURA Платье бордо luxury — 032",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_034.jpg",
+      "image": "images/clothes/dresses/dress_032.jpg",
       "brand": "AURA",
       "color": "бордо",
       "style": "luxury"
     },
     {
-      "id": "dress_035",
-      "name": "Noir Dore Платье красное casual — 035",
+      "id": "dress_033",
+      "name": "Noir Dore Платье красное casual — 033",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_035.jpg",
+      "image": "images/clothes/dresses/dress_033.jpg",
       "brand": "Noir Dore",
       "color": "красное",
       "style": "casual"
     },
     {
-      "id": "dress_036",
-      "name": "VizoLife Atelier Платье молочное офис — 036",
+      "id": "dress_034",
+      "name": "Sable Платье молочное офис — 034",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_036.jpg",
-      "brand": "VizoLife Atelier",
+      "image": "images/clothes/dresses/dress_034.jpg",
+      "brand": "Sable",
       "color": "молочное",
       "style": "офис"
     },
     {
-      "id": "dress_037",
-      "name": "Maison Noir Платье графит бохо — 037",
+      "id": "dress_035",
+      "name": "Onyx Платье графит бохо — 035",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_037.jpg",
-      "brand": "Maison Noir",
+      "image": "images/clothes/dresses/dress_035.jpg",
+      "brand": "Onyx",
       "color": "графит",
       "style": "бохо"
     },
     {
-      "id": "dress_038",
-      "name": "Lune Платье пудра летнее — 038",
+      "id": "dress_036",
+      "name": "VizoLife Atelier Платье пудра летнее — 036",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_038.jpg",
-      "brand": "Lune",
+      "image": "images/clothes/dresses/dress_036.jpg",
+      "brand": "VizoLife Atelier",
       "color": "пудра",
       "style": "летнее"
     },
     {
-      "id": "dress_039",
-      "name": "AURA Платье олива макси — 039",
+      "id": "dress_037",
+      "name": "Maison Noir Платье олива макси — 037",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_039.jpg",
-      "brand": "AURA",
+      "image": "images/clothes/dresses/dress_037.jpg",
+      "brand": "Maison Noir",
       "color": "олива",
       "style": "макси"
     },
     {
-      "id": "dress_040",
-      "name": "Noir Dore Платье карамель миди — 040",
+      "id": "dress_038",
+      "name": "Lune Платье карамель миди — 038",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_040.jpg",
-      "brand": "Noir Dore",
+      "image": "images/clothes/dresses/dress_038.jpg",
+      "brand": "Lune",
       "color": "карамель",
       "style": "миди"
     },
     {
+      "id": "dress_039",
+      "name": "AURA Платье синее бархат — 039",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_039.jpg",
+      "brand": "AURA",
+      "color": "синее",
+      "style": "бархат"
+    },
+    {
+      "id": "dress_040",
+      "name": "Noir Dore Платье зелёное сатин — 040",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_040.jpg",
+      "brand": "Noir Dore",
+      "color": "зелёное",
+      "style": "сатин"
+    },
+    {
       "id": "dress_041",
-      "name": "VizoLife Atelier Платье чёрное вечернее — 041",
+      "name": "Sable Платье розовое шёлк — 041",
       "category": "платья",
       "image": "images/clothes/dresses/dress_041.jpg",
+      "brand": "Sable",
+      "color": "розовое",
+      "style": "шёлк"
+    },
+    {
+      "id": "dress_042",
+      "name": "Onyx Платье золотое кружево — 042",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_042.jpg",
+      "brand": "Onyx",
+      "color": "золотое",
+      "style": "кружево"
+    },
+    {
+      "id": "dress_043",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 043",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_043.png",
       "brand": "VizoLife Atelier",
       "color": "чёрное",
       "style": "вечернее"
     },
     {
-      "id": "dress_042",
-      "name": "Maison Noir Платье бежевое коктейльное — 042",
+      "id": "dress_044",
+      "name": "Maison Noir Платье бежевое коктейльное — 044",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_042.jpg",
+      "image": "images/clothes/dresses/dress_044.png",
       "brand": "Maison Noir",
       "color": "бежевое",
       "style": "коктейльное"
     },
     {
-      "id": "dress_043",
-      "name": "Lune Платье белое минимал — 043",
+      "id": "dress_045",
+      "name": "Lune Платье белое минимал — 045",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_043.png",
+      "image": "images/clothes/dresses/dress_045.png",
       "brand": "Lune",
       "color": "белое",
       "style": "минимал"
     },
     {
-      "id": "dress_044",
-      "name": "AURA Платье бордо luxury — 044",
+      "id": "dress_046",
+      "name": "AURA Платье бордо luxury — 046",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_044.png",
+      "image": "images/clothes/dresses/dress_046.jpg",
       "brand": "AURA",
       "color": "бордо",
       "style": "luxury"
     },
     {
-      "id": "dress_045",
-      "name": "Noir Dore Платье красное casual — 045",
+      "id": "dress_047",
+      "name": "Noir Dore Платье красное casual — 047",
       "category": "платья",
-      "image": "images/clothes/dresses/dress_045.png",
+      "image": "images/clothes/dresses/dress_047.jpg",
       "brand": "Noir Dore",
       "color": "красное",
       "style": "casual"
+    },
+    {
+      "id": "dress_048",
+      "name": "Sable Платье молочное офис — 048",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_048.jpg",
+      "brand": "Sable",
+      "color": "молочное",
+      "style": "офис"
+    },
+    {
+      "id": "dress_049",
+      "name": "Onyx Платье графит бохо — 049",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_049.jpg",
+      "brand": "Onyx",
+      "color": "графит",
+      "style": "бохо"
+    },
+    {
+      "id": "dress_050",
+      "name": "VizoLife Atelier Платье пудра летнее — 050",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_050.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "пудра",
+      "style": "летнее"
+    },
+    {
+      "id": "dress_051",
+      "name": "Maison Noir Платье олива макси — 051",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_051.jpg",
+      "brand": "Maison Noir",
+      "color": "олива",
+      "style": "макси"
+    },
+    {
+      "id": "dress_052",
+      "name": "Lune Платье карамель миди — 052",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_052.jpg",
+      "brand": "Lune",
+      "color": "карамель",
+      "style": "миди"
+    },
+    {
+      "id": "dress_053",
+      "name": "AURA Платье синее бархат — 053",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_053.jpg",
+      "brand": "AURA",
+      "color": "синее",
+      "style": "бархат"
+    },
+    {
+      "id": "dress_054",
+      "name": "Noir Dore Платье зелёное сатин — 054",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_054.jpg",
+      "brand": "Noir Dore",
+      "color": "зелёное",
+      "style": "сатин"
+    },
+    {
+      "id": "dress_055",
+      "name": "Sable Платье розовое шёлк — 055",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_055.jpg",
+      "brand": "Sable",
+      "color": "розовое",
+      "style": "шёлк"
+    },
+    {
+      "id": "dress_056",
+      "name": "Onyx Платье золотое кружево — 056",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_056.jpg",
+      "brand": "Onyx",
+      "color": "золотое",
+      "style": "кружево"
+    },
+    {
+      "id": "dress_057",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 057",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_057.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрное",
+      "style": "вечернее"
+    },
+    {
+      "id": "dress_058",
+      "name": "Maison Noir Платье бежевое коктейльное — 058",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_058.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевое",
+      "style": "коктейльное"
+    },
+    {
+      "id": "dress_059",
+      "name": "Lune Платье белое минимал — 059",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_059.jpg",
+      "brand": "Lune",
+      "color": "белое",
+      "style": "минимал"
+    },
+    {
+      "id": "dress_060",
+      "name": "AURA Платье бордо luxury — 060",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_060.jpg",
+      "brand": "AURA",
+      "color": "бордо",
+      "style": "luxury"
+    },
+    {
+      "id": "dress_061",
+      "name": "Noir Dore Платье красное casual — 061",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_061.jpg",
+      "brand": "Noir Dore",
+      "color": "красное",
+      "style": "casual"
+    },
+    {
+      "id": "dress_062",
+      "name": "Sable Платье молочное офис — 062",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_062.jpg",
+      "brand": "Sable",
+      "color": "молочное",
+      "style": "офис"
+    },
+    {
+      "id": "dress_063",
+      "name": "Onyx Платье графит бохо — 063",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_063.jpg",
+      "brand": "Onyx",
+      "color": "графит",
+      "style": "бохо"
+    },
+    {
+      "id": "dress_064",
+      "name": "VizoLife Atelier Платье пудра летнее — 064",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_064.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "пудра",
+      "style": "летнее"
+    },
+    {
+      "id": "dress_065",
+      "name": "Maison Noir Платье олива макси — 065",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_065.jpg",
+      "brand": "Maison Noir",
+      "color": "олива",
+      "style": "макси"
+    },
+    {
+      "id": "dress_066",
+      "name": "Lune Платье карамель миди — 066",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_066.jpg",
+      "brand": "Lune",
+      "color": "карамель",
+      "style": "миди"
+    },
+    {
+      "id": "dress_067",
+      "name": "AURA Платье синее бархат — 067",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_067.jpg",
+      "brand": "AURA",
+      "color": "синее",
+      "style": "бархат"
+    },
+    {
+      "id": "dress_068",
+      "name": "Noir Dore Платье зелёное сатин — 068",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_068.jpg",
+      "brand": "Noir Dore",
+      "color": "зелёное",
+      "style": "сатин"
+    },
+    {
+      "id": "dress_069",
+      "name": "Sable Платье розовое шёлк — 069",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_069.jpg",
+      "brand": "Sable",
+      "color": "розовое",
+      "style": "шёлк"
+    },
+    {
+      "id": "dress_070",
+      "name": "Onyx Платье золотое кружево — 070",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_070.jpg",
+      "brand": "Onyx",
+      "color": "золотое",
+      "style": "кружево"
+    },
+    {
+      "id": "dress_071",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 071",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_071.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрное",
+      "style": "вечернее"
+    },
+    {
+      "id": "dress_072",
+      "name": "Maison Noir Платье бежевое коктейльное — 072",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_072.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевое",
+      "style": "коктейльное"
+    },
+    {
+      "id": "dress_073",
+      "name": "Lune Платье белое минимал — 073",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_073.jpg",
+      "brand": "Lune",
+      "color": "белое",
+      "style": "минимал"
+    },
+    {
+      "id": "dress_074",
+      "name": "AURA Платье бордо luxury — 074",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_074.jpg",
+      "brand": "AURA",
+      "color": "бордо",
+      "style": "luxury"
+    },
+    {
+      "id": "dress_075",
+      "name": "Noir Dore Платье красное casual — 075",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_075.jpg",
+      "brand": "Noir Dore",
+      "color": "красное",
+      "style": "casual"
+    },
+    {
+      "id": "dress_076",
+      "name": "Sable Платье молочное офис — 076",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_076.jpg",
+      "brand": "Sable",
+      "color": "молочное",
+      "style": "офис"
+    },
+    {
+      "id": "dress_077",
+      "name": "Onyx Платье графит бохо — 077",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_077.jpg",
+      "brand": "Onyx",
+      "color": "графит",
+      "style": "бохо"
+    },
+    {
+      "id": "dress_078",
+      "name": "VizoLife Atelier Платье пудра летнее — 078",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_078.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "пудра",
+      "style": "летнее"
+    },
+    {
+      "id": "dress_079",
+      "name": "Maison Noir Платье олива макси — 079",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_079.jpg",
+      "brand": "Maison Noir",
+      "color": "олива",
+      "style": "макси"
+    },
+    {
+      "id": "dress_080",
+      "name": "Lune Платье карамель миди — 080",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_080.jpg",
+      "brand": "Lune",
+      "color": "карамель",
+      "style": "миди"
+    },
+    {
+      "id": "dress_081",
+      "name": "AURA Платье синее бархат — 081",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_081.jpg",
+      "brand": "AURA",
+      "color": "синее",
+      "style": "бархат"
+    },
+    {
+      "id": "dress_082",
+      "name": "Noir Dore Платье зелёное сатин — 082",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_082.jpg",
+      "brand": "Noir Dore",
+      "color": "зелёное",
+      "style": "сатин"
+    },
+    {
+      "id": "dress_083",
+      "name": "Sable Платье розовое шёлк — 083",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_083.jpg",
+      "brand": "Sable",
+      "color": "розовое",
+      "style": "шёлк"
+    },
+    {
+      "id": "dress_084",
+      "name": "Onyx Платье золотое кружево — 084",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_084.jpg",
+      "brand": "Onyx",
+      "color": "золотое",
+      "style": "кружево"
+    },
+    {
+      "id": "dress_085",
+      "name": "VizoLife Atelier Платье чёрное вечернее — 085",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_085.jpg",
+      "brand": "VizoLife Atelier",
+      "color": "чёрное",
+      "style": "вечернее"
+    },
+    {
+      "id": "dress_086",
+      "name": "Maison Noir Платье бежевое коктейльное — 086",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_086.jpg",
+      "brand": "Maison Noir",
+      "color": "бежевое",
+      "style": "коктейльное"
+    },
+    {
+      "id": "dress_087",
+      "name": "Lune Платье белое минимал — 087",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_087.jpg",
+      "brand": "Lune",
+      "color": "белое",
+      "style": "минимал"
+    },
+    {
+      "id": "dress_088",
+      "name": "AURA Платье бордо luxury — 088",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_088.jpg",
+      "brand": "AURA",
+      "color": "бордо",
+      "style": "luxury"
+    },
+    {
+      "id": "dress_089",
+      "name": "Noir Dore Платье красное casual — 089",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_089.jpg",
+      "brand": "Noir Dore",
+      "color": "красное",
+      "style": "casual"
+    },
+    {
+      "id": "dress_090",
+      "name": "Sable Платье молочное офис — 090",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_090.jpg",
+      "brand": "Sable",
+      "color": "молочное",
+      "style": "офис"
+    },
+    {
+      "id": "dress_091",
+      "name": "Onyx Платье графит бохо — 091",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_091.jpg",
+      "brand": "Onyx",
+      "color": "графит",
+      "style": "бохо"
+    },
+    {
+      "id": "dress_092",
+      "name": "VizoLife Atelier Платье пудра летнее — 092",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_092.png",
+      "brand": "VizoLife Atelier",
+      "color": "пудра",
+      "style": "летнее"
+    },
+    {
+      "id": "dress_093",
+      "name": "Maison Noir Платье олива макси — 093",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_093.webp",
+      "brand": "Maison Noir",
+      "color": "олива",
+      "style": "макси"
+    },
+    {
+      "id": "dress_094",
+      "name": "Lune Платье карамель миди — 094",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_094.webp",
+      "brand": "Lune",
+      "color": "карамель",
+      "style": "миди"
+    },
+    {
+      "id": "dress_095",
+      "name": "AURA Платье синее бархат — 095",
+      "category": "платья",
+      "image": "images/clothes/dresses/dress_095.webp",
+      "brand": "AURA",
+      "color": "синее",
+      "style": "бархат"
     },
     {
       "id": "cl_брю_001_9849",
